@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Drag Commands</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="commands.html">Commands</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="language_grammars.html">Language Grammars</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="drag_commands">11</a> Drag Commands</h1>
+
+<p>Drag commands are like normal commands but they are activated by dropping a particular file type (specified as a list of file type extensions) into the editing window.</p>
+
+<p><img src='images/drag_command_file_types.png' width="173" height="33" alt="Drag Command File Types" title=""></p>
+
+<p>The output from executing a drag command is always inserted as a snippet and the drag command has three (additional) <a href="environment_variables.html">environment variables</a> available:</p>
+
+<ul>
+<li><p><code>TM_DROPPED_FILE</code> — relative path of the file dropped (relative to the document directory, which is also set as the current directory).</p></li>
+<li><p><code>TM_DROPPED_FILEPATH</code> — the absolute path of the file dropped.</p></li>
+<li><p><code>TM_MODIFIER_FLAGS</code> — the modifier keys which were held down when the file got dropped. This is a bitwise OR in the form: <code>SHIFT|CONTROL|OPTION|COMMAND</code> (in case all modifiers were down).</p></li>
+</ul>
+
+<p>So here is a slightly complex drag command:</p>
+
+<pre><code>img="$TM_DROPPED_FILE"
+echo -n "&lt;img src=\"$img\" "
+
+sips -g pixelWidth -g pixelHeight "$img" \
+|awk '/pixelWidth/  { printf("width=\"%d\" ",  $2) }
+      /pixelHeight/ { printf("height=\"%d\" ", $2) }'
+
+base=${img##*/}
+alt=$(tr &lt;&lt;&lt;${base%.*} '[_-]' ' '|perl -pe 's/(\w+)/\u$1/g')
+echo -n "alt=\"\${1:$alt}\"&gt;"
+</code></pre>
+
+<p>First we output the <code>&lt;img src="…"</code> part. Then we use <code>sips</code> to query the image and <code>awk</code> to parse the output from <code>sips</code> and output the proper <code>width="…"</code> and <code>height="…"</code> arguments. Last we convert <code>-</code> and <code>_</code> in the path to spaces and capitalize each word and output this as the final <code>alt="…"</code> argument, where we make this text a placeholder (since the entire thing is inserted as a snippet).</p>
+
+<p><img src='images/drag_command_result.png' width="294" height="34" alt="Drag Command Result" title=""></p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="commands.html">Commands</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="language_grammars.html">Language Grammars</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

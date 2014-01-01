@@ -1,0 +1,57 @@
+﻿body {
+	color: #000;
+	font-family: serif;
+}
+
+hr {
+	border: 1px solid #CCCCCC;
+	border-top: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+#toc {
+	page-break-after: always;
+}
+#toc ol {
+	list-style-type: none;
+}
+#toc ol a {
+	color: #000;
+}
+#toc > ol > li {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.chapter {
+	page-break-after: always;
+}
+
+pre {
+	padding-left: 3em;
+}
+
+.graybox {
+   border-top: 1px solid #919699;
+   border-left: 1px solid #919699;
+}
+.graybox th {
+   background: #E2E2E2;
+   border-bottom: 1px solid #919699;
+   border-right: 1px solid #919699;
+   font-size: 12px;
+   font-weight: bold;
+   padding: 4px 8px 4px 8px;
+   text-align: left;
+}
+.graybox td {
+   border-bottom: 1px solid #919699;
+   border-right: 1px solid #919699;
+   font-size: 12px;
+   padding: 8px;
+   vertical-align: top;
+}

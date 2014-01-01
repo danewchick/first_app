@@ -1,0 +1,3830 @@
+  <!DOCTYPE html><html lang="en" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;}};(function() {var perf = window['performance'] || window['mozPerformance'] ||window['msPerformance'] || window['webkitPerformance'];ytcsi.tick('_start', perf ? perf['timing']['responseStart'] : null);})();if (document.webkitVisibilityState == 'prerender') {ytcsi.info('prerender', 1);document.addEventListener('webkitvisibilitychange', function() {ytcsi.tick('_start');}, false);}try {ytcsi.pt_ = (window.chrome && chrome.csi().pageT ||window.gtbExternal && gtbExternal.pageT() ||window.external && external.pageT);if (ytcsi.pt_) {ytcsi.info('pt', Math.floor(ytcsi.pt_));}} catch(e) {}</script>  
+  <link id="css-344564990" class="www-core" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vfl4DqC20.css" data-loaded="true">
+      <link id="css-3663405153" class="www-home-c4" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-home-c4-vflv6CCQJ.css" data-loaded="true">
+
+<script>if (window.ytcsi) {window.ytcsi.tick("ce", null, '');}</script>  
+
+    <script>
+try {var ytbuffer = {};ytbuffer.bufferedClick;ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (element.className.match(/^yt-can-buffer$|^yt-can-buffer | yt-can-buffer$| yt-can-buffer /)) {ytbuffer.bufferedClick = e;element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}  </script>
+<title>YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search"><link rel="shortcut icon" href="http://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="alternate" media="handheld" href="http://m.youtube.com/index?&amp;desktop_uri=%2F"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/index?&amp;desktop_uri=%2F"><meta name="description" content="Share your videos with friends, family, and the world"><meta name="keywords" content="video, sharing, camera phone, video phone, free, upload">  <meta property="og:image" content="//s.ytimg.com/yts/img/youtube_logo_stacked-vfl225ZTx.png">
+  <meta property="fb:app_id" content="87741124305">
+  <link rel="publisher" href="https://plus.google.com/115229808208707341778">
+<script>if (window.ytcsi) {window.ytcsi.tick("cl", null, '');}</script></head><!-- machid: oZHpLbzBNdHVLUnF5eThXb3ZOOGI0ZDNsS2VBQ3dKZy1KYlo5eE9IOURIa25kQ0V0Vlp3dUFB -->
+    <body dir="ltr" class="  ltr  webkit webkit-537     site-left-aligned   hitchhiker-enabled    guide-enabled  guide-expanded    flex-width-enabled  " id="body">
+
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form>        <div id="sb-wrapper">
+    <div id="sb-container" class="sb-card sb-off">
+      <div class="sb-card-arrow"></div>
+      <div class="sb-card-border">
+        <div class="sb-card-body-arrow"></div>
+        <div class="sb-card-content" id="sb-target"></div>
+      </div>
+    </div>
+    <div id="sb-onepick-target" class="sb-off"></div>
+  </div>
+
+    
+    <div id="masthead-expanded-acct-sw-container" class="hid"><ul id="masthead-expanded-menu-acct-sw-list"><li class="masthead-expanded-menu-item"><a href="#" onclick="yt.www.masthead.accountswitch.toggle(); return false;">&#8249; Back</a></li>  <li class="masthead-expanded-acct-sw-sel">
+    <p class="masthead-expanded-acct-sw-id1">
+        Hodo Mohamed<img class="masthead-expanded-acct-sw-sel-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+    </p>
+    <p class="masthead-expanded-acct-sw-id2">
+      hodomohamed0@gmail.com
+    </p>
+  </li>
+<li class="masthead-expanded-menu-item"><a class="end" href="https://accounts.google.com/AddSession?uilel=0&amp;service=youtube&amp;passive=false&amp;hl=en&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F">Sign in to another account...</a></li><li class="masthead-expanded-menu-item"><a class="end" href="#" onclick="document.logoutForm.submit(); return false;">Sign out of all accounts</a></li></ul></div>
+    <div id="yt-masthead-container" class="yt-grid-box yt-base-gutter"><div id="yt-masthead" class="">    <a id="logo-container" href="/" title="YouTube home" class=" "><img id="logo" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube home"><span class="content-region">CA</span></a>
+<div id="yt-masthead-user">
+  <span id="yt-masthead-user-displayname" dir="ltr" class="yt-valign-container" onclick="yt.www.masthead.toggleExpandedMasthead();">
+    Hodo Mohamed
+  </span>
+
+    <button type="button" class="sb-notif-off yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" onclick=";return false;" id="sb-button-notify"  role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-bell" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  </span></button>
+  <button type="button" class="yt-masthead-user-icon yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick="yt.www.masthead.toggleExpandedMasthead();;return false;" data-orientation="vertical" role="button"><span class="yt-uix-button-content">      <span class="video-thumb  yt-thumb yt-thumb-27"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" alt="Thumbnail" width="27" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+ </span></button>
+    <span id="yt-masthead-dropdown" onclick="yt.www.masthead.toggleExpandedMasthead();"></span>
+</div><div id="yt-masthead-content"><span class="yt-uix-button-group" id="masthead-upload-button-group"><a href="#" class="yt-uix-button  start create-channel-lightbox yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhsb" data-upsell="upload"><span class="yt-uix-button-content">Upload </span></a><button type="button" class="end flip yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-empty" onclick=";return false;" aria-haspopup="true" data-button-menu-id="upload-button-menu" role="button" aria-label="Creator tools menu"><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button></span><ul id="upload-button-menu" class="yt-uix-button-menu yt-uix-button-menu-default" role="menu" aria-haspopup="true" style="display: none"><li id="upload-menu-dashboard" role="menuitem"><a href="/dashboard" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-dashboard-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Dashboard</a></li><li id="upload-menu-video-manager" role="menuitem"><a href="/my_videos" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-vm-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Video Manager</a></li><li id="upload-menu-analytics" role="menuitem"><a href="https://www.youtube.com/analytics" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-analytics-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Analytics</a></li></ul><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;" class="search-btn-component search-button yt-uix-button yt-uix-button-default yt-uix-button-size-default" dir="ltr" tabindex="2" type="submit" id="search-btn"  role="button"><span class="yt-uix-button-content">Search </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off" autofocus class="search-term yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" title="Search"></label><script>var searchBox = document.getElementById('masthead-search-term');if (searchBox) {searchBox.focus();}</script></div></form></div></div></div>
+            <div id="masthead-expanded" class="hid">
+    <div id="masthead-expanded-container" class="with-sandbar">
+      <div id="masthead-expanded-menus-container">
+        <span id="masthead-expanded-menu-shade"></span>
+          <div id="masthead-expanded-menu">
+    <span class="masthead-expanded-menu-header">
+YouTube
+    </span>
+    <ul id="masthead-expanded-menu-list">
+      <li class="masthead-expanded-menu-item">
+        <a href="/create_channel" class="yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhee">
+My channel
+        </a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/my_videos" class="yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhee">
+Video Manager
+        </a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/feed/subscriptions" class="yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhee">Subscriptions</a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/account" class="yt-uix-sessionlink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=mhee">
+YouTube settings
+        </a>
+      </li>
+    </ul>
+  </div>
+
+          <div id="masthead-expanded-google-menu">
+    <span class="masthead-expanded-menu-header">
+Google account
+    </span>
+    <div id="masthead-expanded-menu-google-container">
+      <div id="masthead-expanded-menu-google-column1">
+        <ul>
+          <li class="masthead-expanded-menu-item">
+            <a href="https://plus.google.com/u/0/103898006016891507027">Profile</a>
+          </li>
+          <li class="masthead-expanded-menu-item"><a href="https://plus.google.com/u/0/stream">Google+</a></li>
+            <li class="masthead-expanded-menu-item"><a href="http://www.google.com/intl/en/policies/">Privacy</a></li>
+          <li class="masthead-expanded-menu-item">
+            <a href="https://plus.google.com/u/0/settings">
+Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="masthead-expanded-menu-google-column2">
+        <div id="masthead-expanded-menu-account-container">
+              <img id="masthead-expanded-menu-gaia-photo" alt="" data-src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" width="28">
+  <div id="masthead-expanded-menu-account-info"  class="email-only">
+      <p>Hodo Mohamed</p>
+    <p id="masthead-expanded-menu-email">hodomohamed0@gmai...</p>
+  </div>
+
+        </div>
+        <ul>
+          <li class="masthead-expanded-menu-item">
+            <a class="end" href="#" onclick="document.logoutForm.submit(); return false;">
+Sign out
+            </a>
+          </li>
+            <li class="masthead-expanded-menu-item">
+                <div class="yt-uix-clickcard masthead-expanded-menu-switch" data-card-class="masthead-card-switch-account">
+    <button type="button" class="yt-uix-clickcard-target yt-uix-button yt-uix-button-link yt-uix-button-size-default" onclick=";return false;" data-orientation="vertical" data-position="rightbottom" role="button"><span class="yt-uix-button-content">Switch account </span></button>
+    <div class="yt-uix-clickcard-content">
+        <ul id="yt-masthead-multilogin">
+              <li>
+    <a class="yt-masthead-multilogin-user yt-valign" href="/signin?next=%2F&amp;skip_identity_prompt=True&amp;action_handle_signin=true&amp;authuser=0">
+          <span class="video-thumb yt-masthead-multilogin-user-icon yt-thumb yt-thumb-46"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" alt="Hodo Mohamed" width="46" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+      <span class="yt-masthead-multilogin-user-content yt-valign-container">
+        <span class="yt-masthead-multilogin-user-link" dir="ltr">Hodo Mohamed</span><br>
+        hodomohamed0@gmail.com
+      </span>
+          <div class="yt-alert yt-alert-naked yt-alert-success">
+      <div class="yt-alert-icon">
+    <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="icon master-sprite" alt="Alert icon">
+  </div>
+
+  </div>
+
+    </a>
+  </li>
+
+        </ul>
+        <div id="yt-masthead-multilogin-actions" class="yt-grid-box">
+          <button type="button" id="yt-masthead-multilogin-sign-out" onclick="document.logoutForm.submit();return false;" class=" yt-uix-button yt-uix-button-link yt-uix-button-size-default"  role="button"><span class="yt-uix-button-content">Sign out </span></button>
+
+            <a href="https://accounts.google.com/AddSession?uilel=0&amp;service=youtube&amp;passive=false&amp;hl=en&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252F">Add account</a>
+        </div>
+    </div>
+  </div>
+
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+      </div>
+      <div id="masthead-expanded-sandbar" class="spf-link">
+        <div id="masthead-expanded-lists-container">
+          <div id="masthead-expanded-loading-message">Loading...</div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+
+  <div id="alerts" class="content-alignment">
+      
+
+  </div>
+  <div id="header">
+        <div id="masthead_child_div"></div>
+
+        <div id="ad_creative_expand_btn_1" class="masthead-ad-control open content-alignment masthead-ad-control-header hid">
+    <a onclick="masthead.expand_ad(); return false;" class="yt-valign">
+      <span class="yt-valign-container">Show ad</span>
+      <img src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" class="yt-valign-container">
+    </a>
+  </div>
+
+
+  </div>
+<div id="page-container"><div id="page" class="  home  clearfix"><div id="guide" >        <div id="guide-container"
+      class=" vve-check"
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CDMQ_h4">
+      <div id="guide-main" class="    guide-module     spf-nolink   yt-uix-tdl ">
+        <div class="guide-module-toggle">
+          <span class="guide-module-toggle-icon">
+            <span class="guide-module-toggle-arrow"></span>
+            <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+            <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" id="collapsed-notification-icon">
+          </span>
+          <div class="guide-module-toggle-label">
+            <h3>
+              <span>
+Guide
+              </span>
+            </h3>
+          </div>
+        </div>
+          <div class="guide-module-content yt-scrollbar">
+    <ul class="guide-toplevel">
+            <li class="guide-section vve-check"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CDQQ5isoAA"
+    data-visibility-tracking="CAAQ5isiEwit0MrL39y7AhWrljwKHWINAPs=">
+    <div class="guide-item-container personal-item">
+      <ul class="guide-user-links yt-box">
+            <li class="vve-check overflowable-list-item guide-channel" id="create_channel-guide-item"
+      data-visibility-tracking="CAEQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/create_channel"
+    title="hodomohamed0@gmail.com"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-personal"
+    data-visibility-tracking="CAEQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="create_channel"
+    data-serialized-endpoint="8qHduQECCAE%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>hodomohamed0@gmail.com</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="what_to_watch-guide-item"
+      data-visibility-tracking="CAIQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink  guide-item-selected  "
+    href="/"
+    title="What to Watch"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-system"
+    data-visibility-tracking="CAIQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="what_to_watch"
+    data-serialized-endpoint="0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>What to Watch</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="subscriptions-guide-item"
+      data-visibility-tracking="CAMQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/feed/subscriptions"
+    title="My Subscriptions"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-system"
+    data-visibility-tracking="CAMQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="subscriptions"
+    data-serialized-endpoint="0qDduQEREg9GRXN1YnNjcmlwdGlvbnM%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>My Subscriptions</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="social-guide-item"
+      data-visibility-tracking="CAQQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/feed/social"
+    title="Social"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-system"
+    data-visibility-tracking="CAQQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="social"
+    data-serialized-endpoint="0qDduQEKEghGRXNvY2lhbA%3D%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>Social</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="history-guide-item"
+      data-visibility-tracking="CAUQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/feed/history"
+    title="History"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-personal"
+    data-visibility-tracking="CAUQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="history"
+    data-serialized-endpoint="0qDduQELEglGRWhpc3Rvcnk%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>History</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="watch_later-guide-item"
+      data-visibility-tracking="CAYQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/feed/watch_later"
+    title="Watch Later"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-personal"
+    data-visibility-tracking="CAYQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="watch_later"
+    data-serialized-endpoint="0qDduQEPEg1GRXdhdGNoX2xhdGVy"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb " src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>Watch Later</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li id="guide-subscriptions-section"
+    class="guide-section without-filter vve-check"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CDsQ_x4oAQ"
+    data-visibility-tracking="CAcQ_x4iEwit0MrL39y7AhWrljwKHWINAPs="
+    >
+    <h3>Subscriptions</h3>
+    <div id="guide-subs-footer-container">
+      <div id="guide-subscriptions-promo" class="default-promo">
+        <a href="    /channels
+" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-primary yt-uix-button-size-default" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-plus" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">Add channels </span></a>
+        <div class="subscriptions-wrapper">
+            <div class="guide-channels-content yt-scrollbar">
+    <ul id="guide-channels" class="guide-channels-list guide-item-container parent-list guide-infinite-list yt-uix-scroller filter-has-matches yt-uix-tdl">
+          <li class="vve-check overflowable-list-item guide-channel" id="HCtnHdj3df7iM-guide-item"
+      data-visibility-tracking="CAgQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/HCtnHdj3df7iM"
+    title="Popular on YouTube"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CAgQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="HCtnHdj3df7iM"
+    data-serialized-endpoint="0qDduQEPEg1IQ3RuSGRqM2RmN2lN"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/li/tnHdj3df7iM/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Popular on YouTube</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+          <li class="vve-check overflowable-list-item guide-channel" id="UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item"
+      data-visibility-tracking="CAkQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    title="Music"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CAkQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="UC-9-kyTW8ZkZNDHQJ6FgpwQ"
+    data-serialized-endpoint="0qDduQEaEhhVQy05LWt5VFc4WmtaTkRIUUo2Rmdwd1E%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/i/-9-kyTW8ZkZNDHQJ6FgpwQ/1.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Music</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+          <li class="vve-check overflowable-list-item guide-channel" id="HC7Dr1BKwqctY-guide-item"
+      data-visibility-tracking="CAoQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/HC7Dr1BKwqctY"
+    title="Sports"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CAoQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="HC7Dr1BKwqctY"
+    data-serialized-endpoint="0qDduQEPEg1IQzdEcjFCS3dxY3RZ"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/li/7Dr1BKwqctY/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Sports</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+          <li class="vve-check overflowable-list-item guide-channel" id="HChfZhJdhTqX8-guide-item"
+      data-visibility-tracking="CAsQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/HChfZhJdhTqX8"
+    title="Gaming"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CAsQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="HChfZhJdhTqX8"
+    data-serialized-endpoint="0qDduQEPEg1IQ2hmWmhKZGhUcVg4"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/li/hfZhJdhTqX8/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Gaming</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+          <li class="vve-check overflowable-list-item guide-channel" id="HC-r1FlvvNFs0-guide-item"
+      data-visibility-tracking="CAwQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/HC-r1FlvvNFs0"
+    title="Education"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CAwQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="HC-r1FlvvNFs0"
+    data-serialized-endpoint="0qDduQEPEg1IQy1yMUZsdnZORnMw"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/li/-r1FlvvNFs0/default.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Education</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+          <li class="vve-check overflowable-list-item guide-channel" id="UCYbn7i88VIwuGq_sQRKN4DQ-guide-item"
+      data-visibility-tracking="CA0QtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channel/UCYbn7i88VIwuGq_sQRKN4DQ"
+    title="Movies"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-channel"
+    data-visibility-tracking="CA0QtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="UCYbn7i88VIwuGq_sQRKN4DQ"
+    data-serialized-endpoint="0qDduQEaEhhVQ1libjdpODhWSXd1R3Ffc1FSS040RFE%3D"
+  >
+    <span class="yt-valign-container">
+        <span class="thumb">    <span class="video-thumb  yt-thumb yt-thumb-18"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh6.googleusercontent.com/-K2w3xFmUKng/AAAAAAAAAAI/AAAAAAAAAAA/nVxw6Kh_kZQ/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="18" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</span>
+      <span class="display-name  no-count">
+        <span>Movies</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+    </ul>
+  </div>
+
+          <a class="guide-subscriptions-promo-tooltip" href="    /channels
+">
+            <p>
+              <span class="" >Your subscriptions will show up here. Browse some channels to get started.</span>
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+      <hr class="guide-section-separator">
+  </li>
+
+            <li class="guide-section vve-check"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CEIQ5isoAg"
+    data-visibility-tracking="CA4Q5isiEwit0MrL39y7AhWrljwKHWINAPs=">
+    <div class="guide-item-container personal-item">
+      <ul class="guide-user-links yt-box">
+            <li class="vve-check overflowable-list-item guide-channel" id="guide_builder-guide-item"
+      data-visibility-tracking="CA8QtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/channels"
+    title="Browse channels"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-manage"
+    data-visibility-tracking="CA8QtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="guide_builder"
+    data-serialized-endpoint="0qPduQECCAE%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb guide-builder-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>Browse channels</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+            <li class="vve-check overflowable-list-item guide-channel" id="subscription_manager-guide-item"
+      data-visibility-tracking="CBAQtSwiEwit0MrL39y7AhWrljwKHWINAPs=">
+      
+  <a class="guide-item yt-uix-sessionlink yt-valign spf-nolink   "
+    href="/subscription_manager"
+    title="Manage subscriptions"
+    data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-manage"
+    data-visibility-tracking="CBAQtSwiEwit0MrL39y7AhWrljwKHWINAPs="
+    data-external-id="subscription_manager"
+    data-serialized-endpoint="oqjduQECCAE%3D"
+  >
+    <span class="yt-valign-container">
+        <img class="thumb guide-subscription-manager-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title="">
+      <span class="display-name  no-count">
+        <span>Manage subscriptions</span>
+      </span>
+    </span>
+  </a>
+
+  </li>
+
+      </ul>
+    </div>
+  </li>
+
+    </ul>
+  </div>
+
+      </div>
+    </div>
+
+</div><div id="player" class="  off-screen  ">
+  <div id="playlist" class="playlist">
+    
+  </div>
+
+  <div id="player-unavailable" class="  hid  ">
+    
+  </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target watch-content player-api"></div>
+
+
+    <script>if (window.ytcsi) {window.ytcsi.tick("bf", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"assets": {"css": "\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css", "js": "\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js", "html": "\/html5_player_template"}, "url_v9as2": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "url_v8": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "min_version": "8.0.0", "url": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/watch_as3.swf", "html5": false, "params": {"allowfullscreen": "true", "bgcolor": "#000000", "allowscriptaccess": "always"}, "attrs": {"id": "movie_player"}, "sts": 16057, "args": {"hl": "", "enablejsapi": 1, "autoplay": "0", "cr": "", "fexp": "931941,913432,919365,929209,919815,922920,942418,909717,932295,936912,936910,923305,936913,907231,907240,921090"}};</script>
+
+  <div id="playlist-tray" class="playlist-tray">
+    
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div id="content" class="  content-alignment">  
+
+
+
+
+  <div class="branded-page-v2-container  branded-page-v2-has-top-row branded-page-v2-has-solid-bg" >
+      <div class="branded-page-v2-top-row">
+                <div id="video-masthead" class="video-masthead">  <a id="premium-yva-close" class="yt-uix-close" data-close-parent-id="video-masthead">
+Close ad
+  </a>
+<iframe id="video-masthead-iframe" width="100%" height="100%" scrolling="no" frameborder="0"></iframe>  <script>
+    (function() {
+      function tagMpuIframe() {
+            var adIframe = document.getElementById("video-masthead-iframe");
+            if (!adIframe) {
+              return;
+            }
+            var ord = Math.floor(Math.random() * 10000000000000000);
+            adIframe.src = "//ad.doubleclick.net/N4061/adi/com.ythome/_default;sz=780x195;tile=1;dc_yt=1;k21=1;kage=25;kar=4;kauth=1;kbsg=HPCA140101;kga=1002;kgender=f;kgg=2;klg=en;kmyd=video-masthead;ytdevice=1;ytexp=931941,913432,919365,929209,919815,922920,942418;ord=" + ord + "?";
+      }
+
+       tagMpuIframe();
+    })();
+  </script>
+</div>
+
+
+      </div>
+
+    <div class="branded-page-v2-col-container">
+      <div class="branded-page-v2-col-container-inner">
+        <div class="branded-page-v2-primary-col">
+          <div class="">
+              <div class="branded-page-v2-body branded-page-v2-primary-column-content" id="gh-activityfeed">
+        <div id="feed" class="spf-nolink">
+        <div id="feed-main-what_to_watch" class="individual-feed" data-feed-name="what_to_watch" data-feed-type="main">
+    
+      <div class="feed-container" data-filter-type="" >
+    <div class="feed-page">
+          <ul id="" class="feed-list context-data-container">
+                <li class="feed-item-container  browse-list-item-container vve-check " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw">
+    <div class="feed-item-dismissable  ">
+      <div class="feed-item-main feed-item-no-author">
+        <div class="feed-item-main-content">
+                    <div class="shelf-wrapper clearfix">
+          <div class="compact-shelf shelf-item yt-uix-shelfslider yt-uix-shelfslider-at-head yt-uix-shelfslider-at-tail vve-check clearfix  feeds-mode yt-uix-tdl"  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CEYQ3Bw">
+            <h2 class="branded-page-module-title">
+          
+      <a href="/channel/HCr0DkU4jyKZg" class="yt-uix-sessionlink branded-page-module-title-link spf-nolink g-hovercard" data-ytid="HCr0DkU4jyKZg" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw">
+                <span class="video-thumb  yt-thumb yt-thumb-20"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="//i1.ytimg.com/li/r0DkU4jyKZg/default.jpg" alt="Thumbnail" width="20" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+      <span class="shelf-title">
+        Popular on YouTube - Canada
+      </span>
+
+      </a>
+  </h2>
+
+
+    
+
+      <div class="yt-uix-shelfslider-body context-data-container">
+    <ul class="yt-uix-shelfslider-list">
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="vi9fv2JOogo" data-context-item-title="Lets Play Monday - Let&#39;s Play - GTA V - Free Play - The Dump Jump" data-context-item-views="843,599 views" data-context-item-type="video" data-context-item-user="LetsPlay" data-context-item-time="1:05:29"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=vi9fv2JOogo" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CEoQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/vi9fv2JOogo/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">1:05:29</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="vi9fv2JOogo" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Lets Play Monday - Let&#39;s Play - GTA V - Free Play - The Dump Jump"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CEgQvxs"
+        href="/watch?v=vi9fv2JOogo"
+      >
+        Lets Play Monday - Let&#39;s Play - GTA V - Free Play - The Dump Jump
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCkxctb0jr8vwa4Do6c6su0Q?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CEkQwRs" dir="ltr" data-ytid="UCkxctb0jr8vwa4Do6c6su0Q" data-name="g-high">LetsPlay</a>
+        </li>
+      <li>843,599 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="BQw_yEbtQrE" data-context-item-title="5 BIGGEST STORIES OF 2013" data-context-item-views="276,973 views" data-context-item-type="video" data-context-item-user="Philip DeFranco" data-context-item-time="13:44"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=BQw_yEbtQrE" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CE4QwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/BQw_yEbtQrE/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">13:44</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="BQw_yEbtQrE" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="5 BIGGEST STORIES OF 2013"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CE0Qvxs"
+        href="/watch?v=BQw_yEbtQrE"
+      >
+        5 BIGGEST STORIES OF 2013
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UClFSU9_bUb4Rc6OYfTt5SPw?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CEwQwRs" dir="ltr" data-ytid="UClFSU9_bUb4Rc6OYfTt5SPw" data-name="g-high">Philip DeFranco</a>
+        </li>
+      <li>276,973 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="uazQcMRwQ9o" data-context-item-title="The Different Types Of People You Meet On New Years" data-context-item-views="252,633 views" data-context-item-type="video" data-context-item-user="SourceFed" data-context-item-time="2:43"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=uazQcMRwQ9o" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFEQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/uazQcMRwQ9o/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">2:43</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="uazQcMRwQ9o" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="The Different Types Of People You Meet On New Years"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFIQvxs"
+        href="/watch?v=uazQcMRwQ9o"
+      >
+        The Different Types Of People You Meet On New Years
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC_gE-kg7JvuwCNlbZ1-shlA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFAQwRs" dir="ltr" data-ytid="UC_gE-kg7JvuwCNlbZ1-shlA" data-name="g-high">SourceFed</a>
+        </li>
+      <li>252,633 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="aMHA0-Hy6os" data-context-item-title="Best of 2013 Prank Montage" data-context-item-views="474,513 views" data-context-item-type="video" data-context-item-user="MagicofRahat" data-context-item-time="11:36"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=aMHA0-Hy6os" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFQQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/aMHA0-Hy6os/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">11:36</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="aMHA0-Hy6os" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Best of 2013 Prank Montage"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFYQvxs"
+        href="/watch?v=aMHA0-Hy6os"
+      >
+        Best of 2013 Prank Montage
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCCsj3Uk-cuVQejdoX-Pc_Lg?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFUQwRs" dir="ltr" data-ytid="UCCsj3Uk-cuVQejdoX-Pc_Lg" data-name="g-high">MagicofRahat</a>
+        </li>
+      <li>474,513 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="g97IKszh2Co" data-context-item-title="CRAZY CAT PERFORMER" data-context-item-views="546,135 views" data-context-item-type="video" data-context-item-user="BFvsGF" data-context-item-time="8:06"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=g97IKszh2Co" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFkQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/g97IKszh2Co/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">8:06</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="g97IKszh2Co" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="CRAZY CAT PERFORMER"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFoQvxs"
+        href="/watch?v=g97IKszh2Co"
+      >
+        CRAZY CAT PERFORMER
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCqIqRzEge-Qvt4Iglx-uKdQ?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFgQwRs" dir="ltr" data-ytid="UCqIqRzEge-Qvt4Iglx-uKdQ" data-name="g-high">BFvsGF</a>
+        </li>
+      <li>546,135 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="eQPKNXThh7U" data-context-item-title="MONEY SWIMMING POOL! -- Mind Blow #76" data-context-item-views="290,572 views" data-context-item-type="video" data-context-item-user="Vsauce2" data-context-item-time="4:44"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=eQPKNXThh7U" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CFwQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/eQPKNXThh7U/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">4:44</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="eQPKNXThh7U" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="MONEY SWIMMING POOL! -- Mind Blow #76"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CF4Qvxs"
+        href="/watch?v=eQPKNXThh7U"
+      >
+        MONEY SWIMMING POOL! -- Mind Blow #76
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCqmugCqELzhIMNYnsjScXXw?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CF0QwRs" dir="ltr" data-ytid="UCqmugCqELzhIMNYnsjScXXw" data-name="g-high">Vsauce2</a>
+        </li>
+      <li>290,572 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            14 hours ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="110iUX1Ursk" data-context-item-title="True Facts About The Armadillo" data-context-item-views="149,694 views" data-context-item-type="video" data-context-item-user="zefrank1" data-context-item-time="4:10"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=110iUX1Ursk" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGAQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/110iUX1Ursk/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">4:10</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="110iUX1Ursk" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="True Facts About The Armadillo"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGIQvxs"
+        href="/watch?v=110iUX1Ursk"
+      >
+        True Facts About The Armadillo
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCVpankR4HtoAVtYnFDUieYA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGEQwRs" dir="ltr" data-ytid="UCVpankR4HtoAVtYnFDUieYA" data-name="g-high">zefrank1</a>
+        </li>
+      <li>149,694 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            14 hours ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="JgZHEfDkUkk" data-context-item-title="Teens React to YouTube Rewind: What Does 2013 Say?" data-context-item-views="1,692,897 views" data-context-item-type="video" data-context-item-user="TheFineBros" data-context-item-time="9:37"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=JgZHEfDkUkk" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGYQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/JgZHEfDkUkk/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">9:37</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="JgZHEfDkUkk" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Teens React to YouTube Rewind: What Does 2013 Say?"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGQQvxs"
+        href="/watch?v=JgZHEfDkUkk"
+      >
+        Teens React to YouTube Rewind: What Does 2013 Say?
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC0v-tlzsn0QZwJnkiaUSJVQ?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGUQwRs" dir="ltr" data-ytid="UC0v-tlzsn0QZwJnkiaUSJVQ" data-name="g-high">TheFineBros</a>
+        </li>
+      <li>1,692,897 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            2 days ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="CxkUhVswF5U" data-context-item-title="Casselton Train Derailment" data-context-item-views="224,112 views" data-context-item-type="video" data-context-item-user="Dan Gunderson" data-context-item-time="0:29"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=CxkUhVswF5U" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGoQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/CxkUhVswF5U/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">0:29</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="CxkUhVswF5U" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Casselton Train Derailment"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGgQvxs"
+        href="/watch?v=CxkUhVswF5U"
+      >
+        Casselton Train Derailment
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC8-WnBNhOmZj3ET4ayNMtTA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGkQwRs" dir="ltr" data-ytid="UC8-WnBNhOmZj3ET4ayNMtTA" data-name="g-high">Dan Gunderson</a>
+        </li>
+      <li>224,112 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="knUvt6Y4kD8" data-context-item-title="WORST of 2013" data-context-item-views="1,412,807 views" data-context-item-type="video" data-context-item-user="Smosh" data-context-item-time="5:37"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=knUvt6Y4kD8" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CG4QwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/knUvt6Y4kD8/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">5:37</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="knUvt6Y4kD8" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="WORST of 2013"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CGwQvxs"
+        href="/watch?v=knUvt6Y4kD8"
+      >
+        WORST of 2013
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCY30JRSgfhYXA6i6xX1erWg?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CG0QwRs" dir="ltr" data-ytid="UCY30JRSgfhYXA6i6xX1erWg" data-name="g-high">Smosh</a>
+        </li>
+      <li>1,412,807 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            2 days ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="fcK3naruwno" data-context-item-title="Best Vines of 2013 THE ultimate and BEST VINE compilation" data-context-item-views="343,166 views" data-context-item-type="video" data-context-item-user="VineCompilations" data-context-item-time="23:13"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=fcK3naruwno" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHAQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/fcK3naruwno/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">23:13</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="fcK3naruwno" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Best Vines of 2013 THE ultimate and BEST VINE compilation"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHEQvxs"
+        href="/watch?v=fcK3naruwno"
+      >
+        Best Vines of 2013 THE ultimate and BEST VINE compilation
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC3E2mmrk3KI15lO3alWge1A?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHIQwRs" dir="ltr" data-ytid="UC3E2mmrk3KI15lO3alWge1A" data-name="g-high">VineCompilations</a>
+        </li>
+      <li>343,166 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="rw2qviFnEKE" data-context-item-title="Pillow Fight Fail" data-context-item-views="241,432 views" data-context-item-type="video" data-context-item-user="Jackass19" data-context-item-time="0:23"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=rw2qviFnEKE" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHQQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/rw2qviFnEKE/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">0:23</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="rw2qviFnEKE" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Pillow Fight Fail"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHYQvxs"
+        href="/watch?v=rw2qviFnEKE"
+      >
+        Pillow Fight Fail
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCfxeVj1Aqk_l1TNKtXy5diA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHUQwRs" dir="ltr" data-ytid="UCfxeVj1Aqk_l1TNKtXy5diA" data-name="g-high">Jackass19</a>
+        </li>
+      <li>241,432 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            7 years ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="dvKeCcxD3rQ" data-context-item-title="m͏̺͓̲̥̪í͇͔̠ś̷͎̹̲̻̻̘̝t̞̖͍͚̤k̥̞à̸͕̮͍͉̹̰͚̰ẹ̶̢̪s͏̨͈̙̹̜͚̲ ̛̬͓͟" data-context-item-views="546,910 views" data-context-item-type="video" data-context-item-user="Vsauce" data-context-item-time="9:46"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=dvKeCcxD3rQ" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHkQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/dvKeCcxD3rQ/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">9:46</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="dvKeCcxD3rQ" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="m͏̺͓̲̥̪í͇͔̠ś̷͎̹̲̻̻̘̝t̞̖͍͚̤k̥̞à̸͕̮͍͉̹̰͚̰ẹ̶̢̪s͏̨͈̙̹̜͚̲ ̛̬͓͟"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHoQvxs"
+        href="/watch?v=dvKeCcxD3rQ"
+      >
+        m͏̺͓̲̥̪í͇͔̠ś̷͎̹̲̻̻̘̝t̞̖͍͚̤k̥̞à̸͕̮͍͉̹̰͚̰ẹ̶̢̪s͏̨͈̙̹̜͚̲ ̛̬͓͟
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC6nSFpj9HTCZ5t-N3Rm3-HA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHgQwRs" dir="ltr" data-ytid="UC6nSFpj9HTCZ5t-N3Rm3-HA" data-name="g-high">Vsauce</a>
+        </li>
+      <li>546,910 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            15 hours ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="s37NM9a4eiQ" data-context-item-title="EOS M gimbal - extreme angles - Made by Jure Korber" data-context-item-views="1,996,522 views" data-context-item-type="video" data-context-item-user="juresnip" data-context-item-time="0:29"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=s37NM9a4eiQ" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CHwQwBs">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/s37NM9a4eiQ/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">0:29</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="s37NM9a4eiQ" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="EOS M gimbal - extreme angles - Made by Jure Korber"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CH4Qvxs"
+        href="/watch?v=s37NM9a4eiQ"
+      >
+        EOS M gimbal - extreme angles - Made by Jure Korber
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCEpDPHxy8Vm00EYXxbRX9wA?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CH0QwRs" dir="ltr" data-ytid="UCEpDPHxy8Vm00EYXxbRX9wA" data-name="g-high">juresnip</a>
+        </li>
+      <li>1,996,522 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 week ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+
+        <li class="channels-content-item yt-shelf-grid-item yt-uix-shelfslider-item ">
+              
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="6ravZzYKR34" data-context-item-title="KUTV Reporter Brooke Graham Passes Out On Air, Continues to Report" data-context-item-views="2,510,862 views" data-context-item-type="video" data-context-item-user="KUTV2News" data-context-item-time="1:59"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=6ravZzYKR34" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CIABEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/6ravZzYKR34/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">1:59</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="6ravZzYKR34" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="KUTV Reporter Brooke Graham Passes Out On Air, Continues to Report"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CIEBEL8b"
+        href="/watch?v=6ravZzYKR34"
+      >
+        KUTV Reporter Brooke Graham Passes Out On Air, Continues to Report
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCFVUStJ4azXbWMhFO4yTELg?feature=g-high" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-high&amp;ved=CIIBEMEb" dir="ltr" data-ytid="UCFVUStJ4azXbWMhFO4yTELg" data-name="g-high">KUTV2News</a>
+        </li>
+      <li>2,510,862 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 day ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+
+        </li>
+    </ul>
+  </div>
+
+
+    <button type="button" class="yt-uix-shelfslider-prev yt-uix-button yt-uix-button-shelf-slider-pager yt-uix-button-size-default" onclick=";return false;"  role="button"><span class="yt-uix-button-content">  <img class="yt-uix-shelfslider-prev-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Previous">
+ </span></button>
+    <button type="button" class="yt-uix-shelfslider-next yt-uix-button yt-uix-button-shelf-slider-pager yt-uix-button-size-default" onclick=";return false;"  role="button"><span class="yt-uix-button-content">  <img class="yt-uix-shelfslider-next-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Next">
+ </span></button>
+
+  </div>
+
+      <span class="feed-item-action-menu " data-external-id="CAESuwFBRlBrNEtFdlRVQlRJX1dMQVBhWGxwVm51bzNGRjFCR2dPenY5ajdZMENGNlNuNE90dGpOY3hZMGRmQnRrX1FNM1A1T05rY3h2bGlXZ1dGNjNVblhuYXNkUTNOUDFMaWQ5eEpNMjRkRVZlTUxOc2tSZkU3OFZ0UDV4S2szUDFfMjFUTXlWZzN4MWhsR0pULVUyYTl6S2UtdnRTV3ZiSEloWXMzN1ljZVRJQWdDU3dmcGxjbGh1VDhPQT09">
+    
+    <button type="button" class="flip yt-uix-button yt-uix-button-feed-item-action-menu yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" data-button-has-sibling-menu="True" role="button" aria-pressed="false" aria-expanded="false" aria-haspopup="true" aria-activedescendant="" aria-label="Actions for this feed item"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-feed-item-action-menu" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""><ul class=" yt-uix-button-menu yt-uix-button-menu-feed-item-action-menu" role="menu" aria-haspopup="true" style="display: none;"><li role="menuitem" id="aria-id-2432129093"><span data-action="hide" class="dismiss-menu-choice yt-uix-button-menu-item" onclick=";return false;" aria-label="Removes the selected feed item from the feed." >Remove from feed</span></li></ul></button>
+  </span>
+
+
+  </div>
+
+
+  
+
+        </div>
+      </div>
+    </div>
+      <div class="feed-item-dismissal-notices"><div class="feed-item-dismissal feed-item-dismissal-hide hid">This item has been removed from your feed</div></div>
+  </li>
+
+
+          <li class="feed-item-container  browse-list-item-container vve-check " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw">
+    <div class="feed-item-dismissable  last ">
+      <div class="feed-item-main feed-item-no-author">
+        <div class="feed-item-main-content">
+                    <div class="shelf-wrapper clearfix">
+          <div class="multirow-shelf shelf-item vve-check "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CIMBENwc">
+      <div class="yt-uix-expander yt-uix-expander-collapsed">
+                  <h2 class="branded-page-module-title">
+      <a href="/feed/recommended" class="yt-uix-sessionlink branded-page-module-title-link spf-nolink" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw">
+              <span class="shelf-title">
+        Recommended
+      </span>
+
+      </a>
+  </h2>
+
+
+  <ul class="shelf-content context-data-container clearfix yt-uix-expander-body"  data-context-subsource="">
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="DRCH9UK0X74" data-context-item-title="48 Ruby On Rails ROR   Lesson 8   Sign Up   RSpec Integration Tests" data-context-item-views="641 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="11:05"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=DRCH9UK0X74" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIUBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/DRCH9UK0X74/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">11:05</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="DRCH9UK0X74" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="48 Ruby On Rails ROR   Lesson 8   Sign Up   RSpec Integration Tests"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIcBEL8b"
+        href="/watch?v=DRCH9UK0X74"
+      >
+        48 Ruby On Rails ROR   Lesson 8   Sign Up   RSpec Integration Tests
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIYBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>641 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            10 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="p_3dIPgXgkg" data-context-item-title="How to deploy your first rails application on Heroku using git." data-context-item-views="3,378 views" data-context-item-type="video" data-context-item-user="Eswar Rajesh Pinapala" data-context-item-time="14:02"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=p_3dIPgXgkg" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIoBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/p_3dIPgXgkg/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">14:02</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="p_3dIPgXgkg" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="How to deploy your first rails application on Heroku using git."
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIkBEL8b"
+        href="/watch?v=p_3dIPgXgkg"
+      >
+        How to deploy your first rails application on Heroku using git.
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCkOpIqgWGRU7wl2K6N1OqPQ?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CIsBEMEb" dir="ltr" data-ytid="UCkOpIqgWGRU7wl2K6N1OqPQ" data-name="g-vrec">Eswar Rajesh Pinapala</a>
+        </li>
+      <li>3,378 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            2 years ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="9gKyW9Uq6wo" data-context-item-title="Your first Ruby on Rails Application" data-context-item-views="12,981 views" data-context-item-type="video" data-context-item-user="Steven Fowler" data-context-item-time="16:38"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=9gKyW9Uq6wo" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CI8BEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/9gKyW9Uq6wo/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">16:38</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="9gKyW9Uq6wo" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Your first Ruby on Rails Application"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CI0BEL8b"
+        href="/watch?v=9gKyW9Uq6wo"
+      >
+        Your first Ruby on Rails Application
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCVEAiKc_lxeuXfUafUfbnmA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CI4BEMEb" dir="ltr" data-ytid="UCVEAiKc_lxeuXfUafUfbnmA" data-name="g-vrec">Steven Fowler</a>
+        </li>
+      <li>12,981 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="T0qAjgQFR4c" data-context-item-title="How to Teach Yourself Code" data-context-item-views="76,383 views" data-context-item-type="video" data-context-item-user="InternetWeek" data-context-item-time="44:08"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=T0qAjgQFR4c" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJEBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/T0qAjgQFR4c/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">44:08</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="T0qAjgQFR4c" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="How to Teach Yourself Code"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJIBEL8b"
+        href="/watch?v=T0qAjgQFR4c"
+      >
+        How to Teach Yourself Code
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCgdiezEDLAU94f4mk-EPMOg?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJMBEMEb" dir="ltr" data-ytid="UCgdiezEDLAU94f4mk-EPMOg" data-name="g-vrec">InternetWeek</a>
+        </li>
+      <li>76,383 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="qd6WF32-fm0" data-context-item-title="1. Install Ruby on Rails, Postgresql, and Aptana on Windows" data-context-item-views="3,159 views" data-context-item-type="video" data-context-item-user="leslyhimself" data-context-item-time="14:57"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=qd6WF32-fm0" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJYBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/qd6WF32-fm0/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">14:57</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="qd6WF32-fm0" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="1. Install Ruby on Rails, Postgresql, and Aptana on Windows"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJUBEL8b"
+        href="/watch?v=qd6WF32-fm0"
+      >
+        1. Install Ruby on Rails, Postgresql, and Aptana on Windows
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCsYva3_TbJQYD6C5L-87MUQ?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJcBEMEb" dir="ltr" data-ytid="UCsYva3_TbJQYD6C5L-87MUQ" data-name="g-vrec">leslyhimself</a>
+        </li>
+      <li>3,159 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="K0yj_57KtUM" data-context-item-type="video" data-context-item-title="How to set up a new MacBook Pro with Ruby and Rails" data-context-item-user="BostonRB Organizer"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=K0yj_57KtUM" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJoBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/K0yj_57KtUM/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">14:13</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="K0yj_57KtUM" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="How to set up a new MacBook Pro with Ruby and Rails"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJsBEL8b"
+        href="/watch?v=K0yj_57KtUM"
+      >
+        How to set up a new MacBook Pro with Ruby and Rails
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCVMoyi_TUOJ0qVZRt42_ltA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJkBEMEb" dir="ltr" data-ytid="UCVMoyi_TUOJ0qVZRt42_ltA" data-name="g-vrec">BostonRB Organizer</a>
+        </li>
+      
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="vdS6RsiYgCw" data-context-item-type="video" data-context-item-title="Front-end Web Development with Ruby" data-context-item-user="Matthew Buck"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=vdS6RsiYgCw" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJ4BEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/vdS6RsiYgCw/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">42:33</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="vdS6RsiYgCw" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Front-end Web Development with Ruby"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJ0BEL8b"
+        href="/watch?v=vdS6RsiYgCw"
+      >
+        Front-end Web Development with Ruby
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCKhOPaVEsNIQKY7t1YWtqPw?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CJ8BEMEb" dir="ltr" data-ytid="UCKhOPaVEsNIQKY7t1YWtqPw" data-name="g-vrec">Matthew Buck</a>
+        </li>
+      
+        <li class="yt-lockup-deemphasized-text">
+            9 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="R0clyo8thu4" data-context-item-title="10 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App" data-context-item-views="908 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="10:09"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=R0clyo8thu4" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKEBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/R0clyo8thu4/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">10:09</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="R0clyo8thu4" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="10 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKMBEL8b"
+        href="/watch?v=R0clyo8thu4"
+      >
+        10 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKIBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>908 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            10 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="pyHLt94DE70" data-context-item-title="12 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App II" data-context-item-views="1,611 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="18:01"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=pyHLt94DE70" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKcBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/pyHLt94DE70/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">18:01</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="pyHLt94DE70" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="12 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App II"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKYBEL8b"
+        href="/watch?v=pyHLt94DE70"
+      >
+        12 Ruby On Rails ROR   Lesson 2   A Demo App   A Demo App II
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKUBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>1,611 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            10 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="pcVRrlmpcWk" data-context-item-title="Alt-J - Full Performance (Live on KEXP)" data-context-item-views="1,877,780 views" data-context-item-type="video" data-context-item-user="KEXP" data-context-item-time="42:28"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=pcVRrlmpcWk" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKoBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/pcVRrlmpcWk/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">42:28</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="pcVRrlmpcWk" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Alt-J - Full Performance (Live on KEXP)"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKkBEL8b"
+        href="/watch?v=pcVRrlmpcWk"
+      >
+        Alt-J - Full Performance (Live on KEXP)
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC3I2GFN_F8WudD_2jUZbojA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CKsBEMEb" dir="ltr" data-ytid="UC3I2GFN_F8WudD_2jUZbojA" data-name="g-vrec">KEXP</a>
+        </li>
+      <li>1,877,780 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="-umoWOjJ3gc" data-context-item-title="Ruby on Rails Windows Installation Guide - Part 1" data-context-item-views="21,025 views" data-context-item-type="video" data-context-item-user="Stephen Cavaliere" data-context-item-time="15:00"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=-umoWOjJ3gc" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CK0BEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/-umoWOjJ3gc/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">15:00</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="-umoWOjJ3gc" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Ruby on Rails Windows Installation Guide - Part 1"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CK4BEL8b"
+        href="/watch?v=-umoWOjJ3gc"
+      >
+        Ruby on Rails Windows Installation Guide - Part 1
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UC7KQu_rlhodO04zukriUP6w?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CK8BEMEb" dir="ltr" data-ytid="UC7KQu_rlhodO04zukriUP6w" data-name="g-vrec">Stephen Cavaliere</a>
+        </li>
+      <li>21,025 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            2 years ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="UQ8_VOGj5H8" data-context-item-title="Ruby on Rails Tutorial Part 1 - Getting Started" data-context-item-views="115,447 views" data-context-item-type="video" data-context-item-user="andrewperk" data-context-item-time="11:10"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=UQ8_VOGj5H8" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLMBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/UQ8_VOGj5H8/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">11:10</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="UQ8_VOGj5H8" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Ruby on Rails Tutorial Part 1 - Getting Started"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLEBEL8b"
+        href="/watch?v=UQ8_VOGj5H8"
+      >
+        Ruby on Rails Tutorial Part 1 - Getting Started
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCS7Rh2UstIN09_eCjsIJ1LA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLIBEMEb" dir="ltr" data-ytid="UCS7Rh2UstIN09_eCjsIJ1LA" data-name="g-vrec">andrewperk</a>
+        </li>
+      <li>115,447 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            2 years ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="l5FzXFvoVw4" data-context-item-title="Start Developing with Ruby on Rails - Ubuntu 12.04 - Install RVM multi-user - Ruby - Deploy test app" data-context-item-views="5,505 views" data-context-item-type="video" data-context-item-user="Anthony Penner" data-context-item-time="8:49"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=l5FzXFvoVw4" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLYBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/l5FzXFvoVw4/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">8:49</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="l5FzXFvoVw4" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Start Developing with Ruby on Rails - Ubuntu 12.04 - Install RVM multi-user - Ruby - Deploy test app"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLUBEL8b"
+        href="/watch?v=l5FzXFvoVw4"
+      >
+        Start Developing with Ruby on Rails - Ubuntu 12.04 - Install RVM multi-user - Ruby - Deploy test app
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCQ7mtG-xUxIgM0ea_kijrwg?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLcBEMEb" dir="ltr" data-ytid="UCQ7mtG-xUxIgM0ea_kijrwg" data-name="g-vrec">Anthony Penner</a>
+        </li>
+      <li>5,505 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            11 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="C4GyNxgmbgI" data-context-item-title="Ruby Essentials for Beginners (Part 01)" data-context-item-views="7,663 views" data-context-item-type="video" data-context-item-user="Jonathan Engelsma" data-context-item-time="28:36"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=C4GyNxgmbgI" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLsBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/C4GyNxgmbgI/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">28:36</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="C4GyNxgmbgI" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Ruby Essentials for Beginners (Part 01)"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLkBEL8b"
+        href="/watch?v=C4GyNxgmbgI"
+      >
+        Ruby Essentials for Beginners (Part 01)
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCPCOiSEmgLXnx8Gyf6O0yTQ?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CLoBEMEb" dir="ltr" data-ytid="UCPCOiSEmgLXnx8Gyf6O0yTQ" data-name="g-vrec">Jonathan Engelsma</a>
+        </li>
+      <li>7,663 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            9 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="h5euwZEE4Mo" data-context-item-title="Ruby on Rails Tutorial for Beginners" data-context-item-views="17,856 views" data-context-item-type="video" data-context-item-user="ArsMagnaTutorials" data-context-item-time="10:18"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=h5euwZEE4Mo" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CL0BEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/h5euwZEE4Mo/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">10:18</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="h5euwZEE4Mo" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Ruby on Rails Tutorial for Beginners"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CL8BEL8b"
+        href="/watch?v=h5euwZEE4Mo"
+      >
+        Ruby on Rails Tutorial for Beginners
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCFU2fGlHLvw_vcP1tedfYAQ?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CL4BEMEb" dir="ltr" data-ytid="UCFU2fGlHLvw_vcP1tedfYAQ" data-name="g-vrec">ArsMagnaTutorials</a>
+        </li>
+      <li>17,856 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="T9h8Yl5bhJE" data-context-item-title="Upload your rails app to github" data-context-item-views="445 views" data-context-item-type="video" data-context-item-user="Codible" data-context-item-time="8:55"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=T9h8Yl5bhJE" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMIBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/T9h8Yl5bhJE/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">8:55</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="T9h8Yl5bhJE" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Upload your rails app to github"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMMBEL8b"
+        href="/watch?v=T9h8Yl5bhJE"
+      >
+        Upload your rails app to github
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCF17DXhmh39n0CufkY6qIIw?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMEBEMEb" dir="ltr" data-ytid="UCF17DXhmh39n0CufkY6qIIw" data-name="g-vrec">Codible</a>
+        </li>
+      <li>445 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="nFQ_ulWiCCI" data-context-item-title="1.Ruby On Rails Video Tutorials - Learn Rails By Examples - Introductions" data-context-item-views="9,145 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="0:36"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=nFQ_ulWiCCI" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMcBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/nFQ_ulWiCCI/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">0:36</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="nFQ_ulWiCCI" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="1.Ruby On Rails Video Tutorials - Learn Rails By Examples - Introductions"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMUBEL8b"
+        href="/watch?v=nFQ_ulWiCCI"
+      >
+        1.Ruby On Rails Video Tutorials - Learn Rails By Examples - Introductions
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMYBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>9,145 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            10 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="hwo3Eda_ev0" data-context-item-title="2.Ruby On Rails Video Tutorials (ROR) - Ruby Windows Installation" data-context-item-views="4,286 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="10:40"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=hwo3Eda_ev0" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMkBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/hwo3Eda_ev0/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">10:40</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="hwo3Eda_ev0" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="2.Ruby On Rails Video Tutorials (ROR) - Ruby Windows Installation"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMsBEL8b"
+        href="/watch?v=hwo3Eda_ev0"
+      >
+        2.Ruby On Rails Video Tutorials (ROR) - Ruby Windows Installation
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CMoBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>4,286 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            10 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="dMoK6AxyiUo" data-context-item-title="Ruby: Installing Ruby on a Mac | lynda.com" data-context-item-views="4,061 views" data-context-item-type="video" data-context-item-user="lynda.com" data-context-item-time="6:04"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=dMoK6AxyiUo" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CM8BEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/dMoK6AxyiUo/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">6:04</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="dMoK6AxyiUo" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="Ruby: Installing Ruby on a Mac | lynda.com"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CM0BEL8b"
+        href="/watch?v=dMoK6AxyiUo"
+      >
+        Ruby: Installing Ruby on a Mac | lynda.com
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCikzJG7RbnNZhKLqqaXRM6A?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CM4BEMEb" dir="ltr" data-ytid="UCikzJG7RbnNZhKLqqaXRM6A" data-name="g-vrec">lynda.com</a>
+        </li>
+      <li>4,061 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            1 year ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+      <li class="yt-shelf-grid-item">
+        
+
+
+    <div class="yt-lockup clearfix  yt-lockup-video yt-lockup-grid vve-check context-data-item"
+    data-context-item-id="phaINNGgUnE" data-context-item-title="1.Riding Ruby on Rails -Introduction- Introduction" data-context-item-views="1,799 views" data-context-item-type="video" data-context-item-user="RubyOnRailsVideos" data-context-item-time="5:51"
+  >
+    <div class="yt-lockup-thumbnail"
+    >
+      
+  <a href="/watch?v=phaINNGgUnE" class="ux-thumb-wrap yt-uix-sessionlink yt-uix-contextlink yt-fluid-thumb-link contains-addto "  data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CNIBEMAb">    <span class="video-thumb  yt-thumb yt-thumb-175 yt-thumb-fluid"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/phaINNGgUnE/mqdefault.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Thumbnail" width="175" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+    <span class="video-time">5:51</span>
+
+
+  <button onclick=";return false;" type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" data-video-ids="phaINNGgUnE" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</a>
+
+    </div>
+    <div class="yt-lockup-content">
+            <h3 class="yt-lockup-title">
+    <a class="yt-uix-sessionlink yt-uix-tile-link 
+          yt-ui-ellipsis yt-ui-ellipsis-2"
+        dir="ltr"
+          title="1.Riding Ruby on Rails -Introduction- Introduction"
+        data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CNEBEL8b"
+        href="/watch?v=phaINNGgUnE"
+      >
+        1.Riding Ruby on Rails -Introduction- Introduction
+    </a>
+  </h3>
+
+
+  <div class="yt-lockup-meta">
+    <ul class="yt-lockup-meta-info">
+        <li>
+          by <a href="/channel/UCTjiuzLyxeH_GVk7HoR9xrA?feature=g-vrec" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;feature=g-vrec&amp;ved=CNMBEMEb" dir="ltr" data-ytid="UCTjiuzLyxeH_GVk7HoR9xrA" data-name="g-vrec">RubyOnRailsVideos</a>
+        </li>
+      <li>1,799 views</li>
+        <li class="yt-lockup-deemphasized-text">
+            9 months ago
+        </li>
+    </ul>
+  </div>
+  
+  
+
+    </div>
+    
+  </div>
+
+
+      </li>
+  </ul>
+
+        <div class="yt-uix-expander-head">
+          <span class="multirow-shelf-expander">
+Show more
+          </span>
+          <span class="multirow-shelf-collapser">
+Show fewer
+          </span>
+        </div>
+      </div>
+  </div>
+
+
+  </div>
+
+
+  
+
+        </div>
+      </div>
+    </div>
+      <div class="feed-item-dismissal-notices"><div class="feed-item-dismissal feed-item-dismissal-hide hid">This item has been removed from your feed</div></div>
+  </li>
+
+
+
+  </ul>
+
+    </div>
+
+  </div>
+
+  </div>
+
+  <div id="feed-error" class="individual-feed hid">
+    <p class="feed-message">
+We were unable to complete the request, please try again later.
+    </p>
+  </div>
+
+  <div id="feed-loading-template" class="hid">
+    <div class="feed-message">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+    </div>
+  <div id="footer-ads">
+            
+
+
+  <div id="ad_creative_3" class="ad-div " style="z-index: 1">
+      <iframe id="ad_creative_iframe_3" height="1" width="1" scrolling="no" frameborder="0" style="z-index: 1"></iframe>
+        <script>
+    (function() {
+      function tagMpuIframe() {
+            var adIframe = document.getElementById("ad_creative_iframe_3");
+            if (!adIframe) {
+              return;
+            }
+            var ord = Math.floor(Math.random() * 10000000000000000);
+            adIframe.src = "http://ad.doubleclick.net/N6762/adi/mkt.ythome_1x1/;sz=1x1;tile=3;dc_yt=1;k21=1;kage=25;kar=4;kauth=1;kbsg=HPCA140101;kga=1002;kgender=f;kgg=2;klg=en;kmyd=ad_creative_3;ytdevice=1;ytexp=931941,913432,919365,929209,919815,922920,942418;ord=" + ord + "?";
+      }
+
+       tagMpuIframe();
+    })();
+  </script>
+
+  </div>
+
+
+  </div>
+
+  </div>
+
+          </div>
+        </div>
+          <div class="branded-page-v2-secondary-col">
+            
+
+        <div class="branded-page-related-channels branded-page-box " >
+            <h2 class="branded-page-related-channels-title" dir="ltr">
+        Recommended channels
+    </h2>
+
+        <ul class="branded-page-related-channels-list">
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCqyku6Kofy1nV86yh9R8n8A">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCqyku6Kofy1nV86yh9R8n8A"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CAEQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCqyku6Kofy1nV86yh9R8n8A"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/i/qyku6Kofy1nV86yh9R8n8A/1.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Alex Day" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCqyku6Kofy1nV86yh9R8n8A">  <span class="qualified-channel-title-text">
+      Alex Day
+  </span>
+</span></span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CAQQmysoAg" data-channel-external-id="UCqyku6Kofy1nV86yh9R8n8A" data-ypc-item-type="U" data-ypc-item-id="UCqyku6Kofy1nV86yh9R8n8A" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCqyku6Kofy1nV86yh9R8n8A" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCmv1CLT6ZcFdTJMHxaR9XeA">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCmv1CLT6ZcFdTJMHxaR9XeA"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CAYQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCmv1CLT6ZcFdTJMHxaR9XeA"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh5.googleusercontent.com/-w9XVuaKslpI/AAAAAAAAAAI/AAAAAAAAAAA/nhdbMmmKHGw/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="PTXofficial" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCmv1CLT6ZcFdTJMHxaR9XeA">  <span class="qualified-channel-title-text">
+      PTXofficial
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CAkQmysoAg" data-channel-external-id="UCmv1CLT6ZcFdTJMHxaR9XeA" data-ypc-item-type="U" data-ypc-item-id="UCmv1CLT6ZcFdTJMHxaR9XeA" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCmv1CLT6ZcFdTJMHxaR9XeA" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCc6W7efUSkd9YYoxOnctlFg">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCc6W7efUSkd9YYoxOnctlFg"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CAsQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCc6W7efUSkd9YYoxOnctlFg"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh5.googleusercontent.com/-83Hsz0DF18k/AAAAAAAAAAI/AAAAAAAAAAA/ViE0Dde1Ghs/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Bethany Mota" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCc6W7efUSkd9YYoxOnctlFg">  <span class="qualified-channel-title-text">
+      Bethany Mota
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CA4QmysoAg" data-channel-external-id="UCc6W7efUSkd9YYoxOnctlFg" data-ypc-item-type="U" data-ypc-item-id="UCc6W7efUSkd9YYoxOnctlFg" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCc6W7efUSkd9YYoxOnctlFg" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCp0hYYBW6IMayGgR-WeoCvQ">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCp0hYYBW6IMayGgR-WeoCvQ"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CBAQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCp0hYYBW6IMayGgR-WeoCvQ"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh4.googleusercontent.com/-dDZUkj9sY4g/AAAAAAAAAAI/AAAAAAAAAAA/oy6dm2Uy8dc/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="TheEllenShow" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCp0hYYBW6IMayGgR-WeoCvQ">  <span class="qualified-channel-title-text">
+      TheEllenShow
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CBMQmysoAg" data-channel-external-id="UCp0hYYBW6IMayGgR-WeoCvQ" data-ypc-item-type="U" data-ypc-item-id="UCp0hYYBW6IMayGgR-WeoCvQ" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCp0hYYBW6IMayGgR-WeoCvQ" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCGwruZaVBlp2AwbdUdNaLPQ">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCGwruZaVBlp2AwbdUdNaLPQ"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CBUQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCGwruZaVBlp2AwbdUdNaLPQ"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh4.googleusercontent.com/-WdpazXzANN8/AAAAAAAAAAI/AAAAAAAAAAA/Z0thLOF2sJ0/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="SteveKardynal" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCGwruZaVBlp2AwbdUdNaLPQ">  <span class="qualified-channel-title-text">
+      SteveKardynal
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CBgQmysoAg" data-channel-external-id="UCGwruZaVBlp2AwbdUdNaLPQ" data-ypc-item-type="U" data-ypc-item-id="UCGwruZaVBlp2AwbdUdNaLPQ" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCGwruZaVBlp2AwbdUdNaLPQ" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UC9gFih9rw0zNCK3ZtoKQQyA">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UC9gFih9rw0zNCK3ZtoKQQyA"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CBoQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UC9gFih9rw0zNCK3ZtoKQQyA"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh3.googleusercontent.com/-34FbM3JM5Ck/AAAAAAAAAAI/AAAAAAAAAAA/qVlymUN44C8/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="JennaMarbles" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UC9gFih9rw0zNCK3ZtoKQQyA">  <span class="qualified-channel-title-text">
+      JennaMarbles
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CB0QmysoAg" data-channel-external-id="UC9gFih9rw0zNCK3ZtoKQQyA" data-ypc-item-type="U" data-ypc-item-id="UC9gFih9rw0zNCK3ZtoKQQyA" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UC9gFih9rw0zNCK3ZtoKQQyA" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UC-lHJZR3Gqxm24_Vd_AJ5Yw">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CB8Q9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UC-lHJZR3Gqxm24_Vd_AJ5Yw"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh3.googleusercontent.com/-rJq9gk1QIis/AAAAAAAAAAI/AAAAAAAAAAA/Kx4wkvKOfxY/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="PewDiePie" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UC-lHJZR3Gqxm24_Vd_AJ5Yw">  <span class="qualified-channel-title-text">
+      PewDiePie
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CCIQmysoAg" data-channel-external-id="UC-lHJZR3Gqxm24_Vd_AJ5Yw" data-ypc-item-type="U" data-ypc-item-id="UC-lHJZR3Gqxm24_Vd_AJ5Yw" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UC-lHJZR3Gqxm24_Vd_AJ5Yw" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCLOtBVxMB2JbRlJOZ136_MQ">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCLOtBVxMB2JbRlJOZ136_MQ"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CCQQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCLOtBVxMB2JbRlJOZ136_MQ"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh6.googleusercontent.com/-M2GiY0jfnOU/AAAAAAAAAAI/AAAAAAAAAAA/VxGTG3lUOL8/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="BethanysLife" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCLOtBVxMB2JbRlJOZ136_MQ">  <span class="qualified-channel-title-text">
+      BethanysLife
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CCcQmysoAg" data-channel-external-id="UCLOtBVxMB2JbRlJOZ136_MQ" data-ypc-item-type="U" data-ypc-item-id="UCLOtBVxMB2JbRlJOZ136_MQ" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCLOtBVxMB2JbRlJOZ136_MQ" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UCfm4y4rHF5HGrSr-qbvOwOg">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UCfm4y4rHF5HGrSr-qbvOwOg"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CCkQ9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UCfm4y4rHF5HGrSr-qbvOwOg"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh3.googleusercontent.com/-dDvEj5lMd9c/AAAAAAAAAAI/AAAAAAAAAAA/EULm0R9mEtk/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="IISuperwomanII" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UCfm4y4rHF5HGrSr-qbvOwOg">  <span class="qualified-channel-title-text">
+      IISuperwomanII
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CCwQmysoAg" data-channel-external-id="UCfm4y4rHF5HGrSr-qbvOwOg" data-ypc-item-type="U" data-ypc-item-id="UCfm4y4rHF5HGrSr-qbvOwOg" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UCfm4y4rHF5HGrSr-qbvOwOg" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+        <li class="branded-page-related-channels-item spf-nolink clearfix" data-external-id="UC20vb-R_px4CguHzzBPhoyQ">
+      <button class="yt-uix-tooltip branded-page-related-channels-item-close yt-close" title="Remove">
+        <img class="yt-close-img" src="//s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+      </button>
+    
+
+
+
+
+    <a class="yt-lockup clearfix  yt-lockup-channel yt-lockup-mini vve-check yt-uix-sessionlink"
+      href="/channel/UC20vb-R_px4CguHzzBPhoyQ"
+    
+      data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CC4Q9Bw"
+  >
+    <div class="yt-lockup-thumbnail"
+        style="width: 34px;"
+    >
+          <span class="video-thumb  yt-thumb yt-thumb-34 g-hovercard"
+        data-ytid="UC20vb-R_px4CguHzzBPhoyQ"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img data-thumb="https://lh3.googleusercontent.com/-NzI5Ni67ppc/AAAAAAAAAAI/AAAAAAAAAAA/7wGQowTOWWg/s88-c-k-no/photo.jpg" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="EminemVEVO" width="34" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+    </div>
+    <div class="yt-lockup-content">
+        <h3 class="yt-lockup-title">
+    <span class="qualified-channel-title ellipsized has-badge" ><span class="qualified-channel-title-wrapper  g-hovercard"data-ytid="UC20vb-R_px4CguHzzBPhoyQ">  <span class="qualified-channel-title-text">
+      EminemVEVO
+  </span>
+</span>      <span class="qualified-channel-title-badge">
+<img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="yt-uix-tooltip yt-channel-title-icon-verified" alt="" title="Verified name">  </span>
+
+</span>
+  </h3>
+  <div class="yt-lockup-meta">
+      <span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" aria-busy="false" aria-live="polite" data-sessionlink="ei=DuvDUq2RMaut8gHimoDYDw&amp;ved=CDEQmysoAg" data-channel-external-id="UC20vb-R_px4CguHzzBPhoyQ" data-ypc-item-type="U" data-ypc-item-id="UC20vb-R_px4CguHzzBPhoyQ" data-ypc-offers-url="/offer_details_ajax?it=U&amp;ii=UC20vb-R_px4CguHzzBPhoyQ" data-style-type="unbranded" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span>
+  </div>
+
+    </div>
+    
+  </a>
+
+
+  </li>
+
+  </ul>
+
+    </div>
+
+
+
+          </div>
+      </div>
+    </div>
+  </div>
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="YouTube home"><img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube home"></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+          
+  <button type="button" id="yt-picker-language-button" onclick=";return false;" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true" data-picker-key="language" data-picker-position="footer" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-footer-language" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Language:
+  </span>
+  English
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button type="button" id="yt-picker-country-button" onclick=";return false;" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true" data-picker-key="country" data-picker-position="footer" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Country:
+  </span>
+  Canada
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button type="button" id="yt-picker-safetymode-button" onclick=";return false;" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" data-button-menu-id="arrow-display" data-button-action="yt.www.picker.load" data-button-toggle="true" data-picker-key="safetymode" data-picker-position="footer" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Safety:
+  </span>
+Off
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+  </ul>
+  <button onclick=";return false;" data-ghelp-anchor="google-help" class="yt-uix-button-reverse yt-google-help-link yt-uix-button yt-uix-button-default yt-uix-button-size-default" type="button" id="google-help"  role="button"><span class="yt-uix-button-content">  <img class="questionmark" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+  <span>Help</span>
+    <img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+ </span></button>
+      <div id="yt-picker-language-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/">About</a></li>
+  <li><a href="//www.youtube.com/yt/press/">Press &amp; Blogs</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">Creators &amp; Partners</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">Advertising</a></li>
+  <li><a href="//www.youtube.com/yt/dev/">Developers</a></li>
+  <li><a href="https://plus.google.com/+youtube">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Terms</a></li>
+  <li><a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/">
+Policy &amp; Safety
+  </a></li>
+  <li><a href="//www.google.com/tools/feedback/intl/en/error.html" onclick="return yt.www.feedback.start(59);" class="reportbug">Send feedback</a></li>
+  <li><a href="/testtube">Try something new!</a></li>
+  <li>  <span class="copyright" dir="ltr">&copy; 2014 YouTube, LLC</span>
+</li>
+</ul></div></div></div>
+        <div class="yt-dialog hid" id="create-channel-identity-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+            <div class="yt-dialog-header">
+                  <button type="button" class="  yt-dialog-dismiss yt-dialog-close yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick=";return false;" data-action="close" role="button"><span class="yt-uix-button-content">Close </span></button>
+
+                <h2 class="yt-dialog-title">
+                        __title__
+
+
+                </h2>
+            </div>
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="create-channel-identity-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="yt-dialog hid" id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="shared-addto-menu" style="display: none;" class="hid lightweight-panel">
+      <div class="addto-menu">
+        <div id="addto-list-panel" class="menu-panel active-panel">
+        <div class="playlists">
+      <ul>
+      </ul>
+    </div>
+      <span class="lightweight-message"><a href="/create_channel?upsell=playlist">Create a channel</a> to add this to a playlist
+</span>
+
+  </div>
+  <div id="addto-list-saving-panel" class="menu-panel">
+    <div class="addto-loading loading-content">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+        Loading playlists...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="addto-list-error-panel" class="menu-panel">
+    <div class="panel-content">
+      <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+      <span class="error-details"></span>
+      <a class="show-menu-link">Back</a>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+<script>if (window.ytcsi) {window.ytcsi.tick("hr", null, '');}</script><script>var ytspf = ytspf || {};ytspf.enabled = false;</script>  <script id="js-3395904476" class="spf" src="//s.ytimg.com/yts/jsbin/spf-vfloWhycd.js" data-loaded="true"></script>
+  <script id="js-3698437330" class="www_base_mod" src="//s.ytimg.com/yts/jsbin/www-vfltBaFhL/www_base_mod.js" data-loaded="true"></script>
+<script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>    <script>
+  </script>
+
+
+
+  <script>
+        yt.setAjaxToken('feed_ajax', "Hji8LYrY7-BDk6l8lLar4PEeSY58MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+  yt.setAjaxToken('feed_change_ajax', "NVhS8hjaDTIH-zzrGgAVVQVHLeF8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+
+      yt.setConfig({
+        'MASTHEAD_ENCRYPTED_ID': "bAq6plyU4UM",
+        'MASTHEAD_IS_BRANDED': true
+      });
+
+
+
+
+
+    yt.setConfig('JS_PAGE_MODULES', {
+      "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_feed_mod.js": []
+    });
+    yt.setConfig('DISMISS_THROUGH_IT', true);
+  </script>
+
+
+  <script>
+      yt.setAjaxToken('guide_ajax', "1vf__6wyyEqckyrnEflZuGDbM0l8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+      yt.setAjaxToken('guide_channels_ajax', "8A1shNPi9WckJXkpGuc0dxlmczh8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+      yt.setAjaxToken('subscription_ajax', "LrqVJ4ke8jrKpXrl-e-cXFv8Fvt8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+      yt.setAjaxToken('promo_ajax_token', "CrTc3Iwm8dmDou3B9GxDk-f_86R8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+      yt.setConfig({
+        'GUIDE_SELECTED_ITEM': "0qDduQEREg9GRXdoYXRfdG9fd2F0Y2g%3D"
+      });
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+<script>yt.setConfig({'EVENT_ID': "DuvDUq2RMaut8gHimoDYDw",'PAGE_NAME': "index",'LOGGED_IN': true,'SESSION_INDEX': 0,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.5GL3tg_C6Nc.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPfsfz-ifAZeiHMk7mKfiGQJuhVFw",'GAPI_LOCALE': "en_US",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vfl2mrQyf.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl6BqFHU.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js",''         ],'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "amPms": ["AM", "PM"], "shortWeekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "formatLongDate": "MMMM d, yyyy h:mm a", "formatWeekdayShortTime": "EE h:mm a", "formatShortDate": "MMM d, yyyy", "formatLongDateOnly": "MMMM d, yyyy"},'PAGE_CL': 58452362,'PAGE_BUILD_TIMESTAMP': "Thu Dec 19 02:54:48 2013 (1387450488)",'UNIVERSAL_HOVERCARDS': true,'SANDBAR_ENABLED': true,'SANDBAR_LOCALE': "en-US",'FEEDBACK_BUCKET_ID': "Home",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"guide_subs": "NA", "accept_language": "en-us", "is_branded": false, "logged_in": true, "experiments": "931941,913432,919365,929209,919815,922920,942418,927303,909717,929150,925728,936327,906945,906948,927704,920605,912715,919811,935704,931943,921410,920607,936702,911427,922804,913431,931207,929505,901812,932256,932276,932295,919389,934003,934004,938614,938617,938626,936912,936910,923305,936913,936914,939201,941241,934507,907231,907240,939918,921090,906001", "is_partner": false}});yt.setMsg({'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error"});    yt.setAjaxToken('subscription_ajax', "LrqVJ4ke8jrKpXrl-e-cXFv8Fvt8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+yt.setAjaxToken('addto_ajax', "pKpZNA4RGcYBraNmCWVKGayhmXt8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");yt.setAjaxToken('playlist_bar_ajax', "bs1aRe3yy2YLy9Cteo1FYni4qst8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");yt.setAjaxToken('watch_fragments_ajax', "AQPim6PWHZzIKRuTGj-xkji3tzR8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");  yt.setConfig('CREATE_CHANNEL_JS_URL', "\/\/s.ytimg.com\/yts\/jsbin\/www-createchanneldialog-vflJyoy8Q.js");
+  yt.setConfig('CREATE_CHANNEL_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-createchannel-vfloKN25L.css");
+  yt.setMsg({
+      'CREATE_CHANNEL_AJAX_ERROR_MSG': "An error has occurred while sending data over the network.",
+      'CREATE_CHANNEL_NO_USERNAME_MSG': "Please enter a username"
+  });
+  yt.setConfig({
+      'CREATE_CHANNEL_NEXT_URL_UPLOAD': "\/upload",
+      'CREATE_CHANNEL_NEXT_URL_GUIDE': "\/feed\/?feature=guide",
+      'CREATE_CHANNEL_DIALOG_TITLE_UPLOAD_USERNAME': "Upload your first video",
+      'CREATE_CHANNEL_DIALOG_TITLE_PLAYLIST_USERNAME': "Create your first playlist",
+      'CREATE_CHANNEL_DIALOG_TITLE_COMMENT_USERNAME': "Leave your first comment",
+      'CREATE_CHANNEL_DIALOG_TITLE_DEFAULT_USERNAME': "Create your YouTube channel",
+      'CREATE_CHANNEL_DIALOG_TITLE_UPLOAD_PROFILE': "Upload as...",
+      'CREATE_CHANNEL_DIALOG_TITLE_PLAYLIST_PROFILE': "Create playlist for...",
+      'CREATE_CHANNEL_DIALOG_TITLE_COMMENT_PROFILE': "Comment as...",
+      'CREATE_CHANNEL_DIALOG_TITLE_DEFAULT_PROFILE': "Use YouTube as...",
+  });
+  yt.setConfig('HL_LOCALE', "en-US");
+
+  yt.setMsg({
+    'USERNAME_AVAILABLE': "Username available!",
+    'USERNAME_TAKEN': "Username unavailable",
+    'USERNAME_TAKEN_SUGGEST': "Sorry, $username was taken. The following usernames are available:",
+    'USERNAME_INVALID': "Username invalid"
+  });
+
+  yt.setAjaxToken('create_channel_ajax', "Rc3Hd_deJrVSOp_aiNXGOMISwLd8MTM4ODU3NTAwN0AxMzg4NTcxNDA3");
+  if (yt.www && yt.www.account) {
+    yt.pubsub.subscribe('init', yt.www.account.CreateChannelLoader.init);
+  } else {
+    yt.setConfig('CREATE_CHANNEL_LIGHTBOX', true);
+  }
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflIiktxn.css");
+  yt.setAjaxToken('feed_privacy_ajax', "sbKtPyfZBiWtye4s8_jzioC1dAZ8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+  if (yt.www && yt.www.account) {
+    yt.pubsub.subscribe('init', yt.www.account.FeedPrivacyDialog.init);
+  } else {
+    yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+  }
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl1WGi8-.js",'SBOX_SETTINGS': {"USE_HTTPS": true, "REQUEST_LANGUAGE": "en", "REQUEST_DOMAIN": "ca", "SESSION_INDEX": 0, "EXPERIMENT_ID": -1, "PSUGGEST_TOKEN": "YRxZXCC-eSmLKstuENVZxw", "HAS_ON_SCREEN_KEYBOARD": false},'SBOX_LABELS': {"WATCH_NOW_LABEL": "Watch now", "VIEW_CHANNEL_LABEL": "View channel", "SUGGESTION_DISMISS_LABEL": "Dismiss", "SUGGESTION_DISMISSED_LABEL": "Suggestion dismissed"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vfl2d1W-e.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfldrpIdw.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init']
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "homepage");
+</script>    <script>
+ytcsi.span('st', 287);yt.setConfig({'TIMING_ACTION': "gli",'TIMING_INFO': {"ei": "DuvDUq2RMaut8gHimoDYDw", "e": "931941,913432,919365,929209,919815,922920,942418", "yt_lt": "cold", "yt_li": 1, "yt_spf": 0}});    </script>
+<script>yt.setConfig({'XSRF_TOKEN': "UJq-SGMMwRYxnSF2LgoOCA0JnOF8MTM4ODY1NzgwNkAxMzg4NTcxNDA2",'XSRF_REDIRECT_TOKEN': "rREyTwAgxIfs-gMEt7ju3ETGq7h8MTM4ODY1NzgwN0AxMzg4NTcxNDA3",'XSRF_FIELD_NAME': "session_token"});</script><script>yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 300);</script><script>if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>  <div id="debug"></div>
+</body></html>
+

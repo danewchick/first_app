@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>parttype</key>
+		<string>stream-metadata-begin</string>
+
+		<key>ctag</key>
+		<string>FT=-@RU=6b53cd6b-4c93-4d62-a4e0-fe342e1c91cc@S=1627</string>
+
+		<key>streamid</key>
+		<string>1752986267</string>
+
+		<key>devices</key>
+		<array>
+		</array>
+
+	</dict>
+</plist>

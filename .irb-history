@@ -1,0 +1,100 @@
+city3=city3.new (Montreal,1621 million)
+puts "City1.new # {name} , City2.new {name} & City3.new, are cities located in, Country.new # {name}"
+exigt
+puts "City1.new # {name} , City2.new #{name} & City3.new #{name}, are cities located in, Country.new # {name}!"
+puts "City1.new # {name} , City2.new #{name} & City3.new #{name}, are cities located in, Country.new # {name}"!
+print
+puts
+class City
+attr_accessor :name
+def initalize (name)
+class City1 < City
+"Toronto"
+class City2 < City
+"Calgary"
+class City3 < City
+def city
+"Montreal"
+class Country<City
+def country
+"Canada"
+cities = [City1.new,City2.new,City.3]
+country = [Country.new]
+puts "City1.new{@name}, City2.new {@name}, and City3.new{@name} are cities located in #{@country}!"
+class City<Country
+country1=Country.new ("Toronto" "Canada")
+country2=Country.new ("Madrid","Spain")
+country3=Country.new ("Venice","Italy")
+country1.description
+country2.description
+country3.description
+def initalize (city,country)
+puts "#{@city} is located in #{@country}!"
+def initialize (continent,language)
+puts "{@language} is spoken in the #{@continent}!"
+exit
+canada=Country.new ("Toronto" "Canada")
+canada=Country.new ("Toronto","English","Canada")
+spain=Country.new ("Madrid","Spanish","Spain")
+italy=Country.new ("Venice","Italian","Italy")
+irb
+def description
+def description 
+canada=Country.new ("Toronto","Canada")
+spain=Country.new ("Madrid","Spain")
+italy=Country.new ("Venice","Italy")
+languages=Language.new {italian,spanish,english}
+canada.description
+spain.description
+italy.description
+class Country
+def initalize (city,country,continent,language)
+@city = city
+@country = country
+@continent = continent
+def method1
+class Language<Country
+@city=city
+@country=country
+@continent= continent
+@language = language
+def method2
+puts "#{@city} is located in #{@country}, the language spoken there is #{@language} & it is located in continent of #{@continent}!"
+first_country=Country.new ("Toronto",+"English"+"Canada")
+second_country=Country.new ("Madrid",+"Spanish"+"Spain")
+third_country=Country.new ("Venice",+"Italian"+"Italy")
+canada.method1
+spain.method1
+italy.method1
+2+10
+7.times do print "MMM bacon!" end
+print bucky
+print "bucky"
+print "hello people of youtube"
+4+9
+32-14
+4*6
+9/3
+13/4
+x = 15
+x + 10
+y = 69
+y + 20
+1.upto(100) do |i|
+if i % 5 == 0 and i % 3 == 0
+        puts "FizzBuzz"
+elsif i % 5 == 0
+        puts "Buzz"
+elsif i % 3 == 0
+        puts "Fizz"
+else
+        puts i
+end
+(1..100).each{|i|
+      x = ''
+      x += 'Fizz' if i%3==0
+      x += 'Buzz' if i%5==0
+      puts(x.empty? ? i : x);
+    }
+cp contrib/completion/git-completion.bash~
+mate ~ /bash.rb

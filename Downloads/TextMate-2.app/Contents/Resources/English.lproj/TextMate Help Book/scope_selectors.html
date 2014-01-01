@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Scope Selectors</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="language_grammars.html">Language Grammars</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="themes.html">Themes</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="scope_selectors">13</a> Scope Selectors</h1>
+
+<p>A <em>scope selector</em> is a pattern much like a CSS selector which is matched against the scope of the caret (i.e. current context) and the outcome is either a match or a non-match (see also: ranking matches further down).</p>
+
+<p><img src='images/scope_selector.png' width="307" height="56" alt="Scope Selector" title=""></p>
+
+<p>This allows the <a href="bundles#activation_of_bundle_items.html">activation method</a> of a bundle item to be limited to contexts like “inside a comment” or “in an HTML document”. The advantage of this is that it allows a tab trigger like <code>for</code> to be re-used in different languages and works smoothly for mixed documents like HTML which can have embedded CSS, PHP, Ruby and JavaScript.</p>
+
+<p>Scope selectors are also used with <a href="preferences_items.html">preference items</a> and <a href="themes.html">themes</a>. In the latter case they are used to style elements of a document and in the former case to adjust various aspects of editing etc. on a granular basis.</p>
+
+<h2><a name="element_names">13.1</a> Element Names</h2>
+
+<p>Generally a document consists of many different elements. A prose document may contain headings, paragraphs, bullet lists, emphasized text where source code will often contain strings, comments, keywords, storage types etc.</p>
+
+<p>In TextMate the <a href="language_grammars.html">language grammars</a> will match these elements and assign a name to each. This name should be dot separated with each additional part specializing the kind of element matched. For example a double-quoted string in C will get <code>string.quoted.double.c</code> assigned as its scope name (see <a href="language_grammars#naming_conventions.html">naming conventions</a> for more info).</p>
+
+<p>A scope selector in its simplest form is an element name to match, but it only needs to specify a prefix of the actual element name. So if we specify <code>string</code> as our scope selector it will also match all quoted strings. Likewise if we specify <code>string.quoted</code> it will match single, double and triple quoted strings.</p>
+
+<p>An empty scope selector will match all scopes but with the lowest possible rank (see <a href="scope_selectors#ranking_matches.html">ranking matches</a> later).</p>
+
+<h2><a name="descendant_selectors">13.2</a> Descendant Selectors</h2>
+
+<p>As with CSS, it is possible to use the context of an element in the scope selector. The picture below shows the scope for the string as a tool tip (via &#x2303;&#x21E7;P). The direct parent of the string is <code>source.php.embedded.html</code> and  <code>text.html.basic</code> is an ancestor.</p>
+
+<p><img src='images/show_scope.png' width="296" height="110" alt="Show Scope" title=""></p>
+
+<p>In the scope selector we specify element names as a space separated list to indicate that each element should be present in the scope (and in the same order). So if we want to target all strings in PHP, we can use <code>source.php string</code>, or we can use <code>text.html source.php</code> to target PHP embedded in HTML.</p>
+
+<h2><a name="excluding_elements">13.3</a> Excluding Elements</h2>
+
+<p>There are situations where we want to match a subset of a document but exclude particular subsets of this subset.</p>
+
+<p>For example in Ruby it is possible to embed code in strings using <code>#{…}</code>, so a nice snippet would be to insert that when pressing <code>#</code> inside of a string. The scope selector for that would be: <code>source.ruby string</code>.</p>
+
+<p>This unfortunately means that even inside code (embedded in strings) <code>#</code> will insert <code>#{…}</code>. To avoid this, we can subtract scope selectors to get the (asymmetric) difference using the minus operator. So a better scope selector for our snippet would be <code>source.ruby string - string source</code>.</p>
+
+<p>Below is an illustration of what that scope selector would target.</p>
+
+<pre><code>puts "Today is #{Date.today}."
+     ^^^^^^^^^^             ^^
+</code></pre>
+
+<h2><a name="grouping">13.4</a> Grouping</h2>
+
+<p>When we want something to match several distinct scopes, we can group scope selectors with the comma operator. For example to match both strings and comments the scope selector would be: <code>string, comment</code>.</p>
+
+<h2><a name="ranking_matches">13.5</a> Ranking Matches</h2>
+
+<p>If more than one scope selector matches the current scope then they are ranked according to how “good” a match they each are.</p>
+
+<p>The winner is the scope selector which (in order of precedence):</p>
+
+<ol>
+<li><p>Match the element deepest down in the scope e.g. <code>string</code> wins over <code>source.php</code> when the scope is <code>source.php string.quoted</code>.</p></li>
+<li><p>Match most of the deepest element e.g. <code>string.quoted</code> wins over <code>string</code>.</p></li>
+<li><p>Rules 1 and 2 applied again to the scope selector when removing the deepest element (in the case of a tie), e.g. <code>text source string</code> wins over <code>source string</code>.</p></li>
+</ol>
+
+<p>In the case of tab triggers, key equivalents and dropped files (<a href="drag_commands.html">drag commands</a>), a menu is presented for the best matches when these are identical in rank (which would mean the scope selector in that case was identical).</p>
+
+<p>For themes and preference items, the winner is undefined when multiple items use the same scope selector, though this is on a per-property basis. So for example if one theme item sets the background to blue for <code>string.quoted</code> and another theme item sets the foreground to white, again for <code>string.quoted</code>, the result would be that the foreground was taken from the latter item and background from the former.</p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="language_grammars.html">Language Grammars</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="themes.html">Themes</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

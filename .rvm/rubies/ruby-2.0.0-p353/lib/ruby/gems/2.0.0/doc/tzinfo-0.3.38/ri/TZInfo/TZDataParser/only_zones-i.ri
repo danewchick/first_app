@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"only_zones:ETI"$TZInfo::TZDataParser#only_zones;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"ILimit the set of zones to generate (set to an array containing zone ;TI"identifiers).;T:
+@fileI"lib/tzinfo/tzdataparser.rb;T:0@omit_headings_from_table_of_contents_below0F@I"TZInfo::TZDataParser;FcRDoc::NormalClass0

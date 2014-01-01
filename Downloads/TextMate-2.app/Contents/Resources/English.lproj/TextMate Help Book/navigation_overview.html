@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Navigation / Overview</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="working_with_multiple_files.html">Working With Multiple Files</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="working_with_text.html">Working With Text</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="navigation_overview">3</a> Navigation / Overview</h1>
+
+<h2><a name="bookmarks">3.1</a> Bookmarks</h2>
+
+<p>If you need to move the caret to somewhere else in your document and want a quick way to return, you can place a bookmark on the current line.</p>
+
+<p>This is done either by clicking in the gutter (in the column dedicated to bookmarks) or pressing &#x2318;F2. The bookmark will be indicated with a star as shown below.</p>
+
+<p><img src='images/bookmark.png' width="99" height="136" alt="Bookmark" title=""></p>
+
+<p>When you want to return you can press F2, which moves you to the next bookmark in the document. If there is more than one bookmark, you can press F2 repeatedly. &#x21E7;F2 will move to previous bookmark.</p>
+
+<h2><a name="collapsing_text_blocks_foldings">3.2</a> Collapsing Text Blocks (Foldings)</h2>
+
+<p>When working in a language which has start/end markers for blocks, like <code>{</code> … <code>}</code>, <code>do</code> … <code>end</code>, <code>&lt;tag&gt;</code> … <code>&lt;/tag&gt;</code> and similar, TextMate can spot these blocks and will show up/down arrows in the gutter beside the start/end marker.</p>
+
+<p>When these arrows are present, it is possible to fold the block into a single line either by using the mouse and clicking on the up/down arrow, or pressing the F1 key. This will make the arrow in the gutter point to the right and indicate that the entire block was folded by placing an ellipsis marker at the end of the line. An example where the two sub-blocks of the constructor has been folded can be seen below.</p>
+
+<p><img src='images/folded_blocks.png' width="478" height="136" alt="Folded Blocks" title=""></p>
+
+<p>With text folded, it is possible to unfold it with F1 or clicking either the arrow in the gutter or the ellipsis image. It is also possible to hover the mouse pointer on the ellipsis image to get a tool tip which shows the contents of the folded block. The latter is shown on the following picture.</p>
+
+<p><img src='images/folding_tool_tip.png' width="291" height="155" alt="Folding Tool Tip" title=""></p>
+
+<p><em>A word of caution: the folding system is based on both having clear indent markers <strong>and</strong> having the fold start/stop markers use the same indent level. This means that folding based purely on indent or where the start/stop markers do not align, is currently not supported.</em></p>
+
+<h3><a name="customizing_foldings">3.2.1</a> Customizing Foldings</h3>
+
+<p>As mentioned the folding system uses explicitly defined start and stop markers. TextMate knows about these from the <a href="language_grammars.html">language grammar</a> where you can setup a <code>foldingStartMarker</code> and <code>foldingStopMarker</code> regular expression.</p>
+
+<p><img src='images/folding_patterns.png' width="381" height="186" alt="Folding Patterns" title=""></p>
+
+<p>Shown above are the HTML folding patterns, which are all relatively simple because they fold on a selected set of tag pairs, HTML comments, some Smarty tags and start/stop braces when either last on the line or used in embedded code tags like this:</p>
+
+<pre><code>&lt;?php if(something) { // user is authenticated ?&gt;
+
+   ...
+
+&lt;?php } // user is authenticated ?&gt;
+</code></pre>
+
+<p>To define a block that starts with <code>{</code> as the last non-space character on the line and stops with <code>}</code> as the first non-space character on the line, we can use the following patterns:</p>
+
+<pre><code>foldingStartMarker = '\{\s*$';
+foldingStopMarker = '^\s*\}';
+</code></pre>
+
+<h2><a name="function_pop-up">3.3</a> Function Pop-up</h2>
+
+<p>For languages that support it, the rightmost pop-up in the status bar shows the current “symbol” (often the function prototype or heading above the caret).</p>
+
+<p><img src='images/status_bar.png' width="421" height="13" alt="Status Bar" title=""></p>
+
+<p>It is possible to click on the pop-up to get a list of all the symbols in the current document and move the caret to one of these. This is shown below.</p>
+
+<p><img src='images/function_pop_up.png' width="153" height="94" alt="Function Pop Up" title=""></p>
+
+<p>For keyboard navigation there is also Navigation &#x2192; Go to Symbol… (&#x21E7;&#x2318;T) which opens a panel like the one shown below. The contents of this pane are the same as the pop-up from the status bar but this panel supports filtering similar to the <a href="working_with_multiple_files#moving_between_files_with_grace.html">Go to File… panel</a> (i.e. where the filter string is treated as an abbreviation and matches are ranked according to how good a fit the abbreviation seems to be).</p>
+
+<p><img src='images/symbol_list.png' width="171" height="270" alt="Symbol List" title=""></p>
+
+<p>The panel can be left open and will automatically update as the document is edited. If you single-click an item in the list, the caret will move to the symbol clicked. Double-clicking will do the same but also closes the panel.</p>
+
+<h3><a name="customizing_the_list">3.3.1</a> Customizing the List</h3>
+
+<p>The symbol list works using <a href="language_grammars.html">language grammars</a> and <a href="scope_selectors.html">scope selectors</a>. A language grammar assigns names to each element in the document and a scope selector is capable of targeting a subset of the document based on these names. Normally the parallel is HTML and CSS, e.g. we can make a <a href="themes.html">theme item</a> which sets the background to blue and then use the scope selector to pick which elements in our document we want this theme (and hence the blue background) applied to.</p>
+
+<p><a href="preferences_items.html">Bundle preferences</a> work like theme items, except that instead of changing visual settings they (generally) change non-visual settings. One exception is the <code>showInSymbolList</code>. By setting this to <code>1</code> and using a scope selector which (for example) targets all function names, we are using that scope selector as a query to extract all the function names from the document, for use in the symbol list.</p>
+
+<p>So to populate the symbol list we need to:</p>
+
+<ol>
+<li><p>Make sure the language grammar assigns a name to what we want to show.</p></li>
+<li><p>Create a bundle preferences item that sets <code>showInSymbolList</code> to <code>1</code> and uses a scope selector that matches the symbols we want to have in the symbol list.</p></li>
+</ol>
+
+<p>In addition to the <code>showInSymbolList</code> setting there is a <code>symbolTransformation</code> setting which is one or more regular expression substitutions which are performed on the text extracted. The value of this setting should be: <code>s/«regexp»/«format»/«options»</code> optionally followed by <code>;</code> and more substitutions. It is also possible to put comments in the value, these start with <code>#</code> and end at the next newline.</p>
+
+<p>So if we want to show Markdown headings in the list, which are lines that start with one or more <code>#</code> marks, then we first make sure our <a href="language_grammars.html">language grammar</a> assigns a name to these, for Markdown that can be identified with this rule, by specifying the following in the language grammar:</p>
+
+<pre><code>{  name = 'markup.heading.markdown';
+   match = '^#{1,9}\s*(.*)$';
+},
+</code></pre>
+
+<p>Now we can target all headings using a scope selector of <code>markup.heading.markdown</code>. We can now create a bundle preferences item that is simply:</p>
+
+<pre><code>{  showInSymbolList = 1;   }
+</code></pre>
+
+<p>This will include the leading <code>#</code> marks in the list, which is undesirable. We can either assign a name (via the language grammar) to the actual title, or we can perform a regular expression substitution to get rid of the leading <code>#</code> marks. The latter has the advantage that we can change these to indent, so that is what we do, by changing the preferences item to:</p>
+
+<pre><code>{  showInSymbolList = 1;
+   symbolTransformation = '
+      s/(?&lt;=#)#/ /g;          # change all but first # to m-space
+      s/^#( *)\s+(.*)/$1$2/;  # strip first # and space before title
+   ';
+}
+</code></pre>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="working_with_multiple_files.html">Working With Multiple Files</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="working_with_text.html">Working With Text</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

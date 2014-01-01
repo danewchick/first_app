@@ -1,0 +1,897 @@
+[2012-07-11: REVISION 1635]
+
+[NEW] TextMate is now signed with an Apple issued developer ID (for Gatekeeper compatibility).
+
+[2011-03-14: REVISION 1631]
+
+[FIXED] Some bundle menu items would be unnecessarily truncated.
+
+[FIXED] TextMate would refuse to start due to process ID conflicts (generally after a reboot where TextMate hadn’t been allowed to do a graceful shutdown).
+
+[FIXED] With smooth scroll enabled (System Preferences → Appearance) and the caret outside the visible area, making caret visible would generally not work. The fix has been to disable smooth scroll.
+
+[CHANGED] When opening a file and multiple project windows include this file, TextMate will use the frontmost.
+
+[FIXED] Find in Project: A regular expression matching last newline of a document would cause no results to be shown. Ticket 11066EA4.
+
+[CHANGED] Disable auxiliary panel in print dialog. This is causing exceptions in rare situations. It may return when I figure out why the printing system is sending bogus selectors to the application object.
+
+[NEW] Drawer font can be changed via defaults (Terminal), e.g.: defaults write com.macromates.textmate OakProjectDrawerFontSize -int 15
+
+[2010-11-18: REVISION 1623]
+
+[FIXED] Java bundle’s Compile & Run again works with non-ASCII source code.
+
+[FIXED] Include latest Ruby on Rails bundle.
+
+[FIXED] Avoid using fcntl(F_SETOWN) when Interactive Input is not present. Ticket F66289D9.
+
+[NEW] It is possible to set DisableColumnSelectionTogglingOnOption (via defaults write) to disable ⌥ behavior. Ticket 5C202273.
+
+[FIXED] Workaround for stale dead key info related to French keymap and ^.
+
+[FIXED] Shift left again works on ⌥⇧⇥. Ticket 9E09E055.
+
+[FIXED] The old tab switching keys can now be used. Only the new ones are in the menu and these have been changed to remove the shift modifier and instead require a press of { and }. This is to provide better compatibility with layouts where the brackets themselves require using shift. Ticket 395A4706.
+
+[2010-11-13: REVISION 1616]
+
+[CHANGED] Disable interactive input support as this is unfortunately causing too many problems on Snow Leopard. Ticket 75950BCB.
+
+[NEW] Set DisableClipboardPrecomposing to 1 to disable the precomposing introduced in r1589.
+
+[NEW] Included Make bundle among the default bundles.
+
+[FIXED] Solved problem with broken application after software update. Ticket D8B9A720.
+
+[FIXED] Correct the CSS link in the printable version of the manual.
+
+[CHANGED] Change next/previous file tab key equivalents to shift command [ and ]. This has become the de facto standard.
+
+[FIXED] Improve key event deciphering when running on 10.5 or newer. This should fix problems with the Qwerty / Dvorak hybrid.
+
+[FIXED] On Snow Leopard TextMate should no longer lose last used folder for Save As. Ticket FEE58154.
+
+[FIXED] Truncate really long menu item titles. Ticket 8BBEF40A.
+
+[FIXED] Add missing CFBundleIdentifier which was lost in last update. Ticket F970873A.
+
+[CHANGED] Update use of selectRow:byExtendingSelection: to avoid deprecation warning in console.
+
+[FIXED] Don’t use undocumented API for save panels. Ticket 45963BCA.
+
+[2009-11-23: REVISION 1589]
+
+[CHANGED] OakDocumentDisableFSMetaData can now be an array of file systems for which the use of extended attributes should be disabled.
+
+[FIXED] Out-of-bounds array access when running mate in a non-GUI context (sudo/ssh) on Snow Leopard — ticket B334CC8C.
+
+[CHANGED] Decomposed characters (letter + accent as separate code point) inserted via paste are converted to the pre-composed form (if possible).
+
+[FIXED] Software update checking will use system proxy.
+
+[FIXED] Dictionary (⌃⌘D) should now work on Snow Leopard — ticket 00037FBA.
+
+[CHANGED] No longer report (in Console) if we skip a second instance of a plug-in during startup. Some users may have interpreted this as an error message.
+
+[CHANGED] Commands (without shebang) no longer source the default shell startup files. This means that nothing in TextMate will use the value of PATH setup in ~/.profile or similar (and on the plus side, nothing in your shell startup files will trip TextMate).
+
+[NEW] A default PATH variable is now present in Preferences → Advanced → Shell Variables. This is to make it easier for users to append their custom paths to the system default.
+
+[CHANGED] Remove key equivalents from the action menu in the drawer (these haven’t worked for a while).
+
+[FIXED] Update ‘Automation’ (menu) reference in dialog.
+
+[2009-11-09: REVISION 1512]
+
+[FIXED] Interactive input should work again.
+
+[FIXED] Should fix two crashes, one related to HTML output and mouse movement.
+
+[2009-08-29: REVISION 1509]
+
+[FIXED] Remove “interactive input” dylib (as it fails with Snow Leopard) — ticket FAB08510.
+
+[FIXED] Add local key bindings for command + arrows (as there are no defaults in Snow Leopard) - ticket 0FDE7076.
+
+[FIXED] Random crash from WebKit when re-running commands - ticket C754B8FF.
+
+[2009-06-21: REVISION 1505]
+
+[INFO] Snow Leopard users see: http://ticket.macromates.com/show?ticket_id=0FDE7076 for command-left/right workaround.
+
+[FIXED] TextMate.app_path (ruby API) should now work on Tiger, same with Dialog 2.
+
+[FIXED] Change some code to avoid deprecation warnings in Console.
+
+[CHANGED] It is now possible to toggle file type (binary/text) for files without extension (the setting applies to files of same name).
+
+[FIXED] No more modal requesters in applicationDidFinishLaunching: - ticket AD00D29F.
+
+[CHANGED] Line heights are obtained via NSFont instead of ATSUI. There are now the following (hidden/expert) preferences to control font metrics: OakLineHeightDelta and OakBaselineDelta.
+
+[CHANGED] Edit → Spelling → Spelling… has been changed to a Show/Hide Spelling and Grammar action - ticket E4479BEC.
+
+[FIXED] Version checks should now work on Snow Leopard.
+
+[CHANGED] Ruby bundle: Comments are no longer accepted for identifying the embedded language in Ruby heredocs.  Add the language type to the end of your heredoc token instead.  For example:  <<-SHELL, <<-FIND_USER_SQL, <<-FOOTER_HTML. (James Edward Gray II)
+
+[FIXED] Support/lib/tm/executor.rb: Fix the previously broken mechanism for killing the child process in Executor.  With the HTML output window active, you can kill the currently running program with ⌃C.  As usual, this works in *any* Executor-based command. (Alex Ross)
+
+[NEW] PHP bundle: Snippets can now be configured to use short tags, see the bundle help for details. (Ciarán Walsh)
+
+[2009-02-10: REVISION 1498]
+
+[NEW] Starting with 10.4.11, commands with HTML output can link directly to local files using the file: schema instead of having to go though tm-file:.
+
+[NEW] TextMate bundles and support libraries are for the most part now compatible with Ruby 1.9 (we still consider the support work in progress). Thanks to all who submitted patches, especially Dave Thomas.
+
+[CHANGED] The command modifiers are no longer present for disambiguation menu items. See <http://lists.macromates.com/textmate/2008-December/027599.html> for details about what this was about.
+
+[2008-11-27: REVISION 1496]
+
+[CHANGED] Makefile bundle: The “Make” bundle's run command is now far more general: No longer scope targeted to makefiles, so it can be invoked from any context. The key equivalent is moved to ⌘B. Set make flags with the environment variable TM_MAKE_FLAGS. Set the target with TM_MAKE_TARGET.  If TM_MAKE_TARGET is unset, the default target is made. (Alex Ross)
+
+[NEW] The "$DIALOG" command now allows showing tooltips, filter-as-you-type popup menus, and more. Documentation will follow shortly (Joachim Mårtensson and Ciarán Walsh).
+
+[NEW] Applescript, C/C++, Groovy, IO, Java, Perl, Python, Ruby, Scheme, and ShellScript: New “Run” commands (⌘R) using Executor (lib). This amongst others allow the program to read from stdin and TextMate will show an input requester plus the program (document) does not need to be saved on disk to be runnable (Luke Daley and Alex Ross).
+
+[CHANGED] The bundle item disambiguation menu now require the command key to be used with the number shortcuts assigned to the 10 first items.
+
+[FIXED] Crash when dragging empty line, ticket 1BA26429.
+
+[NEW] On launch, TextMate reclaims the txmt URL scheme. If you do not want that, set DisableURLScheme to 1 via defaults.
+
+[NEW] When setting TM_SUPPORT_PATH TextMate will also look in Pristine Copy.
+
+[INFO] Bundles repository has moved to http://svn.textmate.org/trunk/ -- see <http://lists.macromates.com/textmate/2008-October/027271.html> for how to relocate existing checkout.
+
+[NEW] Themes: New style “Night” for html output commands.  It's not purple or black! (Alex Ross)
+
+[FIXED] Changed default Spaces behavior for a few more windows (Preferences, Bundle Editor, Web Preview, and Filter Through Command) and filed <rdar://6394883> (http://pastie.textmate.org/321283).
+
+[FIXED] The clipboard history window now ask for “move to active space” collection behavior. Ticket 6EF41179.
+
+[FIXED] The Go to Line panel now ask for “move to active space” collection behavior. Ticket D20FAD8B.
+
+[FIXED] Setting variables in Preferences → Advanced would not always work (when that variable was already set in the environment inherited by TextMate).
+
+[2008-04-13: REVISION 1466]
+
+[NEW] Nu bundle: Added a bundle for the Nu programming language (http://programming.nu/). (Michael Sheets)
+
+[FIXED] Support/script/sortable.js: TODO List now sorts the File column correctly. Ticket 58A42748 (Stanley Rost)
+
+[NEW] Holding down the option modifier key while opening special files such as TextMate bundles, themes, project files, or similar will bypass the normal behavior and instead open the file(s).
+
+[NEW] Holding down the option modifier key while dragging files to the text area inserts the path to the file rather than the content of the file (except when a drag command is setup for the file type in the current scope).
+
+[CHANGED] Edit in TextMate: Improved compatibility with GMail and much more. You need to manually update the installed version by using Bundles → TextMate → Install “Edit in TextMate”… -- see ticket A121DEC3 for full details (Jay Soffian).
+
+[2008-02-09: REVISION 1459]
+
+[CHANGED] File extensions in the included “Bindings.plist” file (which most users would not edit) are now matched against files similar to how language grammars match. That is, it is now possible to have special drawer icons for e.g. “.ssh/config”, “Makefile”, “«something»_spec.rb” or similar.
+
+[NEW] Objective-C bundle: Merged the WIP bundle with trunk, highlights include: 1. Stronger C/C++ syntax highlighting, now differentiates between method definitions and method calls. 2. Added documentation look up for method prototypes, for practical reason they have to be terminated with a ;. 3. Added a completion command for @selector() scope. 4. Added context sensitive completion for constructs like var == Const^ where the LHS is a non-pointer, from the Cocoa Typedefs or a unichar, declared in the method-scope. Also works for [obj message] == Const^ (Joachim Mårtensson)
+
+[FIXED] The Find in Project window shows the same behavior wrt Spaces as the regular Find window.
+
+[2007-12-29: REVISION 1455]
+
+[NEW] JavaScript bundle: Add a Javascript beautifier script, with a shortcut of ⌃Q. (Michael Sheets)
+
+[FIXED] Python bundle: Python New Method/Function now outputs a helpful message when used improperly, instead of barfing a traceback into the document.  ticket AAF8D521 (Jacob Rus)
+
+[FIXED] Initiating a drag, causing the text to be unselected (w/o releasing the mouse) and then holding down option (switching to column mode) would lead to a crash when TM tried to create the drag image -- ticket D893A740
+
+[NEW] On Leopard TextMate asks the system to let the Find window “move to active space”. Unfortunately, after having moved TM to a new space, the window will quite consistently open in a non-active space (without switching to that space). When this happens, press cmd-F again, and the window will then move to the active space.
+
+[FIXED] Menu items in the gear menu use the proper menu size on Leopard -- ticket 563A29E7.
+
+[FIXED] The default template (from New Template / New Template File) now use TM_FULLNAME instead of setting up TM_USERNAME and using that.
+
+[2007-10-26: REVISION 1435]
+
+[FIXED] Python bundle: Python New Method/Function now outputs a helpful message when used improperly, instead of barfing a traceback into the document.  ticket AAF8D521 (Jacob Rus)
+
+[2007-10-19: REVISION 1431]
+
+[NEW] Python bundle: The Python grammar highlights SQL within a regular (not raw or unicode) string if the contents of the string begin with one of SELECT, INSERT, UPDATE, DELETE, CREATE, REPLACE, or ALTER. (Alex Ross)
+
+[CHANGED] PHP bundle: The function⇥ snippet tab trigger has been shortened to fun⇥ (Ciarán Walsh)
+
+[NEW] Ruby bundle: The documentation command now supports fastri.  If you want faster and more accurate documentation for Ruby, just install fastri (sudo gem install fastri) and build the index used by the qri command (fastri-server -b). (James Edward Gray II)
+
+[CHANGED] Python bundle: Added a ‘regular_expressions’ repository rule that just includes ‘source.regexp.python’.  All the various types of ‘r’-strings include the repository rule, so if you want to turn off regular expressions matching for all python raw strings you can set `disabled = 1;` in the regular_expressions repository rule. (Alex Ross)
+
+[CHANGED] Python bundle: Python raw strings prefixed with an uppercase "R" no longer include the regular expression syntax.  Thus, one can "turn off" regular expression syntax highlighting in raw strings by using the capital "R" prefix. (Alex Ross)
+
+[CHANGED] PHP bundle: When function completion is invoked immediately after, or prior to, an underscore, the preceding text will not be shown in the completion list to enable continual typing. E.g. array_⌥⎋ (Ciarán Walsh)
+
+[NEW] HTML bundle: Context Sensitive HTML Attribute Code Completion. Place your caret inside an HTML tag and hit option-escape to show a list of html attributes that are relevant for that tag. Select one to insert it. (Thomas Aylott)
+
+[NEW] PHP bundle: Using php⇥ while inside of a PHP block will now give ?>‸<?php – pressing ↩ will expand it to an indented block (Ciarán Walsh)
+
+[CHANGED] The heuristic used to figure out if self-update needs to be run as administrator is now more conservative as to when we need it.
+
+[FIXED] When using a file name that exceeds PATH_MAX (1024 bytes) in the New File dialog TextMate would (likely) crash (there is still a problem with such long paths, which is really an underlying system issue, but now failure is more graceful) -- ticket 112D6EF4
+
+[NEW] When the symbolic link created to the mate shell command goes bad (i.e. because the user moves TextMate.app) the user will now be prompted about updating the link (at startup) -- ticket 34FF4B3F
+
+[FIXED] The Find dialog was using an NSTokenField instead of a NSTextField (this would show a visible difference on Leopard).
+
+[NEW] TextMate sets TM_FULLNAME (unless you set it yourself) to the user’s full name, so no longer necessarily to fiddle with niutil and dscl to obtain it.
+
+[2007-08-07: REVISION 1414]
+
+[FIXED] Revert fix for printing as it may have caused another (more serious) problem -- ticket E1219EEF
+
+[2007-08-06: REVISION 1413]
+
+[CHANGED] The SQL bundle now uses a custom Keychain extension which should improve reliability and will enable passwords to be updated automatically. This may require you to re-enter your connection passwords the first time you use each of them. (Ciarán Walsh)
+
+[CHANGED] Latex bundle: The Typeset & View command has received a major overhaul. Behavior is primarily controlled via the new preferences dialog (rather than environment variables) although TM_LATEX_MASTER can still be used. Options can also be specified via the %!TEX syntax (see Help command for more). (Brad Miller)
+
+[FIXED] Tasks spawned with TextMate.system() (in the HTML output window) would not always make their entire output available (generally commands resulting in more than 8 KB of data).
+
+[FIXED] When printing lines longer than the paper’s width and there is no whitespace in the line, the forced wrap would cause one character to be lost.
+
+[FIXED] If TextMate is registered to the name of your Mac user account and you change it (in System Preferences) you will be shown the registration dialog again (requiring you to enter the original name) -- ticket B9ACC665
+
+[FIXED] If a theme was deleted and then re-installed (via double-click) it would disappear after relaunch -- ticket E8B89777
+
+[CHANGED] The right-pointing folding arrow is another color to make it visually distinct from the up/down arrows. Thanks to Paul Howson.
+
+[FIXED] Menus with tab triggers should no longer cause a crash on Leopard (thanks to Nathan Spindel)
+
+[2007-07-08: REVISION 1405]
+
+[CHANGED] When WebKit returns an empty string as encoding, TM will assume it is UTF-8 (a problem introduced with the Safari 3 beta) -- ticket 69A81662
+
+[NEW] Add ‘_’ to the set of anchor characters for file types (extensions) -- ticket 48BF3775
+
+[2007-07-07: REVISION 1401]
+
+[NEW] SQL bundle: The SQL bundle has a new database browser (also used for the Execute Line / Selection as Query) which works with MySQL and PostgreSQL (out of the box). Connections are configured using a UI instead of being read from the environment (password is stored in the key chain). (Ciarán Walsh)
+
+[NEW] Blogging bundle: You can use ‘Slug: «name»’ to select the name used for the permalink, the one normally derived from your post’s title (presently only supported by WordPress 2.2)
+
+[NEW] Edit in TextMate: Added support for OmniWeb 5.6 -- this support *may* include Safari 3, but only WebKit.app has been tested (and for that, text can’t be sent back due to problems presumably with apple events). The way the active text area is found is a heuristic and may fail (except for OmniWeb) see the source for details. The default key equivalent (⌃⌘E) has no effect, this seems to be a WebKit problem. The solution is to add a binding for editInTextMate: to your DefaultKeyBinding.dict or change the Edit In TextMate’s key via the Keyboard & Mouse pane in System Preferences -- ticket D1DFAEE8
+
+[CHANGED] Xcode bundle: The success/failure sounds used by the Xcode build command now has tame defaults, namely Hero and Basso -- if you want to get back the old sounds set the TM_SUCCESS_SOUND/TM_ERROR_SOUND variables to Harp/Whistle respectively. These variables can also be set to other sounds.
+
+[CHANGED] TODO bundle: Major update to the TODO List Bundle. More beautiful output with sortable lists and progress showing scanning folder. Which tags to find and show can now be configured via the Preferences command in the TODO bundle (Stanley Rost)
+
+[CHANGED] Blogging bundle: A date header in the post is now always delivered to WordPress. If your blog’s time zone is not GMT then you need to update to WordPress 2.2 for proper interpretation of this date (if you update to 2.2.1 you need to also update from the standard Ruby 1.8.2 due to WP sending a date incompatible with Ruby 1.8.2’s XML-RPC parser).
+
+[NEW] Objective-C bundle: The Method Completion now contains the basics of a command testing system, along with a handful of test cases. The Method Completion now takes into account letters written behind the caret (Joachim Mårtensson)
+
+[CHANGED] PHP bundle: Documentation for Function now falls back on a surrounding function call if the current word has no documentation. E.g. using ⌥F1 at ‸ in ‘array_key_exists($array, ‸)’ will show documentation for array_key_exists. (Ciarán Walsh)
+
+[FIXED] When a non-document window was frontmost (e.g. a tm_dialog window) and an AppleScript command was sent to TextMate (e.g. insert text) an exception would be thrown.
+
+[FIXED] When TextMate bumps your encoding to UTF-8 it will first display a confirmation dialog (there is no help in finding which characters cause a problem though, but a bundle command can be devised) -- ticket C644B928
+
+[FIXED] When a file is loaded as ASCII and cannot be saved as ASCII, use the encoding specified in preferences (when possible) instead of UTF-8 -- ticket B619C95D
+
+[CHANGED] The drawer width for unsaved projects is remembered and used for new (scratch) projects.
+
+[NEW] The wrap column presets are now read from user defaults using the OakWrapColumns key so if you dislike the current presets (of 40 and 78) you can run e.g.: defaults write com.macromates.textmate OakWrapColumns '( 60, 70, 80, 100 )'    
+
+[CHANGED] File types (extensions) specified in language grammars are now matched against the full path so e.g. ‘.git/config’ and ‘.ssh/config’ are both valid extensions -- the match is required to be anchored either at an ‘/’ or ‘.’ so e.g. ‘tml’ will not match ‘index.html’. On a tie, the longest suffix-match is chosen.
+
+[2007-04-30: REVISION 1383]
+
+[CHANGED] Property List bundle: Support top-level arrays (in addition to dictionaries) in old-style property lists -- ticket 53F82CC6
+
+[NEW] HTML bundle: Allow embedded code in comments (you web guys are crazy!) -- ticket 20CC5FF4
+
+[NEW] Objective-C bundle: Lots of improvements to completion, bracket pairing, and more. Please read the (new) Help file for details (highly recommended!) (Joachim Mårtensson)
+
+[NEW] Subversion bundle: Support password authentication during commit. (Chris Thomas)
+
+[CHANGED] Support/lib: The Ruby support modules Dialog and TextMate::Dialog have been merged into TextMate::UI. "dialog.rb" is now "ui.rb". All of the former Dialog module methods are now accessed through the TextMate::UI module, e.g. "TextMate::UI.menu(…)" or "include TextMate; UI.menu(…)". (Chris Thomas)
+
+[CHANGED] PHP bundle: The php⇥ snippet now inserts a single line <?php … ?> block. Pressing ↩ inside the tags will expand it into a multi-line block. (Ciarán Walsh)
+
+[FIXED] The display of macros in the bundle editor no longer show the arguments column, since when sorting of arguments was requested, it would crash for certain macros -- ticket EA68954D
+
+[CHANGED] When double-clicked, files with a “.tmproj” extension will open the project, even when they are set to “Treat as Text” (previously the default way to treat them).
+
+[FIXED] When manually checking for a new version, TextMate would not use the terms exposed in the interface to describe the type of build it looked for -- ticket DFB5A08A
+
+[2007-03-21: REVISION 1372]
+
+[NEW] Perl bundle: PerlMate will now request for user input when reading from <STDIN> (Ciarán Walsh)
+
+[FIXED] Subversion bundle: Revert now presents a warning alert before reverting modified (M) files. A warning is not shown for files added (A), deleted (D), or unknown (?). If A,D,? files are selected along with M files, a dialog will be shown for the M files only, but canceling the dialog will cancel the full revert operation, leaving all files untouched. (Chris Thomas)
+
+[CHANGED] Subversion bundle: Revert now operates on the files selected in the project drawer. If there are no files selected, the active file is used. This is more powerful and more consistent with the other Subversion commands. (Chris Thomas)
+
+[NEW] Objective-C bundle: Cocoa Completions will suggest context based completions when the type of the receiver can be found in the completion list (Joachim Mårtensson)
+
+[NEW] Objective-C bundle: It is now possible to get Cocoa Function completion when used as arguments for selector, also the following methods "addObserver:selector:name:","notificationWithName:", "postNotificationName:", "removeObserver:name:" will give a list of Notification names (hint: type NS it will speed things up a lot), the Function completion is dependant on the type of the argument for limiting the number of suggestions (using a very crude check) (Joachim Mårtensson)
+
+[NEW] C bundle: Added Completions for Cocoa Classes and Functions outside of brackets (Joachim Mårtensson)
+
+[2007-03-04: REVISION 1368]
+
+[NEW] PHP bundle: Option-escape will provide completion candidates for the current (partially typed) function name and option-F1 will show a tool-tip with short documentation and call syntax for the current function (press ctrl-H to go to the manual page). All standard functions have been added to the normal completion on escape, allowing you to cycle through them. (Ciarán Walsh)
+
+[NEW] Objective-C bundle: The Cocoa Completion command now supports completing class names e.g. [NSObj will suggest NSObject and NSObjectController. Also WebKit methods can now be looked up using the Selector Command, they are also included as suggestions when doing method completion. (Joachim Mårtensson)
+
+[CHANGED] When an environment variable called TM_MINIMIZE_PARENS is set to YES, the assert_* snippets, that do not take a block, in the Ruby bundle will insert their content without wrapping arguments in parentheses.  This is to make the methods more compatible with common Rails style, though it does not follow the Rails convention to the letter.  I will entertain requests to add this functionality to other snippets on a case by case basis. (James Edward Gray II)
+
+[NEW] Support/lib/scriptmate.rb: Pressing ^C while running a Ruby, Perl, or Python script will send a SIGINT to the script.
+
+[FIXED] Using tm_dialog to open a window from a command getting the Save As dialog would effectively block TM (by never closing the Save As sheet)
+
+[FIXED] Using the Edit in TextMate where the temporary file name contained an accented character (which could be represented both as pre- and decomposed unicode) would generally not work (i.e. updates done to the document in TextMate was not sent back to the calling application) -- ticket D3D3ACFE
+
+[2007-02-13: REVISION 1360]
+
+[CHANGED] Dialog PlugIn: Commands which wish to use tm_dialog should read the value of the DIALOG environment variable, which will always point to the version of tm_dialog that got compiled together with the currently running Dialog plug-in (so no more out-of-sync errors).
+
+[CHANGED] Text bundle: Redirect CocoaDialog output to /dev/null to suppress output from input managers -- ticket A610D906
+
+[FIXED] Ruby bundle: Regexps after unless and while are now correctly recognized -- ticket EB679470
+
+[FIXED] Subversion bundle: Requesting a log would raise an exception for entries without an author (anonymous checkin) -- ticket 35454A52
+
+[NEW] Objective-C bundle: Added a snippet that instantiates an object, just like the insert object instantiation command. Type NS and push tab to trigger (Joachim Mårtensson)
+
+[NEW] The Ruby bundle now includes an rcodetools-backed completion command on option-escape.  This command is capable of very accurate completion for any accessible Ruby objects and methods, without needing to see you type it first (as TextMate's default completion requires). (James Edward Gray II)
+
+[NEW] CSS bundle: Code Completion for CSS. Parses your current document for IDs and Class names that have been used already and a static list of HTML tags. CSS properties from the existing property completions list. CSS Property Values from all of the HEX colors used in the current document + all of the standard CSS Property Values that the current CSS syntax supports. (Thomas Aylott)
+
+[NEW] Latex bundle: "Show Label as Tool Tip" command. When you are inside a \ref command, the command will show you the area surrounding the corresponding \label. Bound to ctrl+cml+L for now. (Charilaos Skiadas)
+
+[CHANGED] Latex bundle: The Bibliography and Label completion commands now work without having to type the \ref or \cite first. Just type a couple of letters of what you are looking for, press alt-esc and select whether you want Label of Cite completion. (Charilaos Skiadas)
+
+[CHANGED] Objective-C bundle: code completion for the C and Objective C Bundles now use alt-esc as key shortcut (Joachim Mårtensson)
+
+[NEW] C bundle: A partially typed function from the C Library can be completed using ^M, a menu is presented if there are multiple candidates (Joachim Mårtensson)
+
+[NEW] Latex bundle: LaTeX now supports master files defined by the TeXShop convention %!TEX root = file (Kevin Ballard)
+
+[NEW] Latex bundle: Language Grammar for the LaTeX document class memoir (http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/) (Charilaos Skiadas)
+
+[FIXED] HTML bundle: Make the XHTML 1.1 template use the recommended application/xhtml+xml content type. -- ticket 9DC4E2D8. (Michael Sheets)
+
+[NEW] ActionScript bundle: The "Build with MTASC" command allows TextMate to compile ActionScript out of the box. (Ale Muñoz)
+
+[FIXED] If deleting the contents of a preferences item in the bundle editor and committing the change, TM would crash -- ticket 4B7C346E.
+
+[FIXED] Print jobs now show up in the print queue using the documents display name -- ticket 8A6FF547.
+
+[FIXED] No longer does redundant (for the user) console output, sorry! -- ticket B2D5CDC9.
+
+[2006-11-22: REVISION 1349]
+
+[NEW] In the Select Bundle Item window, it is now possible to change search criterion (via the search field pop-up menu) to key equivalent. This makes all key equivalents pressed search for the bundle item(s) with that key equivalent (using the scope as it was, when opening the window).
+
+[NEW] Text bundle: Added Filtering group with three commands for copying matching, non-matching or distilling text into new document. (Jay Soffian)
+
+[FIXED] Custom frame restraining should do a better job at finding the proper screen to restrain to, rather than trust the window to return it -- ticket 8151FE39.
+
+[CHANGED] The property list pretty printer (used in the bundle editor) has been slightly improved.
+
+[CHANGED] When setting shellVariables as a scope dependent preference, it will eclipse only those settings (with less specific scope selector) that sets a variable also being set by the one with the more specific scope selector. For example the source bundle sets default values for the TM_COMMENT_* variables. If another preference item sets just one TM_COMMENT_* variable, then those set in the source bundle are not used. If however the preference item were to set completely different variables, those will be merged with the comment variables from the source bundle. This may sound a little confusing and heuristic, and it is definitely a heuristic, but it seems that the alternative is to ask the user to be explicit about which previous variables should be eclipsed with a given setting, leading to a lot of (mostly unnecessary) complexity in the various preference items.
+
+[CHANGED] The white version of the I-beam now has a bit of shadow to work better when over white/bright areas (thanks to Thomas Aylott)
+
+[CHANGED] When saving a file, only the base name of the suggested filename is selected (thanks to Matt Neuburg)
+
+[FIXED] Using TextMate.system() in synchronous mode could lead to not all data being retrieved.
+
+[2006-11-02: REVISION 1324]
+
+[REMOVED] TextMate no longer pays tribute to human sacrifices, rape, nor does it show a picture of the God of the dead in your dock -- ticket 945BEB5D
+
+[NEW] The TextMate scripting object has a log() function which you can use to log messages to the system console. JavaScript exceptions from local pages are now also written to the system console.
+
+[FIXED] When TextMate loses focus and there is a problem saving a file (given that you enabled “save files when focus is lost”), TextMate no longer brings up a dialog (since opening modal dialogs while an application loses focus is not handled gracefully by Cocoa).
+
+[NEW] The Ruby bundle has a new snippet to generate ERb’s <% … %> and <%= … %> tags.  Both tags are available via control > (⌃>).  First press will insert <%= … %> (optionally using the current selection as the content).  A second press will remove/add the equal sign.  This depreciates the control X (⌃X) and control Z (⌃Z) snippets from the Rails bundle and they will be removed in the future.  This feature was designed by the ANSI TextMate Standards Committee. (James Edward Gray II)
+
+[CHANGED] Rails bundle: The 'Install Bundled Plugin' command has been changed to 'Install Plugin', and will now query agilewebdevelopment.com's directory for Rails plugins. You can click on the install icon to have TextMate install the plugin to your Rails project directory for you.  NOTE: This is an experimental feature, and is likely to be revamped shortly. (Duane Johnson)
+
+[FIXED] When running shell commands from the HTML output window (via TextMate.system()) their environment (variables) are now the same as for the command which created the output. This includes having BASH_ENV point to bash_init.sh, so the usual startup procedure is now happening for these as well.
+
+[2006-10-30: REVISION 1310]
+
+[NEW] tm_dialog has a -u/--menu option which makes the passed in parameters be interpreted as a menu. You can call Dialog.menu from Ruby (which is in $TM_SUPPORT_PATH/lib/dialog.rb) or see http://pastie.textmate.org/20239 for a sample command that gives you completion based on the word list file found in /usr/share.
+
+[NEW] Objective-C bundle: A partially typed (system) method call can now be completed by pressing ^M, if there are multiple candidates, a menu is shown. The insertion is a snippet so you can tab between the argument placeholders (Joachim Mårtensson)
+
+[2006-10-27: REVISION 1304]
+
+[NEW] Python bundle: Python language grammar now supports Python 2.5. (Alex Ross)
+
+[CHANGED] Rails bundle: Rails logger snippets have been consolidated in to the 'log' tab trigger. All 5 logger levels are now supported (debug, info, warn, error, fatal). 'logi' and 'ldb' tab triggers are now deprecated (removed). (Duane Johnson)
+
+[CHANGED] Rails bundle: All 19 Rails migration snippets and macros have been consolidated in to 3 triggers: 'mcol' for 'migration column' operations, 'mtab' for 'migration table' operations, and 'mind' for 'migration index' operations. (Duane Johnson)
+
+[NEW] TextMate now ships with a Dialog plug-in and a tm_dialog shell command which allows you to load a nib as if it was TextMate itself which had loaded it (so it will be stacked together with TextMate’s own windows and not “get lost” as can happen with some of the current dialogs shown by commands). For more information see the upcoming screencast about this which will be linked to from my blog: http://macromates.com/blog/ (and if you wonder: you can press the ‘enter’ key (not return) on underlined links in TextMate to visit the site -- that can also be done for tickets referenced in these release notes).
+
+[FIXED] When multiple plug-ins have the same bundle identifier, only the first one found is loaded.
+
+[FIXED] Setting Wrap Column to Other works again (broke it in last version, so that it wouldn’t acknowledge the new value).
+
+[2006-10-15: REVISION 1292]
+
+[NEW] Objective-C bundle: New Documentation for Selector command from Joachim Mårtensson -- press ^H when the caret is on a method call to see the documentation for that method.
+
+[NEW] HTML bundle: HTML tags inserted which have an EMPTY content model now place the value of the TM_XHTML variable before the closing ‘>’. If you want these tags to use the minimized (XHTML) form, go to Preferences -> Advanced and set TM_XHTML to “ /”. In the future this variable will automatically be set for documents with an XHTML document type. Though let me just remind anyone planning on writing XHTML pages to (re-)read http://www.hixie.ch/advocacy/xhtml
+
+[FIXED] HTML bundle: Insert Close Tag now ignores the contents of comments (defined as /<!--.*?-->/m) -- ticket 799C0692.
+
+[FIXED] When TextMate runs out of memory, while loading a document, it will bring up an error panel instead of exiting -- ticket E2589D1E.
+
+[FIXED] When deactivating TextMate while in the “set right margin” mode, TextMate will abort (ticket 3FBE40B0). It will also abort if you hit a key (ticket FD9D82FE).
+
+[FIXED] When printing there could be artifacts in the printout / PDF -- ticket 8FD8F0AB.
+
+[FIXED] With freehanded editing enabled, inserting a snippet (e.g. indirectly via a drag command) past the end-of-line would make TM crash (bug introduced in r1127) -- ticket DCAFA3A1.
+
+[FIXED] When opening a file through the ODB Editor Interface or Edit in TextMate input manager, and TextMate was hidden, the new window would not be brought to front -- ticket 13E36CEA.
+
+[FIXED] Key equivalents which are not ASCII and have a MacRoman representation should now show the proper glyph in the bundle item menus (presumably only if your system has MacRoman set as the default encoding).
+
+[2006-10-04: REVISION 1268]
+
+[CHANGED] Blogging bundle: By default a ‘date created’ header is not sent to WordPress unless you set the TM_SEND_DATE_TO_WP variable (the actual value doesn’t matter, so set it e.g. to YES). Only users who run their blog using GMT as time zone should provide WP with a ‘date created’ because of faulty time zone conversions done by WP.
+
+[NEW] Remind bundle: The various Show-commands call remind with the value of the REMIND_FLAGS variable. The default value (when unset) is ‘-mb1’ (24 hour clock and monday as first week day) — if you want US-centric formatting, set the variable to the empty string.
+
+[NEW] Nemerle bundle from Kamil Stachowski. See http://nemerle.org/Main_Page for info about the language.
+
+[NEW] Qt bundle: Includes syntax highlighting for Qt's C++ extensions (signals/slots) and all(!) build in classes and competitions for the most important ones. Has also some snippets for often done things. Can color qmake project files and has a Spotlight powered (so Tiger only) documentation lookup command. Set TM_QT_DOC_DIR if you didn't install to /usr/local/Trolltech... (Torsten Becker)
+
+[NEW] Remind bundle: Bundle for Remind. The language grammar is from Charilaos Skiadas. The commands are loosely based on the commands I found in the bundle hosted at http://code.cutup.org/remind/.
+
+[NEW] Initial commit of Tabular bundle, with CSV, TSV grammars (Jacob Rus)
+
+[NEW] Lilypond bundle, with minimal language scoping and a simplistic 'Engrave and View' command (Jacob Rus)
+
+[FIXED] Support/lib/web_preview.rb: Working around a Ruby issue reported by Paul McCann on the mailing list. (James Edward Gray II)
+
+[FIXED] Ruby bundle: Working around a WebKit buffering issue reported by Fritz Anderson on the mailing list. (James Edward Gray II)
+
+[FIXED] Support/bin/CommitWindow.app/Contents/MacOS/CommitWindow: Add undo/redo support to previous summary text replacement. (Chris Thomas)
+
+[INFO] If you are having problems with the control-escape key binding you can quit TM and run: defaults write com.macromates.textmate OakSendEventDebugLevel -int 1 -- this will make it write some debug output related to handling the control-escape key press.
+
+[FIXED] When the new file sheet only had an extension in the file name text control, TextMate would freeze if switching to another template -- ticket 21045E0B.
+
+[CHANGED] The busy wheel which appear when a command is running for a longer period of time, will now first show after 5 seconds (instead of 3), though only if the command did not open a dialog or similar.
+
+[FIXED] When the letter to the right of the caret was upper case but the letter to the right of the right letter was neither upper nor lower case, moving to the next sub-word would not advance the caret.
+
+[2006-09-14: REVISION 1258]
+
+[FIXED] Commands could cause the current working directory of TextMate to be changed to that of the current document. This would cause the directory to be locked, and consequently the file system hosting it, would not be able to dismount.
+
+[FIXED] Previous upgrade to Oniguruma 4.4.2 did not fix the crash-bug. I added a workaround which should.
+
+[NEW] Latex bundle: Commands to manipulate the environment enclosing the caret. Toggle Starred (ctrl-*) toggles whether the environment is starred or not. Change Current (ctrl-opt-E) allows you to change the name of the environment. (Charilaos Skiadas)
+
+[CHANGED] Latex bundle: Root scopes of the various TeX/LaTeX grammars changed to bring them in-line with each other. TeX – text.tex, LaTeX – text.tex.latex, TeX Math – text.tex.math, Beamer – text.tex.latex.beamer, BibTeX – text.bibtex, and LaTeX Log – text.log.latex (Michael Sheets)
+
+[2006-09-11: REVISION 1252]
+
+[FIXED] Title-casing contracted words should work better -- ticket 62B11DE6.
+
+[NEW] The Find in Project window also has option-command R, and I for Regular Expression and Ignore Case matching (btw: the last release note entry said control-command which was a typo) -- ticket 06427934.
+
+[FIXED] Upgraded to Oniguruma 4.4.2 which fixes crash-bug introduced in last version (randomly occurring for some users).
+
+[2006-09-09: REVISION 1248]
+
+[FIXED] Sub-word movement would skip the full word if caret was exactly one space to the left or right of the word.
+
+[CHANGED] The AlternateWord selectors have been renamed to SubWord. Also, to be compatible with Xcode there are Forward/Backward versions in addition to the Left/Right versions.
+
+[NEW] The find panel now offer option-command + R, I, and W for toggling the Regular Expression, Ignore Case, and Wrap Around check boxes.
+
+[FIXED] Property List bundle had the language grammar marked as deleted (because of some last-minute UUID changes)
+
+[2006-09-09: REVISION 1244]
+
+[CHANGED] The sub_word movement functions now also do CamelCase in addition to underscore_words. The default key bindings for these functions (move, select, and delete) have been changed to only use control as modifier (previously control + option was required) -- ticket 11746E04.
+
+[FIXED] It is now possible to get the document objects via AppleScript and query these for path, name, and modified (state) -- ticket 53962CE6. Note that the document property of the window class is not the proper document. Instead always ask for “documents” (of the application) or a specific document number. Also, only the 3 properties mentioned are supported, no commands are currently supported.
+
+[CHANGED] Lines which start with a ‘#’ character are now affected by shift right -- ticket F9F7868A
+
+[FIXED] Using more than 10 named captures in a language grammar gave strange results -- ticket 45303A41
+
+[CHANGED] Use fancy lexicographical sort for key/value pairs when pretty-printing property lists (in the bundle editor) -- ticket C177BE05
+
+[FIXED] If one of the indent patterns was set to the empty string, an exception would fire.
+
+[CHANGED] Subversion bundle: The subversion log command is now processing the XML output from svn which should make it more robust -- ticket 664A192A.
+
+[CHANGED] Property List bundle: Move to new unified Property List grammar with support for both XML and old-style versions. (Michael Sheets)
+
+[FIXED] Scheme bundle: Evaluate Selection uses STDIN with csi (I don't have mzscheme so I haven't altered its behaviour) so the fallback to Line if there is no selection will work. (Rob Rix)
+
+[NEW] Scheme bundle: Added punctuation scopes and a invalid.illegal scope for unmatched parens. (Rob Rix)
+
+[NEW] Apache bundle: 'mod_perl' syntax for Apache configuration files with mod_perl additions (Gerd Knops)
+
+[NEW] Support/bin/LateXCommandCompletions.rb: You can now complete commands, i.e. pressing esc with the text before the cursor being “\co” would offer ( among any custom commands starting with “co” ) “\cos”, "\colon" etc as complements. (Charilaos Skiadas)
+
+[CHANGED] Latex bundle: The “Insert Greek Letter” command has been replaced by the much more powerful “Insert Symbol Based on Current Word” command, with trigger ⌘\ (Thanks Piero D'Ancona). See the documentation for the LaTeX bundle for details. (Charilaos Skiadas)
+
+[NEW] Latex bundle: Command to edit the configuration file used by various LaTeX commands (see Help for more info.) (Charilaos Skiadas)
+
+[CHANGED] Latex bundle: The "Insert ... Based on Current Word" commands no longer read from environment variables, but instead via a configuration file that the user can edit. (Charilaos Skiadas)
+
+[2006-08-24: REVISION 1215]
+
+[FIXED] When the selection color was using an alpha less than one, the dimmed version used when focus was elsewhere wouldn’t be right.
+
+[NEW] If a command with HTML output uses the exit_discard return code then the HTML window will automatically close -- ticket 573C285A.
+
+[CHANGED] When extracting the downloaded archive (while updating) TextMate now calls bzip2 explicitly rather than invoke tar with -j. The idea is that if either bzip2 or tar fails, the error will be easier to decipher.
+
+[CHANGED] When TextMate runs from a read-only volume it will not perform any checks for new versions (assuming the user is not able to perform a self-update for a read-only volume.)
+
+[CHANGED] Subversion’s svn-commit.tmp files are now excluded from the default folder reference file pattern -- ticket 2ECC51B6.
+
+[NEW] Markdown bundle: Make Markdown preview use new css themes (Jacob Rus)
+
+[NEW] AppleScript bundle: make runner use new css themes (Jacob Rus)
+
+[NEW] Latex bundle: A template command that allows you to have a list of “template files” in ~/Library/Application Support/LaTeX/Templates, and offers a pop-up list for insertion in the text. Has tab trigger “temp”. (Charilaos Skiadas)
+
+[CHANGED] Support/lib/bash_init.sh: When running shell commands ~/.textmate_init will always be sourced last, if it exists. Previously it would not be sourced if the current document’s folder was not a descendant of ~
+
+[NEW] jQuery bundle (http://jquery.com/). (Jonathan Chaffer)
+
+[FIXED] Io bundle: The triple-quoted string rule was improperly placed, and therefore was not being used at all. (Rob Rix)
+
+[NEW] Mediawiki bundle: language grammar and nothing else for the moment (Jacob Rus)
+
+[NEW] Diff bundle: Diff Document with Arbitrary Fle command. (Chris Thomas)
+
+[NEW] Diff bundle: Apply Patch to Arbitrary Files command. (Chris Thomas)
+
+[NEW] TextMate bundle: Snippets for beginCaptures and endCaptures, care of desp in ##textmate (Rob Rix)
+
+[NEW] Subversion bundle: Add 'Show Revisions Available for Merging'. If you're using the svnmerge tracking tool, you can select the root of the branch in the project drawer and this command will show you a log of available revisions, nicely formatted by the standard Subversion Log formatter. Multiple HEADS are handled gracefully. But: this is a work in progress. You can't actually merge or block from the log window. Errors and edge cases show up as log parse errors. (Chris Thomas)
+
+[NEW] Xcode bundle: Added the Run Tests command, which builds the target Test in the Xcode project. (Rob Rix)
+
+[CHANGED] Xcode bundle: Added support for $TM_TARGET to run_xcodebuild.sh, to allow the Run Tests command. (Rob Rix)
+
+[NEW] Subversion bundle: Check Out command from Ben Perry, who posted it on the wiki; I've tweaked a couple of things and piped the checkout output through the svn status HTML filter. (Chris Thomas)
+
+[NEW] Subversion bundle: There is a new variable you can set: TM_SVN_IGNORE_BAD_LINES, with this set, Log will not print any bad (unexpected) lines from the beginning the subversions output. Also new is that Log will now not exit on bad lines, but shows them in orange for your information. (Torsten Becker)
+
+[2006-08-06: REVISION 1202]
+
+[FIXED] Ruby bundle: A bug reported by Spanko when trying to overwrite a } at the tail end of a Ruby file. (James Edward Gray II)
+
+[FIXED] Creating new files with the mate shell command would make them use CRLF as line endings -- ticket 1DA762C0.
+
+[FIXED] Subversion bundle: In the status window, the commit button now sends exactly the paths visible in the status window to the commit script. Among other issues, this should fix the problem where the commit button would not see modified files  with some projects. (Chris Thomas)
+
+[2006-08-04: REVISION 1200]
+
+[NEW] Release notes now include important/interesting tidbits about bundles. These appear as regular items and has the bundle name first on the line, although presentation might change slightly over the next releases, as I experiment with the system. Entries not written by me (allan) will have the commiters name last in parenthesis.
+
+[NEW] Objective-C bundle: Pressing ⌃Q while inside an Objective-C method call will wrap the call so that there is only one argument per line with alignment on the colon (command from Joachim Mårtensson)
+
+[NEW] When running a command an TM_INPUT_START_COLUMN variable will be set to the visual column for the first character of the input, not to confuse with TM_INPUT_START_LINE_INDEX which is the byte index, and thus would not take tabs and multi-byte characters into consideration.
+
+[FIXED] When auto-updating with authentication TextMate would call shell commands without using absolute paths. This could give an update failed error if e.g. you did not have /usr/sbin in your path.
+
+[FIXED] HTML bundle: Syntax highlight no longer stalls where two PHP tags “touch” (example: `<?= $foo ?><?= $bar ?>`)
+
+[2006-08-04: REVISION 1197]
+
+[FIXED] When using ‘mate -w’ and then killing the mate process, an exception would be raised when closing the document. This would likely lead to a later crash -- ticket C2B7BDE4.
+
+[CHANGED] When a file has mixed line endings, TextMate will treat all types as a line ending. Previously it would only accept the dominating line ending used in the file, as terminating a line.
+
+[FIXED] Closing the bundle editor (with language grammar changes) immediately after closing a document could result in a crash -- ticket 6A081565.
+
+[FIXED] When doing a global replacement that resulted in new lines being inserted the internal state of the language parser could (in very rare situations) be corrupted, leading to a silent exit (assertion not being met.)
+
+[FIXED] The plist ruby extension included with TextMate should no longer potentially cause a crash when parsing property lists with dates -- ticket 00667F0A.
+
+[2006-07-20: REVISION 1183]
+
+[NEW] Add some console output for when auto-updating fails.
+
+[FIXED] The Shell Script bundle (previously Unix Shell) is again included -- ticket 42803DEC.
+
+[2006-07-18: REVISION 1180]
+
+[NEW] It’s now possible to double-click items in the Select Bundle Item… list to execute them.
+
+[NEW] If an uppercase filter string is used for the Select Bundle Item… list then all items become candidates (not just those reachable from the current scope.)
+
+[CHANGED] When going to next/previous bookmark it will now places the caret on the same column as was used when initially setting the bookmark.
+
+[CHANGED] When pressing return at the start of a line and a bookmark has been set for that line at column 0, the bookmark will move down with the line (previously it would move down for all but column 0.)
+
+[NEW] When double-clicking Find in Project results the window will close.
+
+[NEW] It is now possible to use “*” as extension for a drag command to make it trigger for all extensions (and files w/o extension.) If multiple drag commands apply and they have the same scope selector those not using wildcard matching will win.
+
+[NEW] TextMate now prompts you for confirmation when dragging a larger than one megabyte file to the text editor (for which there is no matching drag command to handle the drop.)
+
+[FIXED] When pretty printing a language grammar in the bundle editor dictionary keys are now quoted when necessary.
+
+[FIXED] When using TextMate.system() in synchronous mode the errorString would be that of the resultString and the status code would always be zero.
+
+[FIXED] Check length of misspelled words returned from the spelling server against zero and stop spell checking if such zero-length match is returned. Previously if a spelling server returned such matches it would result in infinite re-checking of the same text (an actual problem with the Hebrew spelling server.)
+
+[2006-07-10: REVISION 1161]
+
+[NEW] To aid bundle developers there now is a View -> View Source menu action (option-cmd U to conform to Mail and Safari) which shows the source of the current WebView as a new document -- ticket D708A842.
+
+[CHANGED] The key bindings dictionary parser now supports escapes and need bindings to #, $, ~, @, and \ to be escaped. This is done to make it (presumably) compatible with how the system parses the dictionaries.
+
+[NEW] Multi-stroke key bindings (configured in ~/Library/KeyBindings/DefaultKeyBinding.dict) are now supported.
+
+[FIXED] When an untitled document contains unsaved but also unmodified changes (i.e. the document was produced by a command or template) then the document window would be reused for opening new files -- ticket 13496C0A.
+
+[FIXED] When executing a command key events and mouse clicks are now queued and will be re-posted in the event queue after the command has completed. This would mostly affect the web preview where key presses could be lost when the “pipe through command” option was used.
+
+[CHANGED] A command now needs to “stall” for more than 3 seconds before the busy wheel appears (previously one second.)
+
+[FIXED] If interpolated code in a snippet produced invalid UTF-8 TM would die on a strlen(NULL).
+
+[FIXED] When two tab triggers of different length would both result in a match, TextMate would show a menu. Now it picks the one with the longest tab trigger.
+
+[FIXED] Updated the Smart Typing help blurb in preferences (ticket 142C6B45) -- the setting is now called “auto pair characters (quotes etc.)” as that’s what I use throughout the manual and in other writings. Also cleaned up the Macro menu. Now Scratch Macro is referred to as Last Recording.
+
+[NEW] The display name of a bundle item (when shown in the Select Bundle Item… list) now contains the name of its potential containing menu. For example the “Bold” item (in the LaTeX bundle) shows as “Format ‣ Bold — LaTeX.” This does make the list look a tad more cluttered, but some item titles are ambiguous w/o the containing menu title. Currently the filter string only applies to the title of the item (and not the parent menu.)
+
+[FIXED] The Edit in TextMate input manager is now compatible with Panther (when sending back the text) -- ticket 564E2927.
+
+[NEW] Tab triggers are now shown in the menu structure and excluded items lists (bundle editor) and the menu structure list can be horizontally resized -- ticket 68D71788.
+
+[NEW] The list which appears when using the Select Bundle Item… action now show key equivalents and tab triggers for the bundle items.
+
+[FIXED] When switching theme in Fonts & Colors while a settings item had the field editor (to edit the name) the current theme would overwrite the switched-to theme -- ticket 1EE361A3.
+
+[CHANGED] The scope of the selection has been changed -- it now takes the intersection of the scope immediately before the selection, the first character of the selection, the last character of the selection, and the first character after the selection. The idea is if you e.g. have: <p><%= name %></p> and select the inner ERb tag and do ctrl-shift W then you want the wrapping behavior as if you were in text.html and not source.ruby. More examples at http://macromates.com/wiki/ToDo/ScopeOfSelection
+
+[2006-07-03: REVISION 1128]
+
+[NEW] It is now possible to provide the extension used for the temporary file created by the Edit in TextMate input manager when the calling application is a WebKit-based browser. To configure this select Edit in TextMate URL Associations from the TextMate bundle. This will create (unless already there) and open a default mapping file which maps URL subsets to extensions. The point of this is to get the proper language chosen, e.g. ‘markdown’ for the MacroMates blog, ‘bbcode’ for the Quicksilver forum, ‘mail’ for GMail, etc.
+
+[CHANGED] When using the Edit in TextMate input manager and sending back the modified document fails, it will be revealed in Finder when you close it, rather than be removed -- ticket 03407C17.
+
+[FIXED] If a snippet was inserted with text selected, and removing this text would lead to the line being shorter than what was to the left of the selection (possible by running regexp substitutions on a placeholder and have the result to the left of the selection) then TM would crash -- ticket F9E886BA.
+
+[FIXED] If at the first empty line of a document and selecting beyond the end of this line (by holding down option or going into freehanded mode) deleting or overtyping this selection would result in a crash -- ticket 56192957.
+
+[FIXED] When running a command on an untitled document and that command wants a saved file, the Save As dialog now use the suggested extension for the current document (similar to what has always been the case when using cmd-S).
+
+[FIXED] The TM_BUNDLE_SUPPORT environment variable is again available when a bundle item which require a saved file is executed using an untitled documents (ticket 1F8B60D6).
+
+[FIXED] Old macros that used Filter Through Command with output set to replace selection wouldn’t work as expected.
+
+[FIXED] When dragging a bundle from the bundle editor to Finder the contained Support folder is also exported. It does a recursive copy but skips hidden files (ticket 70520F07).
+
+[CHANGED] When auto-updating the old version is no longer put in the trash, but simply removed (rm -rf). This should mean people with the TM input manager installed can empty their trash without getting “in use” warnings/errors.
+
+[CHANGED] Rather than use the most local version of the shared support folder (for bundles) TextMate now reads the contents of the contained ‘version’ file and picks the folder with the highest version. This should remedy the problem with people keeping outdated support folders around. In addition there is a convenience TextMate.min_support function available in Support/lib/textmate which bundle developers can use to declare the item dependent on a minimum version of the support folder.
+
+[2006-06-20: REVISION 1112]
+
+[FIXED] When output for Filter Through Selection… was set to Replace Selection then it would actually be discarded (ticket D8DFA78D.)
+
+[FIXED] TextMate would merge bundle items which weren’t stored in the delta format. This would only be a problem if you had a default item, then a more local full copy of this item with keys removed, as the default keys would then shine through.
+
+[FIXED] Menu items with tab triggers will now again draw on Panther (ticket 8051FF02) -- they won’t show the actual tab trigger though. This is unfortunate, but fortunately there are only a couple percent users left on Panther, so this is hardly worth the effort, if at all possible to do for Panther.
+
+[FIXED] When executing a command from TextMate the default handler for the SIGPIPE signal is restored to its default value.
+
+[FIXED] When a drag command is executed, the various environment variables will be available even when the window is inactive. The same goes for the modifier flags (which would be blank for other reasons.)
+
+[2006-06-16: REVISION 1100]
+
+[CHANGED] TextMate will no longer remove tab triggers from the name of bundle items (in menus.) If you have a lot of custom items then you can save the following script (as ~/remove_tab_trigger.rb) http://pastie.caboo.se/1301 and execute: find -E ~/Library/Application\ Support/TextMate/Bundles -name .svn -prune -or -regex '.*\.(tm[A-Z][a-zA-Z]+|plist)$' -exec grep -sq tabTrigger '{}' \; -print0|xargs -0 ruby ~/remove_tab_trigger.rb -- backup your bundles first!
+
+[NEW] If you do not like the smaller font size of the bundle menu to disambiguate tab triggers / key equivalents then you can execute: defaults write -app TextMate OakBundleManagerDisambiguateMenuFontSize 14
+
+[FIXED] Creation and editing of non-default templates is now (again) possible.
+
+[CHANGED] When renaming (project drawer) or using Save As… for a file opened via the ODB Editor Suite then TM will now tell the sender that the file got closed.
+
+[FIXED] The Edit in TextMate input manager no longer hangs (ticket F2B88DE5) when invoked (from an NSTextView, not Mail) with the caret at the last line of the last column.
+
+[NEW] TextMate will no longer re-open the last document/project you worked on after relaunch (ticket EC9B93C4) if you execute the following (from Terminal, while TM is not running): defaults write -app TextMate OakDisableSessionRestore 1.
+
+[FIXED] If the bundle editor is up while reloading bundles, in-memory changes will be flushed to disk first, ticket 0C9573C6.
+
+[FIXED] The filter string for Select Bundle Item is now normalized, so it can contain mixed case and special characters w/o resulting in no matches found (ticket 0F9570D3.)
+
+[FIXED] Custom rendering of menu items with tab triggers disabled on Panther (to avoid crash, ticket E4229B7C.) On Tiger these should now have the proper height (ticket 434D3C13,) use the small font in the gear menu (status bar), and be drawn in gray when the item is disabled (ticket C711B84F.) The menu items will however not be working with theme patches (ticket 8DAAF2F5, DrawThemeMenuItem wasn’t working for me, and the system doesn’t want to draw when I CallNextEventHandler() -- the latter works when using a 100% carbon app, so likely this is a problem with the Cocoa wrappers for the Carbon menus.)
+
+[2006-06-06: REVISION 1070]
+
+[FIXED] When a bundle had no explicit menu structure, it didn’t fall back on the previous ordering of the items.
+
+[FIXED] The menu to disambiguate bundle items should now work correctly with multi monitor setups.
+
+[NEW] Tab triggers are now rendered right-aligned in the menus and with some visual ornaments that are supposed to make them distinctive. It is no longer necessary to put the tab trigger in the items title, to get it rendered -- in fact this is now deprecated. I am aware that the items with tab triggers are shown in the normal menu font size when using the gear menu from the status bar -- ticket 507A2F3D
+
+[CHANGED] When printing HTML output from commands or the Web Preview, the content is no longer vertically centered in the printout -- ticket D607A95F
+
+[2006-06-04: REVISION 1060]
+
+[NEW] It’s now possible to issue a request to reload bundles from AppleScript (tell app "TextMate" to reload bundles), default is to use the cache, this can be changed by adding “without caching”.
+
+[CHANGED] If the initial character of a tab trigger is not a word character, a word boundary is no longer required for the tab trigger to expand -- ticket DEFEA1A7.
+
+[CHANGED] The “Show in Separate Window” output option no longer exists.
+
+[FIXED] If a variable used in the print header/footer contained non-ASCII characters, these would show up wrong.
+
+[NEW] TextMate will now respond to most events while executing shell commands. This means that it is possible to run osascript (and ‘telling’ TextMate), pbpaste (while TextMate is the clipboard owner), etc. and not cause a deadlock. In addition it is possible to press cmd-. or ctrl-C while a command is running to abort that command (a confirmation dialog will appear).
+
+[FIXED] Template key equivalents now work again (when there is no open document) and bundle items which cannot be executed (i.e. when there is no active document) are again disabled. Not all bundle items are actually disabled, those which have no scope selector, which input/output is not relying on a document, and have no save action, will be enabled, but won’t result in any action taking place if selected w/o an open document. This is functionality yet to come.
+
+[FIXED] Project specific variables are now available for the potential shell command used to filter the web preview data.
+
+[CHANGED] When using “Execute Selection and Replace With Result” then the result of the executed shell command will have the last trailing newline character stripped.
+
+[FIXED] When merging a customized bundle menu structure with the default one, new groups (submenus) would not have been added to the customized version.
+
+[CHANGED] When duplicating a bundle item in the bundle editor, the key equivalent and tab trigger is also duplicated.
+
+[FIXED] Changing which extensions to target in a drag command (bundle editor) would not be accepted.
+
+[FIXED] The pop-up menu to disambiguate bundle items now use Menu Manager instead of NSPopUpButtonCell -- this should fix the wrong positioning of the menu (on Intel based Macs, it seems) -- ticket DC81A3C1. There might be a problem with dual monitor setups, if you do have such problem, please send me the information written to the system console when you open a menu -- preferably use the mailing list to keep down duplicate reports.
+
+[FIXED] When dragging default bundle items to other bundles, the item would end up being saved as a delta file (in the new bundle) which caused it to not load properly after relaunch (and thus effectively disappear) -- ticket 15336A68.
+
+[2006-05-25: REVISION 1031]
+
+[CHANGED] If a bundle’s info.plist is not saved as a delta file but lacks menu structure information then TextMate will search the default version for it, and if found, mark the info.plist as candidate for being saved as delta, should the user make changes to it.
+
+[FIXED] The New File sheet (for projects) would not work on Panther systems.
+
+[FIXED] Keys on the numeric keypad would not be able to trigger items bound to the non-numpad version. E.g. if a bundle item had ‘3’ as key equivalent, pressing ‘3’ on the numeric keypad would not trigger this item.
+
+[FIXED] Pressing a dead key could result in spurious bundle items executing.
+
+[FIXED] The Filter List… again shows all bundles and have them alphabetized.
+
+[FIXED] If a bundle had a menu structure with an empty group, an exception would be thrown after having shown this menu.
+
+[2006-05-24: REVISION 1021]
+
+[FIXED] Some key equivalents would not work (as TM now depends on the ordering of modifiers for faster lookups, but forgot to normalize when reading from disk/cache)
+
+[2006-05-23: REVISION 1019]
+
+[CHANGED] Templates can’t be created, removed, or duplicated in the bundle editor. While you can edit them, you should not edit the default templates, as the proper files will not be copied to your local library location. Templates will also not install or export properly -- so limit your use of templates to instantiating what’s already there (until it gets fixed). Also, this build has a lot of debug output in console (related to bundle items) and it will flush the language items cache when editing arbitrary bundle items (causing files to needlessly be re-parsed).
+
+[NEW] It is now possible to reload bundles from the Bundles -> Bundle Editor menu. Holding down the option modifier key changes the menu item to “Flush Cache & Reload” which will load the bundles without using the cache.
+
+[CHANGED] It is now possible to create a new bundle item when no bundle is selected. TextMate will place the new item in your default bundle, which is the first bundle you have created (after this release), and if you haven’t created any bundle yet, it will create one which contains your full name in the title (making it seem a little more personal). This same heuristic is used when saving scratch macros. If you wish to set the default bundle yourself, the defaults key is OakDefaultBundleForNewBundleItems. In the future there will likely be some bundle editing controls in the bundle editor for this and a few other values related to bundles.
+
+[NEW] The menu to disambiguate bundle items with identical key equivalents or tab triggers have shortcut 1-0 for the first ten items.
+
+[CHANGED] The pop-up menu showing when using a key equivalent or tab trigger with multiple matches now use a smaller font and will not include bundle names when all the items are language grammars. It uses a flat version of the menu structure (which can be edited in the bundle editor) to decide the ordering (and it does include separators, when the item above the separator (in the flat version) gets included).
+
+[CHANGED] Since disabled bundles are no longer loaded, TextMate will no longer be able to use language grammars from disabled bundles, when none of the default bundles have one which is appropriate. This feature may return though.
+
+[FIXED] It is no longer necessary to relaunch TextMate after installing bundles or bundle items. After installing, TextMate will open the bundle editor and select the new item.
+
+[NEW] The Bundles menu (formerly Automation) has a “Select Bundle Item…” (ctrl-cmd T) which shows a list of all bundle items reachable from the current scope and supports the venerable filtering based on an abbreviation that you type, but currently do not learn from your corrections. The filter string persists when revisiting the dialog, making it easy to re-run the same bundle item again. This is a first version, it likely will show key equivalent / tab trigger in the future, might use a column for the bundle name (for better alignment) and probably will allow arguments which will be given to the bundle item in the form of an environment variable.
+
+[NEW] The bundle editor show the full name of the currently selected item in the “title” above the item specific editor controls.
+
+[NEW] Ordering of bundle items is no longer restrained to have items grouped by type. In addition, it is possible to edit the menu structure used when presenting the contents of a bundle in the regular menus. This structure can contain separators, can have items grouped in submenus, and items can be excluded from the menu. The structure is saved to the bundle’s info.plist. For now, the way to create a new submenu is by dragging the New Group item from the Excluded Items list. Likewise for separators, and these items are removed from the menu by dragging them back. This interface is a transitional interface. I am aware of the redundancy in having bundle items show up in two lists etc.
+
+[NEW] It is now possible to install single bundle items (which are not shipped in a bundle). Thanks to Jacob Rus for creating icons for these stand-alone bundle items. The easiest way to distribute single items is by dragging them directly from the bundle editor (Tiger only!).
+
+[FIXED] The pop-up list with templates in the New File sheet (available only for projects) now correctly respect disabled bundles, will show the templates grouped after bundle, will remember your selection from last session, will remove all extensions when switching type, and will no longer use an older cached version, after the template has been changed in the bundle editor.
+
+[NEW] When deactivating the preferences, language grammar, or snippet text fields, the content will be validated and an error will be shown if it is invalid, allowing you to go back and fix it, or revert to the previous value.
+
+[FIXED] When making changes to preferences in the bundle editor, these will be applied as soon as the text field is deactivated (e.g. by giving focus to other controls in the bundle editor) -- previously you had to close the bundle editor window for the changes to take effect.
+
+[NEW] Bundles are now also loaded from ~/Library/Application Support/TextMate/Pristine Copy/Bundles. When you double-click a bundle or bundle item (for installing) this is where that item will end up, but otherwise TextMate will never write to that location. When you modify an item with a source path outside ~/Library/Application Support/TextMate/Bundles (e.g. a default item or one installed in Pristine Copy) then TextMate will store a special delta file which contains only what is different, compared to the default version / pristine copy. So for example if you change the key equivalent of a command, only that key equivalent is stored in ~/Library/Application Support/TextMate/Bundles, and should a new version of the command later be installed or ship with TextMate, you will see the updated command, but with your changed key equivalent.
+
+[NEW] It is possible to drag bundles and bundle items from the list in the bundle editor (Tiger only!) and drop these in a Finder window or on your desktop. This results in a full copy of either the bundle or bundle item dragged. This is useful for sharing your bundles and bundle items and it is the preferred way to export due to how bundles and bundle items can be the result of merging several items (although everything you create from scratch, will never be represented by delta files).
+
+[NEW] Bundle item information (name, scope, and activation) is now cached (~/Library/Caches/TextMate/Bundle Index) which means much faster loading of bundles during startup. The actual content of the bundle item will be loaded on demand. Re-caching of items happens when the date of the folder in which they are stored is changed. Normally this will not happen if you write to an existing file in a folder, though this shouldn’t be a problem, as you generally wouldn’t write directly to the files, but instead use the bundle editor. FYI subversion does update the parent folder’s date when updating a checkout.
+
+[FIXED] If the value of an environment variable (set in Preferences -> Advanced or as a project specific variable) was the empty string, that variable would not be set in the environment.
+
+[2006-05-05: REVISION 989]
+
+[CHANGED] The pulsating “recording macro” image in the right side of the status bar has been changed to a red dot (courtesy of Urbanose).
+
+[FIXED] Searching backwards for a regexp with a begin-of-line anchor (^), when the caret was at the beginning of a line, would cause a crash.
+
+[2006-04-27: REVISION 985]
+
+[NEW] It is now possible to disable the find panel history. This is done by running: defaults write -app TextMate OakFindPanelDisableHistory 1. The reason for this is, that some users experience crashes when using the tab key in the find panel (to advance focus). I have been unable to figure out what is wrong, but my suspicion lies with the NSComboBoxes used, so if you are among those hit by this bug, please disable the history, and if you get any crashes afterwards, be sure to tell me. I can’t see from the auto-submitted crash reports whether or not you have the history disabled, so please send an email to bugs (at) macromates.com if you experience the crash.
+
+[CHANGED] When redirecting to a non-existing file using the tm-file: scheme, TextMate will instead redirect to an error page.
+
+[CHANGED] Unwrap Paragraph is now ctrl-opt Q. This matches ctrl-Q for Wrap Paragraph (although named reformat). And the previous key was in violation with the key bindings conventions :)
+
+[NEW] When a command runs on a fallback unit (like scope or current word) then two new variables will be available: TM_INPUT_START_LINE and TM_INPUT_START_LINE_INDEX. These tell what line and index into that line, that the first character of the input corresponds to. These are necessary for the TM_LINE_NUMBER and TM_LINE_INDEX to make sense, as those variables are absolute numbers (i.e. relative to the start of the document, not input).
+
+[NEW] TextMate will prompt for confirmation, if you open a larger than 10 MB file from Finder.
+
+[FIXED] Peak memory usage when doing Find in Project should no longer be that of having all files loaded into memory.
+
+[NEW] It’s possible to set ‘disableOutputAutoIndent’ (to true) in a command’s property list (on disk). This disables the feature where “Insert as Snippet” has the result indented to match the current context.
+
+[NEW] When creating a new bundle item, the scope selector will be set to the default value stored in the bundles info.plist (under the defaultScopeSelector key). Currently there is no way to edit this or the isDefault key/value pair, other than loading the actual info.plist of the bundle and editing it.
+
+[CHANGED] When saving a macro, rather than pick the first bundle (when there is nothing selected in the bundle editor) it picks the first bundle which is not marked as default (by having isDefault set to true in the info.plist of the bundle).
+
+[NEW] It’s now possible to change the key equivalent used for the bundle items pop-up menu in the status bar. This is done by setting the OakBundleItemsPopUpMenuKeyEquivalent defaults property to the key string. The default is "^\033" (control-Escape). This key does have very low precedence.
+
+[CHANGED] When erasing a key equivalent (by clicking the X), the input control will resign as first responder (i.e. lose focus).
+
+[2006-04-10: REVISION 961]
+
+[CHANGED] The left/right arrow keys (which are bound to the moveLeft/Right: action methods) now move the caret to either ends of the selection, when there is one, instead of moving the caret from its position prior to the selection. Control B/F (which are bound to moveBackward/Forward:) now have this behavior. People who have macros that rely on the previous moveBackward/Forward: behavior will need to update these to use moveLeft/Right:.
+
+[NEW] It is possible to select the ‘current scope’ by pressing ctrl-option B. This is an experimental feature (and a temporary key binding, the action method is selectCurrentScope: if you want to rebind it). It selects the text surrounding the caret which has the same scope as the caret. That means, if you are inside a string, comment, HTML tag, or similar, it will select that unit. It is however not perfect, for example if the caret is on an escape sequence in a string, it will first select that escape sequence. Also, it is very dependent on what the current language grammar parses.
+
+[CHANGED] The scope of the caret is now that of the character to the right of the caret, rather than that on the left side.
+
+[NEW] For commands it is now possible to set the fallback input (for when there is no selection) to ‘Scope’. This will provide the command with all the text which surround the caret and match the commands scope selector. For example if you create a command with scope selector set to ‘string, comment’ and run that command when the caret is either inside a string or comment, it will be fed the entire text of the string or comment as input. By setting output to ‘Replace Selection’ or ‘Insert as Snippet’, this makes for a very simple way to write commands which reformat semantic portions of a document or do things with these.
+
+[FIXED] When running a command that has a fallback unit specified as input (e.g. word or line) and the output of the command is not to replace the input, the input is no longer left selected in the document, after running the command.
+
+[FIXED] Possible crash when re-running a command with HTML output.
+
+[2006-04-01: REVISION 948]
+
+[NEW] It’s possible to press option F2 to bring up the context menu. This key was chosen because control F2 (with full keyboard access) opens the regular menu.
+
+[CHANGED] Toggle case to end of word is now ctrl-opt G instead of ctrl-shift G, since the latter modifier sequence is reserved for bundle items.
+
+[FIXED] When the last snippet tab stop was embedded in a placeholder, and that placeholder got deleted, TM would crash when tabbing to the last tab stop. For example a snippet like: ${1:delete me$0} would show the problem.
+
+[FIXED] TextMate will no longer sniff encoding on non-regular files (e.g. FIFOs). This would previously cause TM to freeze if either such file was clicked in the project drawer or part of the Go to File list (and it had an unknown extension).
+
+[FIXED] Files added to projects which are not matched by the folder reference file pattern are no longer rejected.
+
+[NEW] The Navigation menu has a Go to Middle Visible Line action (shift-cmd J) which moves the caret to the line which is vertically centered.
+
+[NEW] One can now access the document as parsed by TextMate. To do so, create a new command (in the bundle editor), locate the command’s plist on disk, add the key inputFormat with a value of xml to this plist, and relaunch TextMate to have it use this modified command (it’s a new experimental feature, thus no UI for this). The input fed to the command will be wrapped in tags corresponding to the scope names. It also has the usual entity escapes. This form is probably not valid XML (because of the scope names which do not make for good tag names), but a simple regexp substitution should be able to convert it into something more useful, so I opted for using this “raw” representation, rather than turn it into XHTML with class arguments or similar. The Experimental bundle (at the Bundles svn repository) has a View Document as HTML command which converts the XML to XHTML with a minimal style sheet.
+
+[NEW] It is possible to print the HTML output from commands.
+
+[CHANGED] When there is no selection, it is still possible to execute the Use Selection for Replace (shift-cmd E) action. In this case, it will use the empty string as replacement string.
+
+[FIXED] When recording a key equivalent (e.g. in the bundle editor) the numeric keypad modifier is stripped from function keys and the enter key, so that the key equivalent should work on laptop keyboards as well (where the numeric keypad modifier is not always set for “typical” numeric pad keys).
+
+[NEW] When a command brings up a tool tip, mouse moves performed within the first second do not close the tool tip, and after that second has elapsed, the mouse needs to be moved at least 5 pixels for the tool tip to close. These values can be adjusted using the OakToolTipMouseMoveIgnorePeriod and OakToolTipMouseDistanceThreshold defaults keys.
+
+[CHANGED] The bundled documentation now include images, since relying on those online made Help Viewer go berserk when there was no internet connection.
+
+[NEW] Files without extension now open in TextMate (instead of TextEdit) when double-clicked in Finder.
+
+[CHANGED] ctrl-opt R is now “Execute Line / Selection and Replace With Result” instead of “…Appending Result”.
+
+[CHANGED] The ‘Watch For’ software update setting now defaults to ‘Minor Updates’ (instead of ‘Cutting Edge’). I plan to put out future 1.5.x releases all as ‘Minor Updates’ and reserve ‘Cutting Edge’ for the 2.0 branch (for which there is still some wait, so don’t spend the next week hitting “Check Now” every fifth minute :p )
+
+[CHANGED] Lots and lots of changes, fixes, and additions to the bundles.
+
+[FIXED] The Edit in TextMate input manager now attach itself to the Edit menu even when that menu is named differently (i.e. being localized). The input manager should also solve a problem where the calling application doesn’t notice that the content of the NSTextView has actually changed.
+
+[NEW] New document icons for themes, bundles, projects, plug-ins, and enhancements of the other file type icons with several new types added. Many thanks to Jacob Rus for all his work!
+
+[CHANGED] Added _darcs to the default folder hide pattern.
+
+[FIXED] Document and project windows are now restrained to the visible screen frame. Since the default restraining (which I am overriding) isn't as strict, and since there is some controversy about how much restraining a user application should do, it can be disabled by setting the OakScreenDisableWindowRestraining to 1 or true via defaults.

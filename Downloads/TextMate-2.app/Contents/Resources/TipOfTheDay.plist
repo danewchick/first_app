@@ -1,0 +1,29 @@
+/*
+	shift	\U21E7
+	control	\U2303
+	option	\U2325
+	command	\U2318
+	arrow   \U2192
+*/
+(
+	"If you drag a directory or multiple files onto the TextMate application icon, it will create a scratch project containing the files.",
+	"Some menus group related actions under a single item, for example if you open the “File” menu and hold down control (\U2303) you'll see that “Close Tab” turns into “Close All Tabs”.",
+	"When a selection is active, you can press and release \U2325 to change the selection into columnar mode.",
+	"When executing a shell command, you can use various environment variables to get information from TextMate, like $TM_FILEPATH, $TM_SELECTED_TEXT, $TM_CURRENT_WORD, a.s.o.\n\nFor a full list and how to provide your own variables, see the “Shell Variables” section of the TextMate Help Book.",
+	"If you need to collect several pieces of text from a document, simply copy them all to the clipboard (one by one), go to where they should be inserted and do a normal paste (\U2318V), follow it by repeatedly pressing \U21E7\U2318V until all your clips are pasted (this command will go one back in the clipboard history and paste the item).",
+	"If you need to repeatedly apply the same editing operations then use “Start Recording” from the Bundles → Macros menu.\n\n   \U2325\U2318M — start/stop recording\n   \U21E7\U2318M — replay what you just recorded",
+	"If you type text while a columnar selection is active, it will overtype the selection and your edit operations will afterwards be mirrored down through all the lines.",
+	"Don't forget to bring a towel.",
+	"If you want the hex value of a character, you can write “echo '<char>' | xxd” on an empty line and press \U2303R. This will execute the line as a unix command, which gives a hex dump of <char>. Other useful unix commands in this context are date (insert current date and time) and cal (insert a calender of current month) to name only a few.",
+	"Output from external commands can be parsed with regular expressions to extract filename and line number, so you can run a compiler from TextMate and jump directly to the errors, or lookup the current symbol with ctags, and jump to its definition.\n\nFor more information, see the “Command” section of the TextMate Help Book.",
+	"If you hold down \U2325 while placing the caret by clicking the mouse button, it will temporarily ignore line endings and allow you to place the caret past the end of a line or inside a tab. This is similar to enabling “Freehanded Edit” from the “Edit” \U2192 “Mode” menu.",
+	"If you want to make a macro that surrounds the selection with a prefix and a suffix then record a regular expression replace where the scope is “Selection”, the search string is set to “^.*$” and the replacement string is “<prefix>$0<suffix>”.\n\nA more low-tech solution is to record: \U2318X, <prefix>, \U2318V, <suffix>. But I'm leaving the tip above for the geek-factor.",
+	"If you reformat a paragraph while a columnar selection is active, it will use the left and right column of the selection as margins for reformatting.",
+	"If you want to open a file from a directory not visible with the open panel (e.g. “/tmp/foo.txt”) you can press \U21E7\U2318G while the standard open panel is shown, to get a text field where you can enter arbitrary paths.\n\nThis also works for save panels.",
+	"If you want to move a word, line, or block of text w/o losing the contents on your clipboard (ignoring here that TextMate has automatic clipboard history), simply select the unit which needs to be moved and hold down \U2303\U2318 while you use the arrow keys to move it around.\n\nThis feature is especially useful for columnar selections, where you can move a column to either sides to align it correctly or similar.",
+	"If your data is formatted in columns and you need to rewrite some of the text in the non-rightmost column, you can enable “Overwrite Mode” from the “Edit” \U2192 “Mode” menu, so that it won't move the text to the right of the caret when you type the replacement strings.",
+	"If you hold down \U2325 when you press arrow up or down, it will move the caret to the first or last line of the current column.\n\nThis feature allows you to do column selections in only a couple of key strokes, even when the column spans many lines.",
+	"If you need a macro which “underlines” arbitrary text by inserting a line of dashes below it, you can initially copy the text and then use “Fill Selection With…” from the “Text” / “Change” submenu to turn it into a dashed line. Another option is a regular expression search and replace, turning the ANY character (“.”) into a dash, and a third choice is “Filter Through Command…”, where the command could be “tr -c '\\0' -” (which turns everything but the null character into a dash).",
+	"Output from external commands can be shown as tooltips, so you can for example make a macro that looks up the current word ($TM_CURRENT_WORD) in your documentation and shows the result in a tooltip.",
+	"If you lose track of the caret, you can press \U2318J to center it in the display, which should make it easier to find.",
+)

@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"indexes:ETI">ActiveRecord::ConnectionAdapters::TableDefinition#indexes;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"KAn array of ColumnDefinition objects, representing the column changes ;TI"that have been defined.;T:
+@fileI"Ilib/active_record/connection_adapters/abstract/schema_definitions.rb;T:0@omit_headings_from_table_of_contents_below0F@I"6ActiveRecord::ConnectionAdapters::TableDefinition;FcRDoc::NormalClass0

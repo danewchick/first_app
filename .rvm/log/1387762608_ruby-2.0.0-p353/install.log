@@ -1,0 +1,157 @@
+[2013-12-22 20:46:15] __rvm_make
+__rvm_make () 
+{ 
+    \make "$@" || return $?
+}
+current path: /Users/owner/.rvm/src/ruby-2.0.0-p353
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/owner/.rvm/bin
+command(2): __rvm_make install
+	CC = /usr/bin/clang
+	LD = ld
+	LDSHARED = /usr/bin/clang -dynamiclib
+	CFLAGS = -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wshorten-64-to-32 -Wimplicit-function-declaration   -fno-common -pipe 
+	XCFLAGS = -include ruby/config.h -include ruby/missing.h -D_FORTIFY_SOURCE=2 -fstack-protector -fno-strict-overflow -fvisibility=hidden -DRUBY_EXPORT
+	CPPFLAGS = -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT -I/usr/local/opt/libyaml/include -I/usr/local/opt/readline/include -I/usr/local/opt/libksba/include -I/usr/local/opt/openssl/include   -I. -I.ext/include/x86_64-darwin13.0.0 -I./include -I.
+	DLDFLAGS = -Wl,-undefined,dynamic_lookup -Wl,-multiply_defined,suppress -L/usr/local/opt/libyaml/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/libksba/lib -L/usr/local/opt/openssl/lib  -install_name /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/libruby.2.0.0.dylib -current_version 2.0.0 -compatibility_version 2.0.0  -fstack-protector -Wl,-u,_objc_msgSend  -fstack-protector -Wl,-u,_objc_msgSend  
+	SOLIBS = 
+generating encdb.h
+encdb.h unchanged
+making enc
+make[1]: Nothing to be done for `enc'.
+making srcs under enc
+make[1]: Nothing to be done for `srcs'.
+generating transdb.h
+transdb.h unchanged
+making trans
+make[1]: Nothing to be done for `./enc/trans'.
+making encs
+generating makefile exts.mk
+Failed to configure -test-/win32/dln. It will not be installed.
+Failed to configure -test-/win32/fd_setsize. It will not be installed.
+Failed to configure dl/win32. It will not be installed.
+Failed to configure fiddle/win32. It will not be installed.
+Failed to configure gdbm. It will not be installed.
+configuring socket
+Failed to configure tk/tkutil. It will not be installed.
+Failed to configure win32ole. It will not be installed.
+installing default resize libraries
+installing default bug libraries
+installing default bug libraries
+installing default bug libraries
+installing default debug libraries
+installing default exception libraries
+installing default rb_fatal libraries
+installing default funcall libraries
+installing default break libraries
+installing default dot.dot libraries
+installing default compat libraries
+installing default usr libraries
+installing default method libraries
+installing default num2int libraries
+installing default old_thread_select libraries
+installing default path_to_class libraries
+installing default printf libraries
+installing default numhash libraries
+installing default update libraries
+installing default string libraries
+installing default symbol libraries
+installing default typeddata libraries
+installing default wait_for_single_fd libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default bigdecimal libraries
+installing default continuation libraries
+installing default coverage libraries
+installing default curses libraries
+installing default date_core libraries
+installing default dbm libraries
+installing digest libraries
+installing default digest libraries
+installing default bubblebabble libraries
+installing default md5 libraries
+installing default rmd160 libraries
+installing default sha1 libraries
+installing default sha2 libraries
+installing dl libraries
+installing default dl libraries
+installing default callback libraries
+make[2]: Nothing to be done for `all'.
+installing default etc libraries
+installing default fcntl libraries
+installing default fiber libraries
+installing default fiddle libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default console libraries
+installing default nonblock libraries
+installing default wait libraries
+installing default libraries
+installing default generator libraries
+installing default parser libraries
+installing default complex libraries
+installing default rational libraries
+installing default nkf libraries
+installing default objspace libraries
+installing default openssl libraries
+installing default pathname libraries
+installing default psych libraries
+installing default pty libraries
+installing default cparse libraries
+installing default readline libraries
+installing default ripper libraries
+checking ../.././parse.y and ../.././ext/ripper/eventids2.c
+installing default sdbm libraries
+linking shared-object socket.bundle
+installing default socket libraries
+installing default stringio libraries
+installing default strscan libraries
+installing default syslog libraries
+make[2]: Nothing to be done for `all'.
+make[2]: Nothing to be done for `all'.
+installing default zlib libraries
+make[2]: `ruby' is up to date.
+Generating RDoc documentation
+
+Generating RI format into /Users/owner/.rvm/src/ruby-2.0.0-p353/.ext/rdoc...
+
+Files:        905
+
+Classes:     1411 (   0 undocumented)
+Modules:      312 (   4 undocumented)
+Constants:   2282 ( 724 undocumented)
+Attributes:  1137 ( 340 undocumented)
+Methods:    10864 (2556 undocumented)
+
+Total:      16006 (3624 undocumented)
+ 77.36% documented
+
+Elapsed: 149.5s
+config.status: creating x86_64-darwin13.0.0-fake.rb
+./miniruby -I./lib -I. -I.ext/common  ./tool/runruby.rb --extout=.ext  -- --disable-gems -r./x86_64-darwin13.0.0-fake ./tool/rbinstall.rb --make="/Applications/Xcode.app/Contents/Developer/usr/bin/make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc" --install=all --rdoc-output=".ext/rdoc"
+installing binary commands:   /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin
+installing base libraries:    /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib
+installing arch files:        /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/x86_64-darwin13.0.0
+installing pkgconfig data:    /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/pkgconfig
+installing extension objects: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/x86_64-darwin13.0.0
+installing extension objects: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0/x86_64-darwin13.0.0
+installing extension objects: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin13.0.0
+installing extension headers: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/include/ruby-2.0.0/x86_64-darwin13.0.0
+installing extension scripts: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0
+installing extension scripts: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/site_ruby/2.0.0
+installing extension scripts: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/vendor_ruby/2.0.0
+installing extension headers: /Users/owner/.rvm/rubies/ruby-2.0.0-p353/include/ruby-2.0.0/ruby
+installing rdoc:              /Users/owner/.rvm/rubies/ruby-2.0.0-p353/share/ri/2.0.0/system
+installing capi-docs:         /Users/owner/.rvm/rubies/ruby-2.0.0-p353/share/doc/ruby
+installing command scripts:   /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin
+installing library scripts:   /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0
+installing common headers:    /Users/owner/.rvm/rubies/ruby-2.0.0-p353/include/ruby-2.0.0
+installing manpages:          /Users/owner/.rvm/rubies/ruby-2.0.0-p353/share/man/man1
+installing default gems:      /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/gems/2.0.0 (build_info, cache, doc, gems, specifications)
+                              bigdecimal 1.2.0
+                              io-console 0.4.2
+                              json 1.7.7
+                              minitest 4.3.2
+                              psych 2.0.0
+                              rake 0.9.6
+                              rdoc 4.0.0
+                              test-unit 2.0.0.0

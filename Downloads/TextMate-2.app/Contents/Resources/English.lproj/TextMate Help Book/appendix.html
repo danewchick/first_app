@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Appendix</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="getting_help.html">Getting Help</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="appendix">24</a> Appendix</h1>
+
+<h2><a name="property_list_format">24.1</a> Property List Format</h2>
+
+<p>Normally TextMate presents settings and such using a GUI, but for the <a href="language_grammars.html">language grammars</a> and <a href="preferences_items.html">preferences items</a> it exposes you to the <a href="http://developer.apple.com/documentation/Cocoa/Conceptual/PropertyLists/Articles/OldStylePListsConcept.html">old-style property list format</a>.</p>
+
+<p>For the purposes of TextMate this format has 3 data types which are described below. Notice that the escape rules for strings have been changed slightly compared to Apple's official format. This was done to make the language grammars more readable, since these need a lot of literal escape characters.</p>
+
+<h3><a name="strings">24.1.1</a> Strings</h3>
+
+<p>The basic type is a string which can be either single or double quoted.</p>
+
+<p>When the string is single quoted, all characters are verbatim. If you need to put a <code>'</code> inside a single quoted string, you need to use two, for example:</p>
+
+<pre><code>'Normal string'          =&gt; Normal string
+'That''s an apostrophe'  =&gt; That's an apostrophe
+'String with \backslash' =&gt; String with \backslash
+</code></pre>
+
+<p>As you can see, the only interpretation which happens is to convert any occurrence of <code>''</code> to a single <code>'</code>.</p>
+
+<p>Double quoted strings do support escape sequences, apart from <code>\"</code> and <code>\\</code>. For example:</p>
+
+<pre><code>"Normal string"          =&gt; Normal string
+"Some \"quoted\" text"   =&gt; Some "quoted" text
+"Literal \escape"        =&gt; Literal \escape
+"Escaped \\escape"       =&gt; Escaped \escape
+"Two \\\escapes"         =&gt; Two \\escapes
+</code></pre>
+
+<p>When a string consists entirely of letters, underscores and dashes, it is possible to omit the quotes. For example the following are all legal strings:</p>
+
+<pre><code>foreground-color
+this_is_a_string
+justLettersInThisOne
+</code></pre>
+
+<h3><a name="arrays">24.1.2</a> Arrays</h3>
+
+<p>Arrays are collections of elements, each element can be another array, a string or a dictionary. Elements are comma separated and the entire list is enclosed in parentheses. Some examples:</p>
+
+<pre><code>( "foo", "bar", "fud" )
+( "nested", ( "array", "in" ), "array" )
+</code></pre>
+
+<p>It is allowable to put a comma after the last element, like this:</p>
+
+<pre><code>( "foo", "bar", "fud", )
+</code></pre>
+
+<h3><a name="dictionaries">24.1.3</a> Dictionaries</h3>
+
+<p>Dictionaries associate a value with a name (key). They are also known as maps, hashes, associative arrays and probably go under a few other terms as well.</p>
+
+<p>The structure is: <code>{ «key» = «value»; }</code> here <code>«key»</code> is a string and <code>«value»</code> can be either an array, string or another dictionary. Some examples:</p>
+
+<pre><code>{ color = "black"; }
+{ colors = ( "red", "green", "blue" ); }
+</code></pre>
+
+<h2><a name="indentation_rules">24.2</a> Indentation Rules</h2>
+
+<h3><a name="introduction">24.2.1</a> Introduction</h3>
+
+<p>Source code and structured text generally have indentation conventions. TextMate can help you with these if you tell it when to increase and decrease the indent.</p>
+
+<p>Having TextMate figure out the proper indentation is useful when you paste text in another part of the source (where the indentation is different), when you press return on a line that affects the indentation (for next line), or when you press tab at the beginning of the line (and want as much indentation as appropriate for that line).</p>
+
+<h3><a name="the_system">24.2.2</a> The System</h3>
+
+<p>Some languages go a little beyond a single character/keyword to increase and another to decrease, so TextMate has four (regexp) patterns you can set to tell it about your indentation conventions.</p>
+
+<p>The patterns should be set in the Bundle Editor and are set as <a href="preferences_items.html">preference items</a> with the scope set to the scope for which you want the rules to apply (e.g. <code>source.c++</code>).</p>
+
+<p><img src='images/indentation_rules.png' width="442" height="280" alt="Indentation Rules" title=""></p>
+
+<p>We will use the following code example to explain the four patterns:</p>
+
+<pre><code> 1  int main (int argc, char const* argv[])
+ 2  {
+ 3     while(true)
+ 4     {
+ 5        if(something())
+ 6           break;
+ 7  #if 0
+ 8        play_awful_music();
+ 9  #else
+10        play_nice_music();
+11  #endif
+12     }
+13     return 0;
+14  }
+</code></pre>
+
+<h3><a name="increase_pattern">24.2.3</a> Increase Pattern</h3>
+
+<p>The <code>increaseIndentPattern</code> should match the lines which increase the indent. In our example above, this is the <code>{</code> characters at lines 2 and 4 (the if on line 5 will be discussed later).</p>
+
+<p>The simple preference for this pattern would be:</p>
+
+<pre><code>increaseIndentPattern = '\{';
+</code></pre>
+
+<p>However, since we could have code like this:</p>
+
+<pre><code>int arr[] = { 1, 2, 3 };
+</code></pre>
+
+<p>or</p>
+
+<pre><code>str = "foo {";
+</code></pre>
+
+<p>we need to make it a little more complicated, by ensuring that no }, <code>"</code> or <code>'</code> will follow the <code>{</code> on the same line. A good choice for languages which use the bracket to start a block would be:</p>
+
+<pre><code>increaseIndentPattern = "^.*\{[^}\"']*$";
+</code></pre>
+
+<h3><a name="decrease_pattern">24.2.4</a> Decrease Pattern</h3>
+
+<p>The <code>decreaseIndentPattern</code> should match the counterpart of our increase indent pattern. In our example the indent is increased by lines 12 and 14. The character here is } and so the simple decrease indent pattern would be setup as:</p>
+
+<pre><code>decreaseIndentPattern = '\}';
+</code></pre>
+
+<p>the more complex version may allow only comment end markers in front of the <code>}</code> and whitespace or <code>;</code> after the <code>}</code>, so with that in mind, we extend the pattern to:</p>
+
+<pre><code>decreaseIndentPattern = '^(.*\*/)?\s*\}[;\s]*$';
+</code></pre>
+
+<h3><a name="increase_only_next_line">24.2.5</a> Increase Only Next Line</h3>
+
+<p>We ignored line 5 in the increase indent pattern, that is because it does not really increase the indent, it only causes the next line to be indented if a block is not started.</p>
+
+<p>For this situation there is the <code>indentNextLinePattern</code>, which should match these lines. We could make it something like:</p>
+
+<pre><code>indentNextLinePattern = 'if|while|for|switch|…';
+</code></pre>
+
+<p>But generally in C-like languages, all lines not terminated with a semi-colon (or ending with starting a block), cause the next line to be indented. This is (with most conventions) also the case when manually breaking one expression into several lines, e.g.:</p>
+
+<pre><code>some_function(argument1,
+   argument2,
+   argument3);
+
+more_code;
+</code></pre>
+
+<p>So instead of explicitly matching known language constructs which have the next line indented, we simply match all lines which are not terminated with a semi-colon or brackets. One thing to remember is single-line comments like this:</p>
+
+<pre><code>some_function(arg); // this is terminated
+</code></pre>
+
+<p>To solve that, we start with a negative look-ahead assertion in this case and then go on to match lines not terminated by any of the characters mentioned above. The pattern ends up as:</p>
+
+<pre><code>indentNextLinePattern = '^(?!.*;\s*//).*[^\s;{}]\s*$';
+</code></pre>
+
+<h3><a name="ignoring_lines">24.2.6</a> Ignoring Lines</h3>
+
+<p>Sometimes we have lines which are outside the normal indent, or does not affect the indent despite matching our rather general <code>indentNextLinePattern</code>. In our example these are the preprocessor lines (line 7, 9 and, 11).</p>
+
+<p>To tell TextMate about these lines, there is an <code>unIndentedLinePattern</code> rule. Another case to avoid might be something like this:</p>
+
+<pre><code> 1     some_function();
+ 2  
+ 3  /* ignore_first();
+ 4     ignore_second();
+ 5  */
+ 6     more_functions();
+</code></pre>
+
+<p>Here line 3 and 5 would count as having zero indent, so we want to ignore these.</p>
+
+<p>To instruct it to ignore preprocessor lines, lines with leading comments or a few Objective-C directives (which are not terminated by a semi-colon), we can use this pattern:</p>
+
+<pre><code>unIndentedLinePattern =
+   '^\s*((/\*|\*/\s*$|//|#|@interface|@implementation|@end).*)?$';
+</code></pre>
+
+<h2><a name="plug-in_api">24.3</a> Plug-in API</h2>
+
+<p>When launched, TextMate loads plug-ins located in <code>~/‍Library/‍Application Support/‍TextMate/‍PlugIns</code>. The plug-in should be a normal Objective-C bundle with a principal class which will receive an <code>initWithPlugInController:</code> when instantiated.</p>
+
+<p>There is a <a href="http://svn.textmate.org/trunk/Tools/Clock%20Example%20PlugIn/">sample plug-in here</a>. Though other than the startup message, TextMate does not offer any API for the plug-in to use (but will likely do so in the future).</p>
+
+<p>If you are interested in developing plug-ins for TextMate, you can subscribe to the <a href="http://lists.macromates.com/pipermail/textmate-plugins/">plug-ins mailing list</a>.</p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="getting_help.html">Getting Help</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+[2013-12-22 20:37:10] requirements_osx_brew_libs_install
+requirements_osx_brew_libs_install () 
+{ 
+    brew unlink "$@" || true;
+    brew install "$@" || { 
+        typeset ret=$?;
+        rvm_warn "There were package installation errors, make sure to read the log.
+
+Try \`brew tap --repair\` and make sure \`brew doctor\` looks reasonable.
+
+Check Homebrew requirements https://github.com/mxcl/homebrew/wiki/Installation";
+        case "$_system_version" in 
+            10.6)
+                rvm_warn "
+On OSX 10.6 instead of command line tools install:
+    https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg"
+            ;;
+        esac;
+        return $ret
+    }
+}
+current path: /Users/owner/.rvm/src/rvm
+PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/owner/.rvm/bin
+command(9): requirements_osx_brew_libs_install autoconf automake libtool pkg-config libyaml readline libksba openssl
+Error: No such keg: /usr/local/Cellar/autoconf
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/autoconf-2.69.mavericks.bottle.tar.gz
+==> Pouring autoconf-2.69.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/autoconf/2.69: 69 files, 2.0M
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/automake-1.14.mavericks.bottle.tar.gz
+==> Pouring automake-1.14.mavericks.bottle.tar.gz
+🍺  /usr/local/Cellar/automake/1.14: 127 files, 2.5M
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/libtool-2.4.2.mavericks.bottle.2.tar.gz
+==> Pouring libtool-2.4.2.mavericks.bottle.2.tar.gz
+==> Caveats
+In order to prevent conflicts with Apple's own libtool we have prepended a "g"
+so, you have instead: glibtool and glibtoolize.
+==> Summary
+🍺  /usr/local/Cellar/libtool/2.4.2: 66 files, 2.2M
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/pkg-config-0.28.mavericks.bottle.2.tar.gz
+==> Pouring pkg-config-0.28.mavericks.bottle.2.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.28: 10 files, 604K
+==> Downloading http://pyyaml.org/download/libyaml/yaml-0.1.4.tar.gz
+==> ./configure --prefix=/usr/local/Cellar/libyaml/0.1.4
+==> make install
+🍺  /usr/local/Cellar/libyaml/0.1.4: 7 files, 332K, built in 14 seconds
+==> Downloading https://downloads.sf.net/project/machomebrew/Bottles/readline-6.2.4.mavericks.bottle.2.tar.gz
+==> Pouring readline-6.2.4.mavericks.bottle.2.tar.gz
+==> Caveats
+This formula is keg-only, so it was not symlinked into /usr/local.
+
+OS X provides the BSD libedit library, which shadows libreadline.
+In order to prevent conflicts when programs look for libreadline we are
+defaulting this GNU Readline installation to keg-only.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/readline/lib
+    CPPFLAGS: -I/usr/local/opt/readline/include
+
+==> Summary
+🍺  /usr/local/Cellar/readline/6.2.4: 31 files, 1.6M
+==> Installing libksba dependency: libgpg-error
+==> Downloading ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.12.tar.bz2
+==> ./configure --prefix=/usr/local/Cellar/libgpg-error/1.12
+==> make install
+🍺  /usr/local/Cellar/libgpg-error/1.12: 15 files, 172K, built in 13 seconds
+==> Installing libksba
+==> Downloading ftp://ftp.gnupg.org/gcrypt/libksba/libksba-1.3.0.tar.bz2
+==> ./configure --prefix=/usr/local/Cellar/libksba/1.3.0
+==> make install
+🍺  /usr/local/Cellar/libksba/1.3.0: 11 files, 272K, built in 17 seconds
+==> Downloading http://www.openssl.org/source/openssl-1.0.1e.tar.gz
+==> perl ./Configure --prefix=/usr/local/Cellar/openssl/1.0.1e --openssldir=/usr/local/etc/openssl zlib-dynamic shared darwin64-x86_64-cc enable-ec_nistp_64_gcc_128
+==> make depend
+==> make
+==> make test
+==> make install MANDIR=/usr/local/Cellar/openssl/1.0.1e/share/man MANSUFFIX=ssl
+==> Caveats
+This formula is keg-only, so it was not symlinked into /usr/local.
+
+Mac OS X already provides this software and installing another version in
+parallel can cause all kinds of trouble.
+
+The OpenSSL provided by OS X is too old for some software.
+
+Generally there are no consequences of this for you. If you build your
+own software and it requires this formula, you'll need to add to your
+build variables:
+
+    LDFLAGS:  -L/usr/local/opt/openssl/lib
+    CPPFLAGS: -I/usr/local/opt/openssl/include
+
+==> security find-certificate -a -p /Library/Keychains/System.keychain > '/usr/local/etc/openssl/osx_cert.pem.tmp'
+==> security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain >> '/usr/local/etc/openssl/osx_cert.pem.tmp'
+==> mv -f /usr/local/etc/openssl/osx_cert.pem.tmp /usr/local/etc/openssl/osx_cert.pem
+==> Summary
+🍺  /usr/local/Cellar/openssl/1.0.1e: 429 files, 15M, built in 3.8 minutes

@@ -1,0 +1,1350 @@
+<!DOCTYPE html><html lang="en" data-cast-api-enabled="true"><head><script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, n) {ytcsi.gt(n).span[l] = (typeof s == 'number') ? s :+new Date() - ytcsi.data_.tick[l];},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;}};(function() {var perf = window['performance'] || window['mozPerformance'] ||window['msPerformance'] || window['webkitPerformance'];ytcsi.tick('_start', perf ? perf['timing']['responseStart'] : null);})();if (document.webkitVisibilityState == 'prerender') {ytcsi.info('prerender', 1);document.addEventListener('webkitvisibilitychange', function() {ytcsi.tick('_start');}, false);}try {ytcsi.pt_ = (window.chrome && chrome.csi().pageT ||window.gtbExternal && gtbExternal.pageT() ||window.external && external.pageT);if (ytcsi.pt_) {ytcsi.info('pt', Math.floor(ytcsi.pt_));}} catch(e) {}</script>    <script>var ytimg = {};ytimg.count = 1;ytimg.preload = function(src) {var img = new Image();var count = ++ytimg.count;ytimg[count] = img;img.onload = img.onerror = function() {delete ytimg[count];};img.src = src;};</script>
+
+  <link id="css-344564990" class="www-core" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vfl4DqC20.css" data-loaded="true">
+<script>if (window.ytcsi) {window.ytcsi.tick("ce", null, '');}</script>  
+      <script>
+    ytimg.preload("http:\/\/r3---sn-gvbxgn-tt1e.googlevideo.com\/crossdomain.xml");
+    ytimg.preload("http:\/\/r3---sn-gvbxgn-tt1e.googlevideo.com\/generate_204");
+  </script>
+
+
+  <script>
+try {var ytbuffer = {};ytbuffer.bufferedClick;ytbuffer.handleClick = function(e) {var element = e.target || e.srcElement;while (element.parentElement) {if (element.className.match(/^yt-can-buffer$|^yt-can-buffer | yt-can-buffer$| yt-can-buffer /)) {ytbuffer.bufferedClick = e;element.className += ' yt-is-buffered';break;}element = element.parentElement;}};if (document.addEventListener) {document.addEventListener('click', ytbuffer.handleClick);} else {document.attachEvent('onclick', ytbuffer.handleClick);}} catch(e) {}  </script>
+<title>Remove file from a past git commit - YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="http://www.youtube.com/opensearch?locale=en_US" title="YouTube Video Search"><link rel="shortcut icon" href="http://s.ytimg.com/yts/img/favicon-vfldLzJxy.ico" type="image/x-icon">     <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png" sizes="32x32"><link rel="canonical" href="http://www.youtube.com/watch?v=2dQosJaLN18"><link rel="alternate" media="handheld" href="http://m.youtube.com/watch?v=2dQosJaLN18"><link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.youtube.com/watch?v=2dQosJaLN18"><link rel="shortlink" href="http://youtu.be/2dQosJaLN18">      <meta name="title" content="Remove file from a past git commit">
+
+      <meta name="description" content="Accidentally committed a file in git? No problem. This video shows an example of simple git history editing with interactive rebase to remove a file from a p...">
+
+      <meta name="keywords" content="">
+
+      <link rel="alternate" type="application/json+oembed" href="http://www.youtube.com/oembed?format=json&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2dQosJaLN18" title="Remove file from a past git commit">
+  <link rel="alternate" type="text/xml+oembed" href="http://www.youtube.com/oembed?format=xml&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2dQosJaLN18" title="Remove file from a past git commit">
+
+        <meta property="og:site_name" content="YouTube">
+    <meta property="og:url" content="http://www.youtube.com/watch?v=2dQosJaLN18">
+    <meta property="og:title" content="Remove file from a past git commit">
+    <meta property="og:type" content="video">
+    <meta property="og:image" content="http://i1.ytimg.com/vi/2dQosJaLN18/maxresdefault.jpg">
+
+      <meta property="og:description" content="Accidentally committed a file in git? No problem. This video shows an example of simple git history editing with interactive rebase to remove a file from a p...">
+
+        <meta property="og:video" content="http://www.youtube.com/v/2dQosJaLN18?autohide=1&amp;version=3">
+      <meta property="og:video:type" content="application/x-shockwave-flash">
+      <meta property="og:video:width" content="960">
+      <meta property="og:video:height" content="720">
+
+    <meta property="fb:app_id" content="87741124305">
+
+        <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@youtube">
+    <meta name="twitter:url" content="http://www.youtube.com/watch?v=2dQosJaLN18">
+    <meta name="twitter:title" content="Remove file from a past git commit">
+    <meta name="twitter:description" content="Accidentally committed a file in git? No problem. This video shows an example of simple git history editing with interactive rebase to remove a file from a p...">
+    <meta name="twitter:image" content="http://i1.ytimg.com/vi/2dQosJaLN18/maxresdefault.jpg">
+    <meta name="twitter:app:name:iphone" content="YouTube">
+    <meta name="twitter:app:id:iphone" content="544007664">
+    <meta name="twitter:app:name:ipad" content="YouTube">
+    <meta name="twitter:app:id:ipad" content="544007664">
+      <meta name="twitter:app:url:iphone" content="vnd.youtube://watch/2dQosJaLN18">
+      <meta name="twitter:app:url:ipad" content="vnd.youtube://watch/2dQosJaLN18">
+    <meta name="twitter:app:name:googleplay" content="YouTube">
+    <meta name="twitter:app:id:googleplay" content="com.google.android.youtube">
+    <meta name="twitter:app:url:googleplay" content="http://www.youtube.com/watch?v=2dQosJaLN18">
+      <meta name="twitter:player" content="https://www.youtube.com/embed/2dQosJaLN18">
+      <meta name="twitter:player:width" content="960">
+      <meta name="twitter:player:height" content="720">
+
+  
+        <link id="css-4134618379" class="www-watch-transcript" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-watch-transcript-vflp-Zp3x.css" data-loaded="true">
+
+<script>if (window.ytcsi) {window.ytcsi.tick("cl", null, '');}</script></head><!-- machid: oaS1SQUJPd25EY0x4ZktCS05jNS1mYThfcGR2UDdFMUgtZ3hFUHJUbzVBdUNzdGlQcHYwVS1n -->    <body dir="ltr" class="  ltr  webkit webkit-537     site-left-aligned   hitchhiker-enabled      guide-enabled guide-collapsed sidebar-expanded   " id="body">
+
+  <div id="body-container"><form name="logoutForm" method="POST" action="/logout"><input type="hidden" name="action_logout" value="1"></form>        <div id="sb-wrapper">
+    <div id="sb-container" class="sb-card sb-off">
+      <div class="sb-card-arrow"></div>
+      <div class="sb-card-border">
+        <div class="sb-card-body-arrow"></div>
+        <div class="sb-card-content" id="sb-target"></div>
+      </div>
+    </div>
+    <div id="sb-onepick-target" class="sb-off"></div>
+  </div>
+
+    
+    <div id="masthead-expanded-acct-sw-container" class="hid"><ul id="masthead-expanded-menu-acct-sw-list"><li class="masthead-expanded-menu-item"><a href="#" onclick="yt.www.masthead.accountswitch.toggle(); return false;">&#8249; Back</a></li>  <li class="masthead-expanded-acct-sw-sel">
+    <p class="masthead-expanded-acct-sw-id1">
+        Hodo Mohamed<img class="masthead-expanded-acct-sw-sel-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+    </p>
+    <p class="masthead-expanded-acct-sw-id2">
+      hodomohamed0@gmail.com
+    </p>
+  </li>
+<li class="masthead-expanded-menu-item"><a class="end" href="https://accounts.google.com/AddSession?uilel=0&amp;service=youtube&amp;passive=false&amp;hl=en&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2dQosJaLN18">Sign in to another account...</a></li><li class="masthead-expanded-menu-item"><a class="end" href="#" onclick="document.logoutForm.submit(); return false;">Sign out of all accounts</a></li></ul></div>
+    <div id="yt-masthead-container" class="yt-grid-box yt-base-gutter"><div id="yt-masthead" class="">    <a id="logo-container" href="/" title="YouTube home" class=" "><img id="logo" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube home"><span class="content-region">CA</span></a>
+<div id="yt-masthead-user">
+  <span id="yt-masthead-user-displayname" dir="ltr" class="yt-valign-container" onclick="yt.www.masthead.toggleExpandedMasthead();">
+    Hodo Mohamed
+  </span>
+
+    <button id="sb-button-notify" type="button" class="sb-notif-off yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" onclick=";return false;"  role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-bell" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  </span></button>
+  <button type="button" class="yt-masthead-user-icon yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick="yt.www.masthead.toggleExpandedMasthead();;return false;" data-orientation="vertical" role="button"><span class="yt-uix-button-content">      <span class="video-thumb  yt-thumb yt-thumb-27"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" alt="Thumbnail" width="27" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+ </span></button>
+    <span id="yt-masthead-dropdown" onclick="yt.www.masthead.toggleExpandedMasthead();"></span>
+</div><div id="yt-masthead-content"><span class="yt-uix-button-group" id="masthead-upload-button-group"><a href="#" class="yt-uix-button  start create-channel-lightbox yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhsb" data-upsell="upload"><span class="yt-uix-button-content">Upload </span></a><button type="button" class="end flip yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-empty" onclick=";return false;" aria-haspopup="true" data-button-menu-id="upload-button-menu" role="button" aria-label="Creator tools menu"><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button></span><ul id="upload-button-menu" class="yt-uix-button-menu yt-uix-button-menu-default" role="menu" aria-haspopup="true" style="display: none"><li id="upload-menu-dashboard" role="menuitem"><a href="/dashboard" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-dashboard-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Dashboard</a></li><li id="upload-menu-video-manager" role="menuitem"><a href="/my_videos" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-vm-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Video Manager</a></li><li id="upload-menu-analytics" role="menuitem"><a href="https://www.youtube.com/analytics" class="yt-uix-button-menu-item upload-menu-item yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhsb"><span class="yt-valign icon-container"><img class="upload-menu-analytics-icon" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif"></span>Analytics</a></li></ul><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;"><button type="submit" class="search-btn-component search-button yt-uix-button yt-uix-button-default yt-uix-button-size-default" dir="ltr" tabindex="2" id="search-btn" onclick="if (_gel(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; _gel(&#39;masthead-search&#39;).submit(); return false;;return true;"  role="button"><span class="yt-uix-button-content">Search </span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><label><input id="masthead-search-term" autocomplete="off"  class="search-term yt-uix-form-input-bidi" name="search_query" value="commit git " type="text" tabindex="1" title="Search"></label></div></form></div></div></div>
+            <div id="masthead-expanded" class="hid">
+    <div id="masthead-expanded-container" class="with-sandbar">
+      <div id="masthead-expanded-menus-container">
+        <span id="masthead-expanded-menu-shade"></span>
+          <div id="masthead-expanded-menu">
+    <span class="masthead-expanded-menu-header">
+YouTube
+    </span>
+    <ul id="masthead-expanded-menu-list">
+      <li class="masthead-expanded-menu-item">
+        <a href="/create_channel" class="yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhee">
+My channel
+        </a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/my_videos" class="yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhee">
+Video Manager
+        </a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/feed/subscriptions" class="yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhee">Subscriptions</a>
+      </li>
+      <li class="masthead-expanded-menu-item">
+        <a href="/account" class="yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=mhee">
+YouTube settings
+        </a>
+      </li>
+    </ul>
+  </div>
+
+          <div id="masthead-expanded-google-menu">
+    <span class="masthead-expanded-menu-header">
+Google account
+    </span>
+    <div id="masthead-expanded-menu-google-container">
+      <div id="masthead-expanded-menu-google-column1">
+        <ul>
+          <li class="masthead-expanded-menu-item">
+            <a href="https://plus.google.com/u/0/103898006016891507027">Profile</a>
+          </li>
+          <li class="masthead-expanded-menu-item"><a href="https://plus.google.com/u/0/stream">Google+</a></li>
+            <li class="masthead-expanded-menu-item"><a href="http://www.google.com/intl/en/policies/">Privacy</a></li>
+          <li class="masthead-expanded-menu-item">
+            <a href="https://plus.google.com/u/0/settings">
+Settings
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="masthead-expanded-menu-google-column2">
+        <div id="masthead-expanded-menu-account-container">
+              <img id="masthead-expanded-menu-gaia-photo" alt="" data-src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" width="28">
+  <div id="masthead-expanded-menu-account-info"  class="email-only">
+      <p>Hodo Mohamed</p>
+    <p id="masthead-expanded-menu-email">hodomohamed0@gmai...</p>
+  </div>
+
+        </div>
+        <ul>
+          <li class="masthead-expanded-menu-item">
+            <a class="end" href="#" onclick="document.logoutForm.submit(); return false;">
+Sign out
+            </a>
+          </li>
+            <li class="masthead-expanded-menu-item">
+                <div class="yt-uix-clickcard masthead-expanded-menu-switch" data-card-class="masthead-card-switch-account">
+    <button type="button" class="yt-uix-clickcard-target yt-uix-button yt-uix-button-link yt-uix-button-size-default" onclick=";return false;" data-position="rightbottom" data-orientation="vertical" role="button"><span class="yt-uix-button-content">Switch account </span></button>
+    <div class="yt-uix-clickcard-content">
+        <ul id="yt-masthead-multilogin">
+              <li>
+    <a class="yt-masthead-multilogin-user yt-valign" href="/signin?action_handle_signin=true&amp;skip_identity_prompt=True&amp;authuser=0&amp;next=%2Fwatch%3Fv%3D2dQosJaLN18">
+          <span class="video-thumb yt-masthead-multilogin-user-icon yt-thumb yt-thumb-46"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="https://lh4.googleusercontent.com/-zp9iFQUQv_s/AAAAAAAAAAI/AAAAAAAAAAA/QAByGRUw6MI/s88-c-k-no/photo.jpg" alt="Hodo Mohamed" width="46" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+
+      <span class="yt-masthead-multilogin-user-content yt-valign-container">
+        <span class="yt-masthead-multilogin-user-link" dir="ltr">Hodo Mohamed</span><br>
+        hodomohamed0@gmail.com
+      </span>
+          <div class="yt-alert yt-alert-naked yt-alert-success">
+      <div class="yt-alert-icon">
+    <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" class="icon master-sprite" alt="Alert icon">
+  </div>
+
+  </div>
+
+    </a>
+  </li>
+
+        </ul>
+        <div id="yt-masthead-multilogin-actions" class="yt-grid-box">
+          <button id="yt-masthead-multilogin-sign-out" type="button" class=" yt-uix-button yt-uix-button-link yt-uix-button-size-default" onclick="document.logoutForm.submit();return false;"  role="button"><span class="yt-uix-button-content">Sign out </span></button>
+
+            <a href="https://accounts.google.com/AddSession?uilel=0&amp;service=youtube&amp;passive=false&amp;hl=en&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2dQosJaLN18">Add account</a>
+        </div>
+    </div>
+  </div>
+
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+      </div>
+      <div id="masthead-expanded-sandbar" class="spf-link">
+        <div id="masthead-expanded-lists-container">
+          <div id="masthead-expanded-loading-message">Loading...</div>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+
+
+  <div id="alerts" class="content-alignment">
+          
+
+
+
+
+
+  </div>
+  <div id="header">
+    
+  </div>
+<div id="page-container"><div id="page" class="  watch   clearfix"><div id="guide" >      <div id="guide-container" class="    collapsible-guide  loading">
+    <div id="guide-main" class="    guide-module collapsed     spf-nolink   yt-uix-tdl ">
+      <div id="guide-loading-toggle" class="guide-module-toggle">
+        <span class="guide-module-toggle-icon">
+          <span class="guide-module-toggle-arrow"></span>
+          <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="">
+        </span>
+        <div class="guide-module-toggle-label">
+          <h3>
+            <span>
+Guide
+            </span>
+          </h3>
+        </div>
+      </div>
+      <div class="guide-module-content guide-module-loading">
+          <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      </div>
+    </div>
+  </div>
+
+</div><div id="player" class="      watch-small  ">
+  <div id="playlist" class="playlist">
+    
+  </div>
+
+  <div id="player-unavailable" class="    hid    player-width player-height    player-unavailable ">
+          <img class="icon meh" src="//s.ytimg.com/yts/img/meh7-vflGevej7.png" alt="">
+  <div class="content">
+    <h1 id="unavailable-message" class="message">
+            This video is unavailable.
+    </h1>
+    <div id="unavailable-submessage" class="submessage">
+    </div>
+  </div>
+
+
+  </div>
+
+    <div id="player-api" class="player-width player-height off-screen-target watch-content player-api"></div>
+
+
+    <script>if (window.ytcsi) {window.ytcsi.tick("bf", null, '');}</script>
+    <script>var ytplayer = ytplayer || {};ytplayer.config = {"attrs": {"id": "movie_player"}, "sts": 16057, "url_v9as2": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "min_version": "8.0.0", "params": {"allowscriptaccess": "always", "allowfullscreen": "true", "bgcolor": "#000000"}, "args": {"length_seconds": 689, "fexp": "931941,913432,919365,929209,919815,922920,942418,909717,932295,936912,936910,923305,936913,907231,907240,921090", "cbr": "Safari", "ucid": "UCV7UnmDJnBPq1e5TqidyTXg", "sendtmp": "1", "csi_page_type": "watch,watch7", "cc_font": "Arial Unicode MS, arial, verdana, _sans", "enablejsapi": 1, "title": "Remove file from a past git commit", "pltype": "contentugc", "loaderUrl": "http:\/\/www.youtube.com\/watch?v=2dQosJaLN18", "cosver": "10_9_1", "user_gender": "f", "t": "vjVQa1PpcFNQZuPryf7KQy3jM3zLPPVS3wfIaYTDk2c=", "q": "commit git ", "referrer": "http:\/\/www.youtube.com\/results?search_query=commit+git+\u0026sm=3", "video_id": "2dQosJaLN18", "cr": "CA", "showpopout": 1, "idpj": "-7", "c": "WEB", "watermark": ",http:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_watermark-vflHX6b6E.png,http:\/\/s.ytimg.com\/yts\/img\/watermark\/youtube_hd_watermark-vflAzLcD6.png", "url_encoded_fmt_stream_map": "type=video%2Fmp4%3B+codecs%3D%22avc1.64001F%2C+mp4a.40.2%22\u0026itag=22\u0026quality=hd720\u0026sig=599134C99B6252175C7D7FDE5DC03C63B6669666.AB828B90C4D354DFAED36C925C06A3F3EA316230\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ratebypass%3Dyes%26ipbits%3D0%26expire%3D1388595603%26sparams%3Did%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Cratebypass%252Csource%252Cupn%252Cexpire%26mv%3Dm%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D22%26ip%3D99.235.170.249%26upn%3DFAzLpX90JUw%26id%3Dd9d428b0968b375f%26sver%3D3%26mt%3D1388571511\u0026fallback_host=tc.v13.cache2.googlevideo.com,type=video%2Fwebm%3B+codecs%3D%22vp8.0%2C+vorbis%22\u0026itag=43\u0026quality=medium\u0026sig=08FA5B36D138CA632E1AE19B2A30ED60A6C2FD8A.29248612C5A89E7581F8078940DB1E95F6B3F216\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ratebypass%3Dyes%26ipbits%3D0%26expire%3D1388595603%26sparams%3Did%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Cratebypass%252Csource%252Cupn%252Cexpire%26mv%3Dm%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D43%26ip%3D99.235.170.249%26upn%3DFAzLpX90JUw%26id%3Dd9d428b0968b375f%26sver%3D3%26mt%3D1388571511\u0026fallback_host=tc.v2.cache1.googlevideo.com,type=video%2Fmp4%3B+codecs%3D%22avc1.42001E%2C+mp4a.40.2%22\u0026itag=18\u0026quality=medium\u0026sig=111299E4E1EF079E72672FCA606368E490756156.C1F4E08EF33E9A16F572CACB0C200AD3F4D413A5\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26ratebypass%3Dyes%26ipbits%3D0%26expire%3D1388595603%26sparams%3Did%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Cratebypass%252Csource%252Cupn%252Cexpire%26mv%3Dm%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D18%26ip%3D99.235.170.249%26upn%3DFAzLpX90JUw%26id%3Dd9d428b0968b375f%26sver%3D3%26mt%3D1388571511\u0026fallback_host=tc.v12.cache8.googlevideo.com,type=video%2Fx-flv\u0026itag=5\u0026quality=small\u0026sig=59016051A4EF983289EC45B62DE5509395C0818A.D1A51C226E5AB6E107B8C0D66ED517CE3670A862\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26upn%3DFAzLpX90JUw%26ipbits%3D0%26expire%3D1388595603%26mt%3D1388571511%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26burst%3D40%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D5%26mv%3Dm%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26algorithm%3Dthrottle-factor%26sver%3D3%26factor%3D1.25\u0026fallback_host=tc.v2.cache7.googlevideo.com,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=36\u0026quality=small\u0026sig=D71DFC24035DE23A45D6134934AF9BA0AEADB352.7035C5F2EC93919054E6824A0D4430E0935773C3\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26upn%3DFAzLpX90JUw%26ipbits%3D0%26expire%3D1388595603%26mt%3D1388571511%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26burst%3D40%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D36%26mv%3Dm%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26algorithm%3Dthrottle-factor%26sver%3D3%26factor%3D1.25\u0026fallback_host=tc.v1.cache2.googlevideo.com,type=video%2F3gpp%3B+codecs%3D%22mp4v.20.3%2C+mp4a.40.2%22\u0026itag=17\u0026quality=small\u0026sig=DB94494B00AAFAE7FB2432657782882FE0D5B820.D0AC6489AD831E8BC7963792E025D368D07FF311\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26upn%3DFAzLpX90JUw%26ipbits%3D0%26expire%3D1388595603%26mt%3D1388571511%26sparams%3Dalgorithm%252Cburst%252Cfactor%252Cid%252Cip%252Cipbits%252Citag%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26burst%3D40%26pcm2fr%3Dyes%26source%3Dyoutube%26key%3Dyt5%26itag%3D17%26mv%3Dm%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26algorithm%3Dthrottle-factor%26sver%3D3%26factor%3D1.25\u0026fallback_host=tc.v13.cache6.googlevideo.com", "plid": "AATu5gL-o1ef8_9-", "rvs": "length_seconds=2700\u0026id=75JrmB0LxmU\u0026author=Gitcessing%3A+Git+with+Processing+Tutorial\u0026view_count=21\u0026title=how+to+put+Processing+sketch+into+git+repository,length_seconds=2553\u0026id=vdS6RsiYgCw\u0026author=Matthew+Buck\u0026title=Front-end+Web+Development+with+Ruby,length_seconds=730\u0026id=ZEHIus7sG8Y\u0026author=Kurtis+Kemple\u0026view_count=1%2C035\u0026title=SourceTree+and+Git+-+File+States+and+GitFlow,length_seconds=207\u0026id=9ipagl7gkhY\u0026author=AvaSupport\u0026view_count=2%2C050\u0026title=GIT%3A+Making+A+Change+and+Deleting+A+File+%28Part+2%29,length_seconds=853\u0026id=K0yj_57KtUM\u0026author=BostonRB+Organizer\u0026title=How+to+set+up+a+new+MacBook+Pro+with+Ruby+and+Rails,length_seconds=3064\u0026id=U8GBXvdmHT4\u0026author=GitHub+Guides\u0026view_count=20%2C837\u0026title=Webcast+%E2%80%A2+The+Basics+of+Git+and+GitHub+%E2%80%A2+July+2013,length_seconds=472\u0026id=mWXHZJvuDu0\u0026author=jckelley2\u0026view_count=69\u0026title=Learn+Git+19%3A+The+Reset,length_seconds=1086\u0026id=o7UDkdcv2u8\u0026author=Gitcessing%3A+Git+with+Processing+Tutorial\u0026view_count=18\u0026title=Create+your+first+Processing+Sketch+and+put+it+to+git+repository++-+Part+1,length_seconds=348\u0026id=1yDI61JMd1k\u0026author=xv1120\u0026view_count=31\u0026title=TortoiseGit+Rebase+-+deleting+files+from+history,length_seconds=838\u0026id=oeuJWf5C4m8\u0026author=heroandtn3\u0026view_count=66\u0026title=Git%3A+add%2C+modify+file+and+commit,length_seconds=326\u0026id=o4PFDKIc2fs\u0026author=OreillyMedia\u0026view_count=43%2C382\u0026title=Please.+Stop+Using+Git.+-+Matthew+McCullough,length_seconds=616\u0026id=zID0xHIripc\u0026author=Elias+Villanueva\u0026view_count=53\u0026title=commit+y+rollback", "eventid": "ruvDUt7-OIeRsgKSu4D4Ag", "allow_embed": 1, "cc_module": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/subtitle_module.swf", "keywords": "", "cc_asr": 1, "sourceid": "ys", "user_age": 25, "hl": "en_US", "logwatch": "1", "cbrver": "7.0.1", "storyboard_spec": "http:\/\/i1.ytimg.com\/sb\/2dQosJaLN18\/storyboard3_L$L\/$N.jpg|48#27#100#10#10#0#default#N4RpaH4f0DpD5tte-Yz9SRPRywk|66#45#139#10#10#5000#M$M#pgiTsS09nI97ziCSNVYI0KzP4OM|132#90#139#5#5#5000#M$M#4lFwpeSWzwedkGGpNAqmBAX8S_E", "enablecsi": "1", "cos": "Mac", "cc3_module": "1", "ldpj": "-21", "vq": "auto", "watch_ajax_token": "G8th6oHnlKHs4XSLtwRQAfFztGl8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3", "ttsurl": "http:\/\/www.youtube.com\/api\/timedtext?key=yttt1\u0026expire=1388596767\u0026sparams=asr_langs%2Ccaps%2Cv%2Cexpire\u0026hl=en_US\u0026caps=asr\u0026v=2dQosJaLN18\u0026signature=36AD5DF23E48B5ABBC653622BD0ABC0A224F8F26.6D470E004BAF363A67FABBA407244B25EA4C197F\u0026asr_langs=ko%2Cde%2Cja%2Cpt%2Cen%2Cit%2Cnl%2Ces%2Cru%2Cfr", "dash": "1", "fmt_list": "22\/1280x720\/9\/0\/115,43\/640x360\/99\/0\/0,18\/640x360\/9\/0\/115,5\/320x240\/7\/0\/0,36\/320x240\/99\/1\/0,17\/176x144\/99\/1\/0", "timestamp": 1388571567, "ptk": "youtube_none", "dashmpd": "http:\/\/www.youtube.com\/api\/manifest\/dash\/fexp\/931941%2C913432%2C919365%2C929209%2C919815%2C922920%2C942418%2C909717%2C932295%2C936912%2C936910%2C923305%2C936913%2C907231%2C907240%2C921090\/upn\/1b8JrkZ5dJM\/ipbits\/0\/expire\/1388595603\/sparams\/as%2Ccmbypass%2Cid%2Cip%2Cipbits%2Citag%2Cplayback_host%2Csource%2Cexpire\/cmbypass\/yes\/ip\/99.235.170.249\/key\/yt5\/source\/youtube\/sver\/3\/as\/fmp4_audio_clear%2Cwebm_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm_sd_hd_clear\/id\/d9d428b0968b375f\/itag\/0\/playback_host\/r3---sn-gvbxgn-tt1e.googlevideo.com\/signature\/34C8ED14F2B399E4C16C37DFD6A4D2EAA1D54527.E731FA7CB4CD1B05088D0F672F5A94C5E38C2D6D", "account_playback_token": "ofZ2RGsyFAsUw8vanhJdHgrnsll8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3", "adaptive_fmts": "init=0-710\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401f%22\u0026index=711-2398\u0026itag=136\u0026bitrate=1304571\u0026size=1062x720\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D136%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.900%26signature%3D76B7E58F76DA75B492F7518775A2AD7AEB63C25E.C7DF19AE50A5527254906893E943D1BFE9AA8000%26clen%3D71406977%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646298589078%26sver%3D3%26factor%3D1.25,init=0-708\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026index=709-2396\u0026itag=135\u0026bitrate=586344\u0026size=708x480\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D135%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.900%26signature%3DCC9D6B6CEEDCD740BA2F0E9839C573B575348B40.EF0958F472BD546A0FB421283448E4117D01F9FA%26clen%3D32549587%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646292973745%26sver%3D3%26factor%3D1.25,init=0-710\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d401e%22\u0026index=711-2398\u0026itag=134\u0026bitrate=298948\u0026size=530x360\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D134%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.900%26signature%3D036A219968D25F68854ADC254CD3D6664BFFDC08.D6001E787C86990124D8CD67BE4A9B062FAB85B5%26clen%3D15920196%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646295182093%26sver%3D3%26factor%3D1.25,init=0-673\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.4d400d%22\u0026index=674-2361\u0026itag=133\u0026bitrate=273057\u0026size=354x240\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D133%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.900%26signature%3DB94A73AD69EA7A1AA4142E45D3D7DBA318A7525D.E4CF6F4AB3877F584024CD68EAA7A60A858169B9%26clen%3D10050975%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646295182901%26sver%3D3%26factor%3D1.25,init=0-672\u0026type=video%2Fmp4%3B+codecs%3D%22avc1.42c00c%22\u0026index=673-2360\u0026itag=160\u0026bitrate=120360\u0026size=212x144\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D160%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.900%26signature%3D77EB6615D9B8122D5D3D6EAC4C0E9F7FE7FA9546.8976C37865F08949CED9D75018A7808221F14A3D%26clen%3D4680269%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646290768422%26sver%3D3%26factor%3D1.25,init=0-592\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.5%22\u0026index=593-1452\u0026itag=139\u0026bitrate=48803\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D139%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D689.075%26signature%3D1BA52D9992BEE6DC80F1CFF485DFE1D955A62B5D.28510B9A1C06391E5C0DA7FE389F8824656454F2%26clen%3D4098291%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646312915539%26sver%3D3%26factor%3D1.25,init=0-591\u0026type=audio%2Fmp4%3B+codecs%3D%22mp4a.40.2%22\u0026index=592-1451\u0026itag=140\u0026bitrate=128203\u0026url=http%3A%2F%2Fr3---sn-gvbxgn-tt1e.googlevideo.com%2Fvideoplayback%3Fms%3Dau%26fexp%3D931941%252C913432%252C919365%252C929209%252C919815%252C922920%252C942418%252C909717%252C932295%252C936912%252C936910%252C923305%252C936913%252C907231%252C907240%252C921090%26mt%3D1388571511%26mv%3Dm%26burst%3D40%26source%3Dyoutube%26key%3Dyt5%26itag%3D140%26ip%3D99.235.170.249%26id%3Dd9d428b0968b375f%26dur%3D688.982%26signature%3D8531AB2562C87DB0FA5ACBDFD1059EF2BEB63DA9.F32397692AECE0936319D5AD6E16C68B81B38BB7%26clen%3D10943055%26gir%3Dyes%26upn%3DNN80c9jt1yA%26ipbits%3D0%26expire%3D1388595603%26sparams%3Dalgorithm%252Cburst%252Cclen%252Cdur%252Cfactor%252Cgir%252Cid%252Cip%252Cipbits%252Citag%252Clmt%252Cpcm2fr%252Csource%252Cupn%252Cexpire%26pcm2fr%3Dyes%26algorithm%3Dthrottle-factor%26lmt%3D1384646291870989%26sver%3D3%26factor%3D1.25"}, "assets": {"js": "\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js", "css": "\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css", "html": "\/html5_player_template"}, "url_v8": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/cps.swf", "html5": false, "url": "http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/watch_as3.swf"};</script>      <script>
+        (function() {
+          var encoded = [];
+          for (var key in ytplayer.config.args) {
+            encoded.push(encodeURIComponent(key) + '=' + encodeURIComponent(ytplayer.config.args[key]));
+          }
+          var swf = "      \u003cembed type=\"application\/x-shockwave-flash\"     s\u0072c=\"http:\/\/s.ytimg.com\/yts\/swfbin\/player-vflqv4MLv\/watch_as3.swf\"     name=\"movie_player\"     id=\"movie_player\"    flashvars=\"__flashvars__\"     allowscriptaccess=\"always\" allowfullscreen=\"true\" bgcolor=\"#000000\"\u003e\n  \u003cnoembed\u003e\u003cdiv class=\"yt-alert yt-alert-default yt-alert-error  yt-alert-player\"\u003e  \u003cdiv class=\"yt-alert-icon\"\u003e\n    \u003cimg s\u0072c=\"http:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif\" class=\"icon master-sprite\" alt=\"Alert icon\"\u003e\n  \u003c\/div\u003e\n\u003cdiv class=\"yt-alert-buttons\"\u003e\u003c\/div\u003e\u003cdiv class=\"yt-alert-content\" role=\"alert\"\u003e    \u003cspan class=\"yt-alert-vertical-trick\"\u003e\u003c\/span\u003e\n    \u003cdiv class=\"yt-alert-message\"\u003e\n            You need Adobe Flash Player to watch this video. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eDownload it from Adobe.\u003c\/a\u003e\n    \u003c\/div\u003e\n\u003c\/div\u003e\u003c\/div\u003e\u003c\/noembed\u003e\n\n";
+          swf = swf.replace('__flashvars__', encoded.join('&'));
+          document.getElementById("player-api").innerHTML = swf;
+          ytplayer.config.loaded = true
+        })();
+      </script>
+
+
+  <div id="playlist-tray" class="playlist-tray">
+    
+  </div>
+
+  <div class="clear"></div>
+</div>
+<div id="content" class="  content-alignment">    <div id="watch7-container" class="" itemscope itemid="" itemtype="http://schema.org/VideoObject">
+        <link itemprop="url" href="http://www.youtube.com/watch?v=2dQosJaLN18">
+    <meta itemprop="name" content="Remove file from a past git commit">
+    <meta itemprop="description" content="Accidentally committed a file in git? No problem. This video shows an example of simple git history editing with interactive rebase to remove a file from a p...">
+    <meta itemprop="paid" content="False">
+
+      <meta itemprop="channelId" content="UCV7UnmDJnBPq1e5TqidyTXg">
+      <meta itemprop="videoId" content="2dQosJaLN18">
+
+      <meta itemprop="duration" content="PT11M29S">
+      <meta itemprop="unlisted" content="False">
+
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <link itemprop="url" href="http://www.youtube.com/user/FoundationSeries">
+        </span>
+
+    <link itemprop="thumbnailUrl" href="http://i1.ytimg.com/vi/2dQosJaLN18/maxresdefault.jpg">
+    <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+      <link itemprop="url" href="http://i1.ytimg.com/vi/2dQosJaLN18/maxresdefault.jpg">
+      <meta itemprop="width" content="1280">
+      <meta itemprop="height" content="720">
+    </span>
+
+        <link itemprop="embedURL" href="http://www.youtube.com/v/2dQosJaLN18?autohide=1&amp;version=3">
+      <meta itemprop="playerType" content="Flash">
+      <meta itemprop="width" content="960">
+      <meta itemprop="height" content="720">
+
+      <meta itemprop="isFamilyFriendly" content="True">
+      <meta itemprop="regionsAllowed" content="AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH,ER,ES,ET,FI,FJ,FK,FM,FO,FR,GA,GB,GD,GE,GF,GG,GH,GI,GL,GM,GN,GP,GQ,GR,GS,GT,GU,GW,GY,HK,HM,HN,HR,HT,HU,ID,IE,IL,IM,IN,IO,IQ,IR,IS,IT,JE,JM,JO,JP,KE,KG,KH,KI,KM,KN,KP,KR,KW,KY,KZ,LA,LB,LC,LI,LK,LR,LS,LT,LU,LV,LY,MA,MC,MD,ME,MF,MG,MH,MK,ML,MM,MN,MO,MP,MQ,MR,MS,MT,MU,MV,MW,MX,MY,MZ,NA,NC,NE,NF,NG,NI,NL,NO,NP,NR,NU,NZ,OM,PA,PE,PF,PG,PH,PK,PL,PM,PN,PR,PS,PT,PW,PY,QA,RE,RO,RS,RU,RW,SA,SB,SC,SD,SE,SG,SH,SI,SJ,SK,SL,SM,SN,SO,SR,SS,ST,SV,SX,SY,SZ,TC,TD,TF,TG,TH,TJ,TK,TL,TM,TN,TO,TR,TT,TV,TW,TZ,UA,UG,UM,US,UY,UZ,VA,VC,VE,VG,VI,VN,VU,WF,WS,YE,YT,ZA,ZM,ZW">
+
+
+    <div id="watch7-main-container">
+      <div id="watch7-main" class="clearfix">
+        <div id="watch7-content" class="watch-content">
+              <div class="yt-uix-button-panel">
+        <div id="watch7-headline" class="clearfix  yt-uix-expander yt-uix-expander-collapsed">
+    <h1 id="watch-headline-title" class="yt">
+      
+
+
+  
+
+
+  <span id="eow-title" class="watch-title  yt-uix-expander-head" dir="ltr" title="Remove file from a past git commit">
+    Remove file from a past git commit
+  </span>
+
+    </h1>
+  </div>
+
+      <div id="watch7-user-header" class="spf-nolink"><a href="/user/FoundationSeries?feature=watch" class="yt-user-photo " >    <span class="video-thumb  yt-thumb yt-thumb-48 g-hovercard"
+        data-ytid="UCV7UnmDJnBPq1e5TqidyTXg"
+      >
+      <span class="yt-thumb-square">
+        <span class="yt-thumb-clip">
+          <img src="//i1.ytimg.com/i/V7UnmDJnBPq1e5TqidyTXg/1.jpg?v=528803e1" alt="FoundationSeries" width="48" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+</a><a href="/user/FoundationSeries?feature=watch" class="g-hovercard yt-uix-sessionlink yt-user-name " data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=watch" dir="ltr" data-ytid="UCV7UnmDJnBPq1e5TqidyTXg" data-name="watch">FoundationSeries</a><span class="yt-user-separator">&middot;</span><a class="yt-uix-sessionlink yt-user-videos"             href="/user/FoundationSeries/videos"             data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;feature=watch">2 videos</a><br><span id="watch7-subscription-container"><span class=" yt-uix-button-subscription-container with-preferences" ><button aria-role="button" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-branded yt-uix-button-size-default yt-uix-button-has-icon" aria-live="polite" aria-busy="false" onclick=";return false;" data-channel-external-id="UCV7UnmDJnBPq1e5TqidyTXg" data-style-type="branded" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;ved=CBcQmys&amp;feature=watch" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button><button type="button" class="yt-uix-subscription-preferences-button yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon yt-uix-button-empty" onclick=";return false;" data-channel-external-id="UCV7UnmDJnBPq1e5TqidyTXg" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscription-preferences" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span></button><span class="yt-subscription-button-subscriber-count-branded-horizontal" >1</span>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+  
+  <div class="yt-uix-overlay " data-overlay-style="primary"data-overlay-shape="tiny">
+    
+        <div class="yt-dialog hid">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+            <div class="yt-dialog-header">
+                <h2 class="yt-dialog-title">
+                        Subscription preferences
+
+
+                </h2>
+            </div>
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div class="subscription-preferences-overlay-content-container">
+    <div class="subscription-preferences-overlay-loading ">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+    <div class="subscription-preferences-overlay-content">
+    </div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+</span></span><div id="watch7-views-info">      <span class="watch-view-count " >
+    35 views
+  </span>
+
+
+  <div class="video-extras-sparkbars">
+    <div class="video-extras-sparkbar-likes" style="width: 100.0%"></div>
+    <div class="video-extras-sparkbar-dislikes" style="width: 0.0%"></div>
+  </div>
+  <span class="video-extras-likes-dislikes">
+      <img id="watch-stats-like" class="icon-watch-stats-like" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Like">
+  <span class="likes-count">1</span>
+
+    &nbsp;&nbsp;&nbsp;
+      <img id="watch-stats-dislike" class="icon-watch-stats-dislike" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Dislike">
+  <span class="dislikes-count">0</span>
+
+  </span>
+</div></div>
+        <div id="watch7-action-buttons" class="clearfix">
+    <div id="watch7-sentiment-actions">
+      <span id="watch-like-dislike-buttons" class="yt-uix-button-group actionable " data-vote-state="2" data-button-toggle-group="optional"><span ><button type="button" class=" yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip" title="I like this" id="watch-like" onclick=";return false;" data-position="bottomright" data-button-toggle="true" data-like-tooltip="I like this" data-unlike-tooltip="Unlike" data-orientation="vertical" data-force-position="true" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-watch-like" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="I like this" title=""></span><span class="yt-uix-button-content">Like </span></button></span><span ><button type="button" class=" yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" title="I dislike this" id="watch-dislike" onclick=";return false;" data-position="bottomright" data-button-toggle="true" data-force-position="true" data-orientation="vertical" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-watch-dislike" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="I dislike this" title=""></span></button></span></span>
+    </div>
+    <div id="watch7-secondary-actions"  class="yt-uix-button-group" data-button-toggle-group="required">
+        <span >
+    <button type="button" class="action-panel-trigger  yt-uix-button-toggled yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" onclick=";return false;" title="" data-button-toggle="true" data-trigger-for="action-panel-details" role="button"><span class="yt-uix-button-content">About </span></button>
+  </span>
+
+          <span >
+    <button type="button" class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" onclick=";return false;" title="" data-button-toggle="true" data-trigger-for="action-panel-share" role="button"><span class="yt-uix-button-content">Share </span></button>
+  </span>
+
+          <span >
+    <button type="button" class="action-panel-trigger create-channel-lightbox  yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-tooltip" onclick=";return false;" title="" data-upsell="playlist" data-button-toggle="true" data-trigger-for="action-panel-none" role="button"><span class="yt-uix-button-content">Add to </span></button>
+  </span>
+
+          <span >
+    <button type="button" class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" onclick=";return false;" title="Transcript" data-button-toggle="true" data-trigger-for="action-panel-transcript" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-transcript" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Transcript" title=""></span></button>
+  </span>
+
+          <span >
+    <button type="button" class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" onclick=";return false;" title="Statistics" data-button-toggle="true" data-trigger-for="action-panel-stats" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-stats" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Statistics" title=""></span></button>
+  </span>
+
+
+        <span >
+    <button type="button" class="action-panel-trigger   yt-uix-button yt-uix-button-text yt-uix-button-size-default yt-uix-button-has-icon yt-uix-tooltip yt-uix-button-empty" onclick=";return false;" title="Report" data-button-toggle="true" data-trigger-for="action-panel-report" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-action-panel-report" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Report" title=""></span></button>
+  </span>
+
+    </div>
+  </div>
+
+        <div id="watch7-action-panels" class="yt-uix-button-panel">
+      <div id="action-panel-details" class="action-panel-content ">
+    <div id="watch-description" class="yt-uix-expander yt-uix-expander-collapsed yt-uix-button-panel">
+      <div id="watch-description-content" >
+        <div id="watch-description-clip">
+          <p id="watch-uploader-info">
+              <strong>Published on <span id="eow-date" class="watch-video-date" >Nov 16, 2013</span>
+</strong>
+          </p>
+          
+          <div id="watch-description-text">
+            <p id="eow-description" >Accidentally committed a file in git? No problem. This video shows an example of simple git history editing with interactive rebase to remove a file from a previous git commit.<br /><br />To remove the file from the .git directory, try the following (dangerous, understand you&#39;re permanently deleting git&#39;s reflog and stored objects):<br />rm .git/logs<br />git gc --aggressive --prune=now<br /><br />Advanced file removal with filter-branch: <a href="http://stackoverflow.com/a/8741530/2425921" target="_blank" title="http://stackoverflow.com/a/8741530/2425921" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://stackoverflow.com/a/8741530/24...</a><br />In-depth git maintenance and data recovery: <a href="http://git-scm.com/book/ch9-7.html" target="_blank" title="http://git-scm.com/book/ch9-7.html" rel="nofollow" dir="ltr" class="yt-uix-redirect-link">http://git-scm.com/book/ch9-7.html</a></p>
+          </div>
+            <div id="watch-description-extras">
+    
+    <ul class="watch-extras-section">
+      <li>
+        <h4 class="title">
+Category
+        </h4>
+        <div class="content">
+              <p id="eow-category"><a class="yt-uix-sessionlink" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&amp;ved=CBoQxS4" href="/science">Science &amp; Technology</a></p>
+
+        </div>
+      </li>
+
+
+        <li>
+          <h4 class="title">License</h4>
+          <div class="content">
+              <p id="eow-reuse">
+Standard YouTube License
+  </p>
+
+          </li>
+        </li>
+    </ul>
+  </div>
+
+        </div>
+        <ul id="watch-description-extra-info">
+          
+        </ul>
+      </div>
+
+      <div id="watch-description-toggle" class="yt-uix-expander-head yt-uix-button-panel">
+        <div id="watch-description-expand" class="expand">
+          <button type="button" class="metadata-inline yt-uix-button yt-uix-button-text yt-uix-button-size-default" onclick=";return false;"  role="button"><span class="yt-uix-button-content">Show more </span></button>
+        </div>
+        <div id="watch-description-collapse" class="collapse">
+          <button type="button" class="metadata-inline yt-uix-button yt-uix-button-text yt-uix-button-size-default" onclick=";return false;"  role="button"><span class="yt-uix-button-content">Show less </span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <div id="action-panel-share" class="action-panel-content hid">
+      <div id="watch-actions-share-loading">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="watch-actions-share-panel"></div>
+
+  </div>
+
+      <div id="action-panel-addto" class="action-panel-content hid" data-auth-required="true">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+        <div id="action-panel-transcript" class="action-panel-content hid">
+    <div id="watch-actions-transcript-loading">
+      <div class="action-panel-loading">
+          <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+      </div>
+    </div>
+      <div id="watch-actions-transcript" class="watch-actions-panel hid">
+      <div id="caption-line-template" class="hid">
+    <!--
+    <div class="caption-line-time">
+      <div class="caption-line-start">__start__</div>
+    </div>
+    <div class="editable-line-text">
+      <span class="editable-line-text-original">__original__</span>
+      <label class="editable-line-text-current hid">__current__</label>
+      <textarea class="editable-line-text-input hid">__input__</textarea>
+    </div>
+    -->
+  </div>
+
+
+
+    <div id="watch-transcript-container" >
+      <div id="watch-transcript-not-found" class="hid">
+The interactive transcript could not be loaded.
+      </div>
+
+      
+    </div>
+  </div>
+
+  </div>
+
+      <div id="action-panel-stats" class="action-panel-content hid">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-report" class="action-panel-content hid" data-auth-required="true">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+      <div id="action-panel-login" class="action-panel-content hid">
+    <div class="action-panel-login">
+      <a href="https://accounts.google.com/ServiceLogin?uilel=3&amp;continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26feature%3D__FEATURE__%26hl%3Den%26next%3D%252Fwatch%253Fv%253D2dQosJaLN18&amp;passive=true&amp;hl=en&amp;service=youtube&amp;authuser=0" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag"><span class="yt-uix-button-content">Sign in </span></a>
+    </div>
+  </div>
+
+  <div id="action-panel-ratings-disabled" class="action-panel-content hid">
+      <div id="watch-actions-ratings-disabled" class="watch-actions-panel">
+    <em>Ratings have been disabled for this video.</em>
+  </div>
+
+  </div>
+
+  <div id="action-panel-rental-required" class="action-panel-content hid">
+      <div id="watch-actions-rental-required" class="watch-actions-panel">
+    <strong>Rating is available when the video has been rented.</strong>
+  </div>
+
+  </div>
+
+  <div id="action-panel-error" class="action-panel-content hid">
+    <div class="action-panel-error">
+      This feature is not available right now. Please try again later.
+    </div>
+  </div>
+
+    <div id="watch7-action-panel-footer">
+      <hr class="yt-horizontal-rule ">
+    </div>
+  </div>
+
+  </div>
+
+          <div class="cmt_iframe_holder" data-href="http://www.youtube.com/watch?v=2dQosJaLN18" data-viewtype="FILTERED" style="display: none;"></div>
+
+  <div id="watch-discussion">
+    <div class="action-panel-loading">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+    </div>
+  </div>
+
+
+        </div>
+        <div id="watch7-sidebar" class="watch-sidebar">
+              <div id="watch7-sidebar-contents" class="watch-sidebar-gutter">
+
+    <div id="watch7-sidebar-discussion"></div>
+
+
+
+            <div class="watch-sidebar-section">
+
+    <div class="watch-sidebar-body">
+      <ul id="watch-related" class="video-list">
+        <li class="video-list-item related-list-item"><a href="/watch?v=75JrmB0LxmU" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAMQzRooAA&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/75JrmB0LxmU/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">45:00</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="75JrmB0LxmU" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="how to put Processing sketch into git repository">how to put Processing sketch into git repository</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC95AFZsalz5AnnnblewKB9A"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC95AFZsalz5AnnnblewKB9A">Gitcessing: Git with Processing Tutorial</span></b></span></span><span class="stat view-count">21 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=vdS6RsiYgCw" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAQQxR4oAQ&feature=watch-vrec"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/vdS6RsiYgCw/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">42:33</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="vdS6RsiYgCw" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Front-end Web Development with Ruby">Front-end Web Development with Ruby</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCKhOPaVEsNIQKY7t1YWtqPw"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCKhOPaVEsNIQKY7t1YWtqPw">Matthew Buck</span></b></span></span><span class="stat attribution">Recommended for you</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=ZEHIus7sG8Y" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAUQzRooAg&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/ZEHIus7sG8Y/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">12:10</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="ZEHIus7sG8Y" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="SourceTree and Git - File States and GitFlow">SourceTree and Git - File States and GitFlow</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC64a54o8o3FbNo56OL2W9eA"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC64a54o8o3FbNo56OL2W9eA">Kurtis Kemple</span></b></span></span><span class="stat view-count">1,035 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=9ipagl7gkhY" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAYQzRooAw&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/9ipagl7gkhY/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">3:27</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="9ipagl7gkhY" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="GIT: Making A Change and Deleting A File (Part 2)">GIT: Making A Change and Deleting A File (Part 2)</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCjWl3pu6JMn758JhoIVOraQ"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCjWl3pu6JMn758JhoIVOraQ">AvaSupport</span></b></span></span><span class="stat view-count">2,050 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=K0yj_57KtUM" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAcQxR4oBA&feature=watch-vrec"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/K0yj_57KtUM/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">14:13</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="K0yj_57KtUM" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="How to set up a new MacBook Pro with Ruby and Rails">How to set up a new MacBook Pro with Ruby and Rails</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCVMoyi_TUOJ0qVZRt42_ltA"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCVMoyi_TUOJ0qVZRt42_ltA">BostonRB Organizer</span></b></span></span><span class="stat attribution">Recommended for you</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=U8GBXvdmHT4" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAgQzRooBQ&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/U8GBXvdmHT4/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">51:04</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="U8GBXvdmHT4" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Webcast • The Basics of Git and GitHub • July 2013">Webcast • The Basics of Git and GitHub • July 2013</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCP7RrmoueENv9TZts3HXXtw"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCP7RrmoueENv9TZts3HXXtw">GitHub Guides</span></b></span></span><span class="stat view-count">20,837 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=mWXHZJvuDu0" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAkQzRooBg&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/mWXHZJvuDu0/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">7:52</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="mWXHZJvuDu0" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Learn Git 19: The Reset">Learn Git 19: The Reset</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCxxgTrVx9sievroV-xSjTVg"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCxxgTrVx9sievroV-xSjTVg">jckelley2</span></b></span></span><span class="stat view-count">69 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=o7UDkdcv2u8" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAoQzRooBw&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/o7UDkdcv2u8/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">18:06</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="o7UDkdcv2u8" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Create your first Processing Sketch and put it to git repository  - Part 1">Create your first Processing Sketch and put it to git repository  - Part 1</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC95AFZsalz5AnnnblewKB9A"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC95AFZsalz5AnnnblewKB9A">Gitcessing: Git with Processing Tutorial</span></b></span></span><span class="stat view-count">18 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=1yDI61JMd1k" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAsQzRooCA&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/1yDI61JMd1k/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">5:48</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="1yDI61JMd1k" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="TortoiseGit Rebase - deleting files from history">TortoiseGit Rebase - deleting files from history</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCXQ3gZZCC5mgEbehGolsvPw"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCXQ3gZZCC5mgEbehGolsvPw">xv1120</span></b></span></span><span class="stat view-count">31 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=oeuJWf5C4m8" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CAwQzRooCQ&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/oeuJWf5C4m8/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">13:58</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="oeuJWf5C4m8" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Git: add, modify file and commit">Git: add, modify file and commit</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCI2qehsk-xTfgyftRNT8i8Q"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCI2qehsk-xTfgyftRNT8i8Q">heroandtn3</span></b></span></span><span class="stat view-count">66 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=o4PFDKIc2fs" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CA0QzRooCg&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/o4PFDKIc2fs/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">5:26</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="o4PFDKIc2fs" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Please. Stop Using Git. - Matthew McCullough">Please. Stop Using Git. - Matthew McCullough</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC3BGlwmI-Vk6PWyMt15dKGw"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC3BGlwmI-Vk6PWyMt15dKGw">OreillyMedia</span></b></span></span><span class="stat view-count">43,382 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=zID0xHIripc" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CA4QzRooCw&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/zID0xHIripc/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">10:16</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="zID0xHIripc" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="commit y rollback">commit y rollback</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCRrRIgK7PJM3JIzh8gpuE8w"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCRrRIgK7PJM3JIzh8gpuE8w">Elias Villanueva</span></b></span></span><span class="stat view-count">53 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=MLyx6DWoww0" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CA8QzRooDA&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/MLyx6DWoww0/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">5:57</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="MLyx6DWoww0" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Learn Git 18: Reverting a Commit">Learn Git 18: Reverting a Commit</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCxxgTrVx9sievroV-xSjTVg"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCxxgTrVx9sievroV-xSjTVg">jckelley2</span></b></span></span><span class="stat view-count">106 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=DVDLoe_2MBc" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBAQzRooDQ&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/DVDLoe_2MBc/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">39:21</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="DVDLoe_2MBc" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Tools for Entrepreneurs: Getting Started with GitHub + Git">Tools for Entrepreneurs: Getting Started with GitHub + Git</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCkWLGZL69LhjjgGRKhcAE_w"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCkWLGZL69LhjjgGRKhcAE_w">Google for Entrepreneurs</span></b></span></span><span class="stat view-count">3,925 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=LXoWxrTdXkM" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBEQzRooDg&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/LXoWxrTdXkM/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">23:21</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="LXoWxrTdXkM" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="GitHub for Beginners">GitHub for Beginners</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCnt2hS-J7T7Zh-S6tn1I3KA"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCnt2hS-J7T7Zh-S6tn1I3KA">GeekBlog.tv</span></b></span></span><span class="stat view-count">38,533 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=D5Yd8lBk730" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBIQzRooDw&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/D5Yd8lBk730/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">6:42</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="D5Yd8lBk730" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Brief Introduction to the Git Application (how to use it)">Brief Introduction to the Git Application (how to use it)</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCk-yoIrNiUoD5_SSTJdRFcg"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCk-yoIrNiUoD5_SSTJdRFcg">kei sugano</span></b></span></span><span class="stat view-count">3 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=XsdsBmh080c" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBMQzRooEA&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/XsdsBmh080c/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">3:15</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="XsdsBmh080c" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="How to undo a Git Commit using Source Tree - Dato">How to undo a Git Commit using Source Tree - Dato</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC8rNYCyjgHXU9TQs06ByFLw"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC8rNYCyjgHXU9TQs06ByFLw">Dat Nguyen</span></b></span></span><span class="stat view-count">248 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=oH6_spSYl9A" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBQQzRooEQ&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/oH6_spSYl9A/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">2:46</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="oH6_spSYl9A" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Learn Git 13: Deleting Files">Learn Git 13: Deleting Files</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UCxxgTrVx9sievroV-xSjTVg"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UCxxgTrVx9sievroV-xSjTVg">jckelley2</span></b></span></span><span class="stat view-count">142 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=tMqj778vPeQ" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBUQzRooEg&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/tMqj778vPeQ/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">11:16</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="tMqj778vPeQ" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="Commit y Rollback en MySQL">Commit y Rollback en MySQL</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC2Ef5RDhXRM7JTkCR9gC_BA"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC2Ef5RDhXRM7JTkCR9gC_BA">Xochy Chávez</span></b></span></span><span class="stat view-count">565 views</span></a></li><li class="video-list-item related-list-item"><a href="/watch?v=1lBdlh3AGSc" class="related-video  spf-link yt-uix-sessionlink"  data-sessionlink="ei=ruvDUt7-OIeRsgKSu4D4Ag&ved=CBYQzRooEw&feature=related"><span class="ux-thumb-wrap contains-addto ">    <span class="video-thumb  yt-thumb yt-thumb-120"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img data-thumb="//i1.ytimg.com/vi/1lBdlh3AGSc/default.jpg" alt="" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" width="120" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">14:40</span>
+
+  <button type="button" class="addto-button video-actions spf-nolink hide-until-delayloaded addto-watch-later-button yt-uix-button yt-uix-button-default yt-uix-button-size-small yt-uix-tooltip" title="Watch Later" onclick=";return false;" data-video-ids="1lBdlh3AGSc" role="button"><span class="yt-uix-button-content">  <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Watch Later">
+ </span></button>
+</span><span dir="ltr" class="title" title="How To Use GIT and SourceTree - For Beginners">How To Use GIT and SourceTree - For Beginners</span><span class="stat attribution"><span class="g-hovercard"data-ytid="UC4H8Kr-HjJw53m8l-VGHcIA"data-name="watch-vrec">by <b><span class="g-hovercard" data-ytid="UC4H8Kr-HjJw53m8l-VGHcIA">Kevin Boykin</span></b></span></span><span class="stat view-count">3,406 views</span></a></li>
+            <div id="watch-more-related" class="hid">
+    <li id="watch-more-related-loading">
+Loading more suggestions...
+    </li>
+  </div>
+  <button id="watch-more-related-button" type="button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick=";return false;" data-button-action="yt.www.watch.related.loadMore" role="button"><span class="yt-uix-button-content">Load more suggestions </span></button>
+
+      </ul>
+    </div>   </div> 
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+      <div style="visibility: hidden; height: 0px; padding: 0px; overflow: hidden;">
+  </div>
+
+  </div>
+
+</div></div></div></div>  <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" title="YouTube home"><img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="YouTube home"></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+          
+  <button id="yt-picker-language-button" type="button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" onclick=";return false;" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="language" data-button-action="yt.www.picker.load" data-picker-position="footer" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-footer-language" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Language:
+  </span>
+  English
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button id="yt-picker-country-button" type="button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick=";return false;" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="country" data-button-action="yt.www.picker.load" data-picker-position="footer" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Country:
+  </span>
+  Canada
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+      <li>
+          
+  <button id="yt-picker-safetymode-button" type="button" class=" yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick=";return false;" data-button-menu-id="arrow-display" data-button-toggle="true" data-picker-key="safetymode" data-button-action="yt.www.picker.load" data-picker-position="footer" role="button"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Safety:
+  </span>
+Off
+ </span><img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></button>
+
+
+      </li>
+  </ul>
+  <button data-ghelp-anchor="google-help" type="button" class="yt-uix-button-reverse yt-google-help-link yt-uix-button yt-uix-button-default yt-uix-button-size-default" id="google-help" onclick=";return false;"  role="button"><span class="yt-uix-button-content">  <img class="questionmark" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+  <span>Help</span>
+    <img class="yt-uix-button-arrow" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+ </span></button>
+      <div id="yt-picker-language-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer"
+      class="yt-picker"
+      style="display: none"
+>
+      <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+Loading...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/">About</a></li>
+  <li><a href="//www.youtube.com/yt/press/">Press &amp; Blogs</a></li>
+  <li><a href="//www.youtube.com/yt/copyright/">Copyright</a></li>
+  <li><a href="//www.youtube.com/yt/creators/">Creators &amp; Partners</a></li>
+  <li><a href="//www.youtube.com/yt/advertise/">Advertising</a></li>
+  <li><a href="//www.youtube.com/yt/dev/">Developers</a></li>
+  <li><a href="https://plus.google.com/+youtube">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Terms</a></li>
+  <li><a href="http://www.google.com/intl/en/policies/privacy/">Privacy</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/">
+Policy &amp; Safety
+  </a></li>
+  <li><a href="//www.google.com/tools/feedback/intl/en/error.html" onclick="return yt.www.feedback.start(59);" class="reportbug">Send feedback</a></li>
+  <li><a href="/testtube">Try something new!</a></li>
+  <li></li>
+</ul></div></div></div>
+        <div class="yt-dialog hid" id="create-channel-identity-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+            <div class="yt-dialog-header">
+                  <button type="button" class="  yt-dialog-dismiss yt-dialog-close yt-uix-button yt-uix-button-default yt-uix-button-size-default" onclick=";return false;" data-action="close" role="button"><span class="yt-uix-button-content">Close </span></button>
+
+                <h2 class="yt-dialog-title">
+                        __title__
+
+
+                </h2>
+            </div>
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="create-channel-identity-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+      <div class="yt-dialog hid" id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+    <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Loading...</div>
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div id="yt-dialog-working-overlay">
+  </div>
+  <div id="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+      <div class="yt-spinner-img"></div><div class="yt-dialog-waiting-text">Working...</div>
+    </div>
+  </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="shared-addto-menu" style="display: none;" class="hid lightweight-panel">
+      <div class="addto-menu">
+        <div id="addto-list-panel" class="menu-panel active-panel">
+        <div class="playlists">
+      <ul>
+      </ul>
+    </div>
+      <span class="lightweight-message"><a href="/create_channel?upsell=playlist">Create a channel</a> to add this to a playlist
+</span>
+
+  </div>
+  <div id="addto-list-saving-panel" class="menu-panel">
+    <div class="addto-loading loading-content">
+        <p class="yt-spinner">
+        <img class="yt-spinner-img" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="Loading icon" title="">
+
+    <span class="yt-spinner-message">
+        Loading playlists...
+    </span>
+  </p>
+
+    </div>
+  </div>
+  <div id="addto-list-error-panel" class="menu-panel">
+    <div class="panel-content">
+      <img src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif">
+      <span class="error-details"></span>
+      <a class="show-menu-link">Back</a>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+<script>if (window.ytcsi) {window.ytcsi.tick("hr", null, '');}</script><script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {};ytspf.config['navigate-lifetime'] = 86400000;</script>  <script id="js-3395904476" class="spf" src="//s.ytimg.com/yts/jsbin/spf-vfloWhycd.js" data-loaded="true"></script>
+  <script id="js-3698437330" class="www_base_mod" src="//s.ytimg.com/yts/jsbin/www-vfltBaFhL/www_base_mod.js" data-loaded="true"></script>
+<script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>      <script>
+    yt.setConfig({
+      'VIDEO_ID': "2dQosJaLN18",
+      'THUMB_NON_DELAY_LOAD_COUNT': 0,
+      'THUMB_DELAY_LOAD_RATE_MS': 0,
+      'WAIT_TO_DELAYLOAD_FRAME_CSS': false,
+      'PLAYLIST_INTERSTITIAL': true,
+      'IS_UNAVAILABLE_PAGE': false,
+
+      'JS_PAGE_MODULES': {
+        "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_watch_mod.js": [
+            "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_watch_transcript_mod.js",
+            "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_watch_missilecommand_mod.js",
+          ''         ]
+      },
+
+
+      'REPORTVIDEO_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-reportvideo-vflDyk0N_.js",
+      'REPORTVIDEO_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-reportvideo-vflGtRSQZ.css",
+
+
+
+      'WATCH_MISSILECOMMAND_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-watch-missilecommand-vfl6e8Vkz.js",
+      'WATCH_MISSILECOMMAND_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-watch-missile-command-vfl52fZea.css",
+
+      'ENABLE_AUTO_LARGE': true    });
+
+      yt.setAjaxToken('watch_actions_ajax', "G8th6oHnlKHs4XSLtwRQAfFztGl8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+      yt.setAjaxToken('playlist_bar_ajax', "KXj8Dkx9LUP4UNG81uE1XJU6F-N8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+      yt.setAjaxToken('guide_channels_ajax', "XRyILFZ-1pQ83_VpL-GR8FrOvFN8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+      yt.setAjaxToken('social_connector_ajax', "2UzGvf2KMmo8Xh7y2Zt-9E0ODGN8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+      yt.setAjaxToken('editor_ajax', "jVFieu00JPd8er7v_mTbQ1iY7IR8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+    yt.setAjaxToken('insight_ajax', "Wh3W3Bxmvgvea9vluDNIwTZX_LV8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+    yt.setAjaxToken('guide_ajax', "ZbPM0EYOOIxLZcPim-lWDVUUr398MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+    yt.setAjaxToken('promo_ajax_token', "5HlWd-fVye-naXEOld-pXhNpMAx8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+
+      yt.setConfig({
+    'EMBED_HTML_TEMPLATE': "\u003ciframe width=\"__width__\" height=\"__height__\" src=\"__url__\" frameborder=\"0\" allowfullscreen\u003e\u003c\/iframe\u003e",
+    'EMBED_HTML_URL': "\/\/www.youtube.com\/embed\/__videoid__"
+  });
+    yt.setAjaxToken('html5_ajax', "6UabGosqMidG1_rkMhnt1-NW7PN8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+    yt.setMsg('FLASH_UPGRADE', "\u003cdiv class=\"yt-alert yt-alert-default yt-alert-error  yt-alert-player\"\u003e  \u003cdiv class=\"yt-alert-icon\"\u003e\n    \u003cimg s\u0072c=\"http:\/\/s.ytimg.com\/yts\/img\/pixel-vfl3z5WfW.gif\" class=\"icon master-sprite\" alt=\"Alert icon\"\u003e\n  \u003c\/div\u003e\n\u003cdiv class=\"yt-alert-buttons\"\u003e\u003c\/div\u003e\u003cdiv class=\"yt-alert-content\" role=\"alert\"\u003e    \u003cspan class=\"yt-alert-vertical-trick\"\u003e\u003c\/span\u003e\n    \u003cdiv class=\"yt-alert-message\"\u003e\n            You need to upgrade your Adobe Flash Player to watch this video. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eDownload it from Adobe.\u003c\/a\u003e\n    \u003c\/div\u003e\n\u003c\/div\u003e\u003c\/div\u003e");
+  yt.setMsg('PLAYER_FALLBACK', "The Adobe Flash Player or an HTML5 supported browser is required for video playback. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eGet the latest Flash Player\u003c\/a\u003e \u003cbr\u003e \u003ca href=\"\/html5\"\u003eLearn more about upgrading to an HTML5 browser\u003c\/a\u003e");
+  yt.setMsg('QUICKTIME_FALLBACK', "The Adobe Flash Player or QuickTime is required for video playback. \u003cbr\u003e \u003ca href=\"http:\/\/get.adobe.com\/flashplayer\/\"\u003eGet the latest Flash Player\u003c\/a\u003e \u003cbr\u003e \u003ca href=\"http:\/\/www.apple.com\/quicktime\/download\/\"\u003eGet the latest version of QuickTime\u003c\/a\u003e");
+  yt.setMsg('AUTOPLAY_MESSAGE', {"other": "Next video in #", "case1": "Next video in 1"});
+
+
+
+    yt.setConfig({
+      'TIMING_WFF': true,
+      'WATCH_GUIDE_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-guide-vfl_xeAjK.css",
+      'YPC_CAN_RATE_VIDEO': true,
+
+
+
+
+
+        'PLAYER_BOOTSTRAP_HTML5': true,
+
+
+
+      'HL_LOCALE': "en_US",
+
+      'TTS_URL': "http:\/\/www.youtube.com\/api\/timedtext?key=yttt1\u0026expire=1388596767\u0026sparams=asr_langs%2Ccaps%2Cv%2Cexpire\u0026hl=en_US\u0026caps=asr\u0026v=2dQosJaLN18\u0026signature=36AD5DF23E48B5ABBC653622BD0ABC0A224F8F26.6D470E004BAF363A67FABBA407244B25EA4C197F\u0026asr_langs=ko%2Cde%2Cja%2Cpt%2Cen%2Cit%2Cnl%2Ces%2Cru%2Cfr",
+      'JS_DELAY_LOAD': 0,
+      'LIST_AUTO_PLAY_VALUE': null,
+      'SHUFFLE_VALUE': null,
+      'SKIP_RELATED_ADS': false,
+      'SKIP_TO_NEXT_VIDEO': false,
+      'SPF_PREFETCH': false,
+      'SPF_PREFETCH_MAX': null,
+      'ALLOW_RATINGS': true,
+      'RESUME_COOKIE_NAME': null,
+      'LIST_END_TIME': null,
+      'CONVERSION_CONFIG_DICT': null,
+      'RESOLUTION_TRACKING_ENABLED': false,
+      'MEMORY_TRACKING_ENABLED': false,
+      'WATCH_LEGAL_TEXT_ENABLE_AUTOSCROLL': true,
+      'SHARE_ON_VIDEO_PAUSE': false,
+      'SHARE_ON_VIDEO_END': true,
+      'SHARE_ON_VIDEO_START': false,
+      'ADS_DATA': {"check_status": false, "pyv_vars": {"iframe_json": "{\"google_page_url\": \"http:\\\/\\\/www.youtube.com\\\/video\\\/2dQosJaLN18\", \"google_ad_client\": \"ca-pub-6219811747049371\", \"google_only_pyv_ads\": true, \"google_ad_output\": \"js\", \"google_lact\": -1, \"google_ad_type\": \"text\", \"google_cust_gender\": \"2\", \"google_ad_block\": \"3\", \"google_video_doc_id\": \"yt_2dQosJaLN18\", \"google_cust_age\": \"1002\", \"google_language\": \"en\", \"google_max_num_ads\": 1, \"google_ad_channel\": \"PyvWatchInRelated+PyvYTWatch+PyvWatchNoAdX+lpw+afv_ugc+yt_mpvid_AATu5gL_jt_7MuxZ+ytdevice_1+Vertical_5+Vertical_31+Vertical_32+Vertical_174+Vertical_730+Vertical_1227\"}"}, "show_companion": false, "show_instream": false, "show_pyv": true, "show_afv": false, "log_pyv": false, "fetch_ads_in_page": false, "use_gut": false, "show_afc": false},
+      'PLAYBACK_ID': "AATu5gL-o1ef8_9-",
+      'IS_ACTIVE_LIVE_VIDEO': false,
+      'IS_DISTILLER': true,
+      'RADIO_ENTRYPOINT_RESUMES_CURRENTLY_PLAYING_VIDEO': false,
+      'WATCH_STATS_RATING_BUTTONS': false,
+      'SHARE_CAPTION': "Uploaded by FoundationSeries"
+    });
+
+    yt.setMsg({
+        'HTML5_SUBS_ASR': "automatic captions",
+      'LOADING': "Loading..."    });
+
+
+      yt.setMsg({
+    'UNBLOCK_USER': "Are you sure you want to unblock this user?",
+    'BLOCK_USER': "Are you sure you want to block this user?"
+  });
+  yt.setConfig('BLOCK_USER_AJAX_XSRF', 'session_token=8L7d6xfo5vfc5HcIuPoevaM7MwB8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3');
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+      yt.setConfig({
+    'GUIDED_HELP_LOCALE': "en_US",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+
+  </script>
+
+
+<script>yt.setConfig({'EVENT_ID': "ruvDUt7-OIeRsgKSu4D4Ag",'PAGE_NAME': "watch",'LOGGED_IN': true,'SESSION_INDEX': 0,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.5GL3tg_C6Nc.O\/m=__features__\/rt=j\/d=1\/rs=AItRSTPfsfz-ifAZeiHMk7mKfiGQJuhVFw",'GAPI_LOCALE': "en_US",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vfl2mrQyf.js",'JS_COMMON_MODULE': "\/\/s.ytimg.com\/yts\/jsbin\/www-vfltBaFhL\/www_common_mod.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vfl6BqFHU.css",'PREFETCH_CSS_RESOURCES' : ["\/\/s.ytimg.com\/yts\/cssbin\/www-player-vflBjKccE.css",''         ],'PREFETCH_JS_RESOURCES': ["\/\/s.ytimg.com\/yts\/jsbin\/html5player-vflG49soT.js",''         ],'SAFETY_MODE_PENDING': false,'LOCAL_DATE_TIME_CONFIG': {"weekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "formatLongDateOnly": "MMMM d, yyyy", "shortMonths": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "formatWeekdayShortTime": "EE h:mm a", "shortWeekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "amPms": ["AM", "PM"], "formatShortDate": "MMM d, yyyy", "formatLongDate": "MMMM d, yyyy h:mm a"},'PAGE_CL': 58452362,'PAGE_BUILD_TIMESTAMP': "Thu Dec 19 02:54:48 2013 (1387450488)",'UNIVERSAL_HOVERCARDS': true,'SANDBAR_ENABLED': true,'SANDBAR_LOCALE': "en-US",'FEEDBACK_BUCKET_ID': "Watch",'FEEDBACK_LOCALE_LANGUAGE': "en",'FEEDBACK_LOCALE_EXTRAS': {"guide_subs": "NA", "logged_in": true, "accept_language": "en-us", "experiments": "931941,913432,919365,929209,919815,922920,942418,927303,909717,929150,925728,936327,906945,906948,927704,920605,912715,919811,935704,931943,921410,920607,936702,911427,922804,913431,931207,929505,901812,932256,932276,932295,919389,934003,934004,938614,938617,938626,936912,936910,923305,936913,936914,939201,941241,934507,907231,907240,939918,921090,906001", "is_partner": false, "is_branded": false}});yt.setMsg({'ADDTO_WATCH_LATER': "Watch Later",'ADDTO_WATCH_LATER_ADDED': "Added",'ADDTO_WATCH_LATER_ERROR': "Error"});    yt.setAjaxToken('subscription_ajax', "uaHa3XXJOG_Ekxy9TGb9KnYoDal8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+yt.setAjaxToken('addto_ajax', "eIGyQpPRc4OvvI_7PySjKTEKdPt8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");yt.setAjaxToken('playlist_bar_ajax', "KXj8Dkx9LUP4UNG81uE1XJU6F-N8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");yt.setAjaxToken('watch_fragments_ajax', "2lHAIQLTZxzFZUn2Jvrwdjas_CF8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");  yt.setConfig('CREATE_CHANNEL_JS_URL', "\/\/s.ytimg.com\/yts\/jsbin\/www-createchanneldialog-vflJyoy8Q.js");
+  yt.setConfig('CREATE_CHANNEL_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-createchannel-vfloKN25L.css");
+  yt.setMsg({
+      'CREATE_CHANNEL_AJAX_ERROR_MSG': "An error has occurred while sending data over the network.",
+      'CREATE_CHANNEL_NO_USERNAME_MSG': "Please enter a username"
+  });
+  yt.setConfig({
+      'CREATE_CHANNEL_NEXT_URL_UPLOAD': "\/upload",
+      'CREATE_CHANNEL_NEXT_URL_GUIDE': "\/feed\/?feature=guide",
+      'CREATE_CHANNEL_DIALOG_TITLE_UPLOAD_USERNAME': "Upload your first video",
+      'CREATE_CHANNEL_DIALOG_TITLE_PLAYLIST_USERNAME': "Create your first playlist",
+      'CREATE_CHANNEL_DIALOG_TITLE_COMMENT_USERNAME': "Leave your first comment",
+      'CREATE_CHANNEL_DIALOG_TITLE_DEFAULT_USERNAME': "Create your YouTube channel",
+      'CREATE_CHANNEL_DIALOG_TITLE_UPLOAD_PROFILE': "Upload as...",
+      'CREATE_CHANNEL_DIALOG_TITLE_PLAYLIST_PROFILE': "Create playlist for...",
+      'CREATE_CHANNEL_DIALOG_TITLE_COMMENT_PROFILE': "Comment as...",
+      'CREATE_CHANNEL_DIALOG_TITLE_DEFAULT_PROFILE': "Use YouTube as...",
+  });
+  yt.setConfig('HL_LOCALE', "en-US");
+
+  yt.setMsg({
+    'USERNAME_AVAILABLE': "Username available!",
+    'USERNAME_TAKEN': "Username unavailable",
+    'USERNAME_TAKEN_SUGGEST': "Sorry, $username was taken. The following usernames are available:",
+    'USERNAME_INVALID': "Username invalid"
+  });
+
+  yt.setAjaxToken('create_channel_ajax', "aaR5FeZ_9ffU1gAexqa-ItWO_hJ8MTM4ODU3NTE2N0AxMzg4NTcxNTY3");
+  if (yt.www && yt.www.account) {
+    yt.pubsub.subscribe('init', yt.www.account.CreateChannelLoader.init);
+  } else {
+    yt.setConfig('CREATE_CHANNEL_LIGHTBOX', true);
+  }
+  yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflIiktxn.css");
+  yt.setAjaxToken('feed_privacy_ajax', "eq68DRXDZxdF3riQwodr1Le2bn58MTM4ODY1Nzk2N0AxMzg4NTcxNTY3");
+  if (yt.www && yt.www.account) {
+    yt.pubsub.subscribe('init', yt.www.account.FeedPrivacyDialog.init);
+  } else {
+    yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+  }
+yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-vfl1WGi8-.js",'SBOX_SETTINGS': {"REQUEST_LANGUAGE": "en", "HAS_ON_SCREEN_KEYBOARD": false, "EXPERIMENT_ID": -1, "SESSION_INDEX": 0, "REQUEST_DOMAIN": "ca", "PSUGGEST_TOKEN": "cmcjlpScttYh98PqNk1WKw", "USE_HTTPS": true},'SBOX_LABELS': {"SUGGESTION_DISMISSED_LABEL": "Suggestion dismissed", "WATCH_NOW_LABEL": "Watch now", "VIEW_CHANNEL_LABEL": "View channel", "SUGGESTION_DISMISS_LABEL": "Dismiss"}});  yt.setConfig({
+    'YPC_LOADER_ENABLED': true,
+    'YPC_LOADER_CONFIGS': "\/ypc_config_ajax",
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vfl2d1W-e.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfldrpIdw.css",
+    'YPC_LOADER_CALLBACKS': ['yt.www.ypc.checkout.init', 'yt.www.ypc.subscription.init']
+  });
+  yt.setConfig('GOOGLE_HELP_CONTEXT', "watch");
+</script>    <script>
+ytcsi.span('st', 282);yt.setConfig({'TIMING_ACTION': "watch,watch7",'TIMING_INFO': {"ei": "ruvDUt7-OIeRsgKSu4D4Ag", "e": "931941,913432,919365,929209,919815,922920,942418", "yt_lt": "warm", "yt_ad": 0, "yt_spf": 0, "yt_li": 1}});    </script>
+<script>yt.setConfig({'XSRF_TOKEN': "Nhk4OUVam1pRPV_Dcr8tY1_lQQB8MTM4ODY1Nzk2NkAxMzg4NTcxNTY2",'XSRF_REDIRECT_TOKEN': "ZO-l4m7W1CHlsQijzPbXMOx7rvl8MTM4ODY1Nzk2N0AxMzg4NTcxNTY3",'XSRF_FIELD_NAME': "session_token"});</script><script>yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);</script><script>if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>  <div id="debug"></div>
+</body></html>
+

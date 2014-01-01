@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Templates</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="key_bindings.html">Key Bindings</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="printing.html">Printing</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="templates">17</a> Templates</h1>
+
+<p>A template consists of a (shell) command which generates a new file based on the template's contents. Below is shown how an <code>index.html</code> file is part of the XHTML 1.1 template.</p>
+
+<p><img src='images/xhtml_templates.png' width="135" height="67" alt="Xhtml Templates" title=""></p>
+
+<p>When executing the template shell command, the working directory is set to the directory containing the template files so that these can be referenced by name only (i.e. without path) and the shell command has access to the following three environment variables (in addition to the <a href="environment_variables.html">normal variables</a>):</p>
+
+<ul>
+<li><p><code>TM_NEW_FILE</code> — the full path, including the name of the file to be generated (i.e. the one the user entered in the GUI).</p></li>
+<li><p><code>TM_NEW_FILE_BASENAME</code> — the base name of the file to be generated. If <code>TM_NEW_FILE</code> is <code>/tmp/foo.txt</code> then this variable would be <code>foo</code> without the folder name and the file extension.</p></li>
+<li><p><code>TM_NEW_FILE_DIRECTORY</code> — the folder name of the file to be generated.</p></li>
+</ul>
+
+<p>A template can then be instantiated either by using the menus (File &#x2192; New From Template) or for projects by using the New File button in the project drawer (&#x21E7;&#x2318;N).</p>
+
+<p><img src='images/new_file_from_template.png' width="239" height="106" alt="New File From Template" title=""></p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="key_bindings.html">Key Bindings</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="printing.html">Printing</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

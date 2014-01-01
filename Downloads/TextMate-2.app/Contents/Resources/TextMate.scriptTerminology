@@ -1,0 +1,39 @@
+{
+    Classes = {
+        NSApplication = {
+            Description = "TextMate's top-level object."; 
+            Name = application; 
+            PluralName = applications; 
+        }; 
+    }; 
+    Commands = {
+        GetURL = {
+            Description = "Open an URL";
+            Name = "get url";
+            UnnamedArgument = { Description = "url to open, should start with txmt://"; }; 
+        };
+        ReloadBundles = {
+            Description = "Reload bundles from disk";
+            Name = "reload bundles";
+            Arguments = {
+                caching = {
+                    Description = "whether the reloading should use the cache, default is to use the cache."; 
+                    Name = "caching";
+                };
+            }; 
+        };
+        InsertString = {
+            Description = "Insert text in the frontmost window";
+            Name = "insert";
+            Arguments = {
+                asSnippet = {
+                    Description = "whether the text inserted should be interpreted as a snippet."; 
+                    Name = "as snippet";
+                };
+            }; 
+            UnnamedArgument = { Description = "text to insert"; }; 
+        };
+    }; 
+    Description = "AppleScript commands and classes specific to TextMate."; 
+    Name = "TextMate suite"; 
+}

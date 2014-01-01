@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Expert Preferences</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="using_textmate_from_terminal.html">Calling TextMate from Other Applications</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="getting_help.html">Getting Help</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="expert_preferences">22</a> Expert Preferences</h1>
+
+<p>TextMate has a few settings which are not exposed in the GUI.</p>
+
+<p>You can change these with the <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/defaults.1.html"><code>defaults</code></a> shell command but you need to do this while TextMate is not running.</p>
+
+<p>You set a key to a given value with the following syntax:</p>
+
+<pre><code>defaults write com.macromates.textmate «key» «value»
+</code></pre>
+
+<p>You can always reset a key to its default value using:</p>
+
+<pre><code>defaults delete com.macromates.textmate «key»
+</code></pre>
+
+<p>Or you can read the value of a key using:</p>
+
+<pre><code>defaults read com.macromates.textmate «key»
+</code></pre>
+
+<h2><a name="nsdraganddroptextdelay">22.1</a> <code>NSDragAndDropTextDelay</code></h2>
+
+<p>When you press mouse down on the selection and move the mouse, TextMate will start a new selection, unless you wait 150 milliseconds, then it will instead drag the selection. This delay can be changed by adjusting this preferences value.</p>
+
+<p>Setting it to a value less than zero (e.g. <code>-1</code>) will disable the ability to drag a selection, meaning clicking the mouse inside a selection immediately deselects it and starts a new selection from that point (if the mouse is moved while the button is down).</p>
+
+<p>Setting it to zero will immediately start a drag.</p>
+
+<p>Example:</p>
+
+<pre><code>defaults write com.macromates.textmate NSDragAndDropTextDelay 0
+</code></pre>
+
+<h2><a name="nsrecentdocumentslimit">22.2</a> <code>NSRecentDocumentsLimit</code></h2>
+
+<p>This sets the number of documents kept in the "Open Recent" menu. The default value is 25.</p>
+
+<p>Example:</p>
+
+<pre><code>defaults write com.macromates.textmate NSRecentDocumentsLimit 50
+</code></pre>
+
+<h2><a name="oakbundleitemspopupmenukeyequivalent">22.3</a> <code>OakBundleItemsPopUpMenuKeyEquivalent</code></h2>
+
+<p>The key equivalent which should open the gear menu in the status bar. This is a key equivalent description as used in the <a href="http://macromates.com/blog/archives/2005/07/05/key-bindings-for-switchers/">system key bindings file</a>. The default value is "^\033" (control escape).</p>
+
+<p>For more information about key codes see <a href="http://lists.macromates.com/pipermail/textmate/2006-April/009955.html">this letter</a>.</p>
+
+<h2><a name="oakbundlemanagerdisambiguatemenufontsize">22.4</a> <code>OakBundleManagerDisambiguateMenuFontSize</code></h2>
+
+<p>If you find the font used in the menu to disambiguate tab triggers, key equivalents and similar, too small, then you can run:</p>
+
+<pre><code>defaults write com.macromates.textmate OakBundleManagerDisambiguateMenuFontSize 14
+</code></pre>
+
+<h2><a name="oakdefaultbundlefornewbundleitems">22.5</a> <code>OakDefaultBundleForNewBundleItems</code></h2>
+
+<p>When you create a new item in the bundle editor without having selected a bundle first, then the bundle with the UUID held by this defaults key is used as the target.</p>
+
+<p>This automatically gets set to the first bundle you create. For an example of how to change it see <a href="http://lists.macromates.com/pipermail/textmate/2006-May/010651.html">this letter</a>.</p>
+
+<h2><a name="oakdefaultlanguage">22.6</a> <code>OakDefaultLanguage</code></h2>
+
+<p>Sets the default language used for new (untitled) documents. The value should be the UUID of the language to be used.</p>
+
+<p>For more information see <a href="http://lists.macromates.com/pipermail/textmate/2006-February/008276.html">this message from the mailing list</a>.</p>
+
+<h2><a name="oakdisablesessionrestore">22.7</a> <code>OakDisableSessionRestore</code></h2>
+
+<p>When you launch TextMate it will open the project / document which was open when you last exited. You can however disable this feature by running:</p>
+
+<pre><code>defaults write com.macromates.textmate OakDisableSessionRestore 1
+</code></pre>
+
+<h2><a name="oakdocumentcustomfsmetadata">22.8</a> <code>OakDocumentCustomFSMetaData</code></h2>
+
+<p>An array of file systems for which TextMate should use its own functions for storing meta data (<a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man2/setxattr.2.html"><code>setxattr</code></a> replacement). The meta data is stored in AppleDouble format. The default value is <code>( afpfs, nfs, msdos )</code> since <code>setxattr</code> can cause a kernel panic for these file systems (<a href="rdar://problem/4162474.html">rdar://4162474</a>).</p>
+
+<p>Example:</p>
+
+<pre><code>defaults write com.macromates.textmate \
+   OakDocumentCustomFSMetaData '( afpfs, nfs, msdos, hfs )'
+</code></pre>
+
+<h2><a name="oakdocumentdisablefsmetadata">22.9</a> <code>OakDocumentDisableFSMetaData</code></h2>
+
+<p>See <a href="saving_files#extended_attributes_metadata.html">extended attributes</a> for more info.</p>
+
+<h2><a name="oakfindpaneldisablehistory">22.10</a> <code>OakFindPanelDisableHistory</code></h2>
+
+<p>This disables the history controls in the find panel. The reason for this setting is only because some users have experienced crashes when using the tab key in the find dialog and this is caused by the history controls used. Currently the only workaround is to disable the use of these controls:</p>
+
+<pre><code>defaults write com.macromates.textmate OakFindPanelDisableHistory 1
+</code></pre>
+
+<h2><a name="oaktooltipmousemoveignoreperiod_and_oaktooltipmousedistancethreshold">22.11</a> <code>OakToolTipMouseMoveIgnorePeriod</code> and <code>OakToolTipMouseDistanceThreshold</code></h2>
+
+<p>When a command brings up a tool tip, mouse movements performed within the first second do not close the tool tip and after that second has elapsed, the mouse needs to be moved at least 5 pixels for the tool tip to close. These values can be adjusted using the <code>OakToolTipMouseMoveIgnorePeriod</code> and <code>OakToolTipMouseDistanceThreshold</code> defaults keys.</p>
+
+<h2><a name="oakwrapcolumns">22.12</a> <code>OakWrapColumns</code></h2>
+
+<p>This is an array of the values which appear in the View → Wrap Column submenu. Defaults to showing 40 and 78 as possible wrap columns.</p>
+
+<p>Example:</p>
+
+<pre><code>defaults write com.macromates.textmate OakWrapColumns '( 60, 70, 80, 120 )'
+</code></pre>
+
+<h2><a name="oakwordsexcludedfromcapitalization">22.13</a> <code>OakWordsExcludedFromCapitalization</code></h2>
+
+<p>The Text &#x2192; Convert &#x2192; to Titlecase action (&#x2303;&#x2325;U) excludes words found in this array.</p>
+
+<p>The default value is <code>( a, an, and, at, but, by, else, for, from, if, in, nor, of, off, on, or, out, over, the, then, to, up, when )</code>.</p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="using_textmate_from_terminal.html">Calling TextMate from Other Applications</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="getting_help.html">Getting Help</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[user]
+	email = hodo_a@live.com
+	name = Hodo Mohamed
+[credential]
+	helper = osxkeychain

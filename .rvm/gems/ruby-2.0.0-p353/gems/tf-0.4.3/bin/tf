@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+program_root = File.dirname( File.dirname( __FILE__ ) )
+
+require "#{program_root}/lib/tf"
+
+exit TF.new.run_tests ARGV

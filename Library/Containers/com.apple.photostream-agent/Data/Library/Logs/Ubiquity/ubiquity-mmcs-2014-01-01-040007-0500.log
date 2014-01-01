@@ -1,0 +1,79 @@
+For Apple Internal Use Only; Not for Disclosure/Distribution Outside of Apple.
+
+[info]        107f746132 [14/01/01 04:00:07.544]  256.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fbc68e48cf0) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.SharedStreams DebugLevel:0
+[info]        107f7c49b3 [14/01/01 04:00:07.545]  256.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fbc68f6fa40) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.SharedStreams DebugLevel:0
+[info]        107f9315d2 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]        107f937d53 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]        107f93c4b2 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]        107f9406ea [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]        107f94486a [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]        107f94880b [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]        107f94c92a [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]        107f950887 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]        107f954925 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]        107f958915 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]        107f95c99d [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]        107f960862 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]        107f9645e0 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]        107f968587 [14/01/01 04:00:07.546]  256.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]        10bbb5432d [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fbc68e4e250) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.MediaStream DebugLevel:0
+[info]        10bbb5bd58 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]        10bbb5e478 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]        10bbb601f6 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]        10bbb61e31 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]        10bbb63972 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]        10bbb654d0 [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]        10bbb670ac [14/01/01 04:00:08.555]  256.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]        26dffdc25b [14/01/01 04:01:43.663]  256.default-queue mmcs_engine_close:706 Closing mmcs (0x7fbc68e4e250)
+[info]        26dffeeecd [14/01/01 04:01:43.663]  256.default-queue mmcs_engine_close:720 Waiting for mmcs job queue
+[info]        26dfff49d0 [14/01/01 04:01:43.663]  256.default-queue mmcs_engine_close:724 mmcs job queue halted
+[info]        26e13ee706 [14/01/01 04:01:43.684]  256.default-queue mmcs_read_stream_pool_finalize:288 === Read Stream Pool icloud_pool_ stats
+	total connections: 0
+	   total requests: 0
+	     still in use: 0
+
+[info]        26e1407e7d [14/01/01 04:01:43.684]  256.default-queue mmcs_read_stream_pool_finalize:288 === Read Stream Pool vendor_pool_ stats
+	total connections: 0
+	   total requests: 0
+	     still in use: 0
+
+[info]        26e141a930 [14/01/01 04:01:43.684]  256.default-queue mmcs_request_queue_log_stats:242 
+upload statistics
+Queue Depth Distribution
+  Depth Count
+In-flight Request Count Distribution
+  Depth Count
+
+
+download statistics
+Queue Depth Distribution
+  Depth Count
+In-flight Request Count Distribution
+  Depth Count
+
+
+
+[info]         fb4db80a5 [14/01/01 05:00:11.164]  385.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fa2e3e497f0) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.SharedStreams DebugLevel:0
+[info]         fb4e48666 [14/01/01 05:00:11.164]  385.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fa2e3c57450) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.SharedStreams DebugLevel:0
+[info]         fb4eceae8 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]         fb4ed55b8 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]         fb4edbac2 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]         fb4ee0e98 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]         fb4ee6038 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]         fb4eeb91e [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]         fb4eef96a [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]         fb4ef45c6 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]         fb4ef8d90 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]         fb4efd6a2 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]         fb4f0238d [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]         fb4f06fe8 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]         fb4f0ba18 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]         fb4f10980 [14/01/01 05:00:11.165]  385.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]         ff1285767 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fa2e3e4e930) 'com.apple.photostream-agent/351.36' com.apple.Dataclass.MediaStream DebugLevel:0
+[info]         ff128daa9 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]         ff129045f [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]         ff1292770 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: false
+[info]         ff1294842 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: false
+[info]         ff1296892 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: false
+[info]         ff12988af [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]         ff129aa21 [14/01/01 05:00:12.175]  385.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true

@@ -1,0 +1,11 @@
+[2013-12-22 20:48:58] __rvm_set_executable
+__rvm_set_executable () 
+{ 
+    for __file in "$@";
+    do
+        [[ -x "${__file}" ]] || chmod +x "${__file}";
+    done
+}
+current path: /Users/owner/.rvm/src/ruby-2.0.0-p353
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/owner/.rvm/bin
+command(9): __rvm_set_executable /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/erb /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/gem /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/irb /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/rake /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/rdoc /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/ri /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/ruby /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/testrb

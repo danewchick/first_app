@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"system:ETI"MIME::Type#system;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"JThe regexp for the operating system that this MIME::Type is specific ;TI"to.;T:
+@fileI"lib/mime/types.rb;T:0@omit_headings_from_table_of_contents_below0F@I"MIME::Type;FcRDoc::NormalClass0

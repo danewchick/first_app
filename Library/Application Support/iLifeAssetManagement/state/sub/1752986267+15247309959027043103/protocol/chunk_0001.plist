@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>parttype</key>
+		<string>stream-metadata-end</string>
+
+		<key>streamid</key>
+		<string>1752986267</string>
+
+		<key>assetcount</key>
+		<string>0</string>
+
+	</dict>
+</plist>

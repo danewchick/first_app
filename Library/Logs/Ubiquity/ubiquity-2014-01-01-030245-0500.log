@@ -1,0 +1,9 @@
+For Apple Internal Use Only; Not for Disclosure/Distribution Outside of Apple.
+
+[ERROR]      5b055a22af3 [14/01/01 03:02:45.518]  2037.main copy_mme_bag:196 copyPreferredMobileMeName failed
+[ERROR]      5b055b8c9e1 [14/01/01 03:02:45.519]  2037.main ubd_main:3055 null personid
+[ERROR]      5b056c706cb [14/01/01 03:02:45.537]  2037.main UBRmdirRecursive:831 unlink(/Users/owner/Library/Application Support/Ubiquity/peer-FFFFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF-v24): No such file or directory
+[ERROR]      5b060ed5a62 [14/01/01 03:02:45.707]  2037.main db_prepare_blocking:1382 conn#0 active (create|first-open|in-txn|for-update|can-rollback), owner:main, retains:1, changes:0-0 can't prepare 'select max(local_rank) from item_table;': db error 1 (no such table: item_table)
+[ERROR]      5b060f8a7b0 [14/01/01 03:02:45.708]  2037.main iidb_has_schema:5691 failed to prepare 'select max(local_rank) from item_table;'
+[ERROR]      5b067548b8e [14/01/01 03:02:45.815] {FFFFFFFF} 2037.main copy_mme_bag:196 copyPreferredMobileMeName failed
+[warn]       5b067d7ea49 [14/01/01 03:02:45.824] {FFFFFFFF} 2037.main set_computer_name:103 Not setting the computer name without a collection/config only mode

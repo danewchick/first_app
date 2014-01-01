@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/Bookmark Hover Add.pdf</key>
+		<data>
+		Ko6To5WxojpmkQdnP3VOwZSKcv8=
+		</data>
+		<key>Resources/Bookmark Hover Remove.pdf</key>
+		<data>
+		aSynI6p/SuhLDVAWCFEzGiOYHqA=
+		</data>
+		<key>Resources/Bookmark.pdf</key>
+		<data>
+		mxxU10Jo3GiD/GlOlFJYDlW/58U=
+		</data>
+		<key>Resources/English.lproj/TabSizeSetting.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QQ7/sXOZtv6UO7upIqkh33hIb9M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Folding Bottom Hover.pdf</key>
+		<data>
+		dk2vYMvmdNLyLIJ2QWn0KK2Yd6o=
+		</data>
+		<key>Resources/Folding Bottom.pdf</key>
+		<data>
+		s1l8VFhjYWJNAfO+r5aOUGSjYrU=
+		</data>
+		<key>Resources/Folding Collapsed Hover.pdf</key>
+		<data>
+		Z1klAkWu9dEp0Gekpvzpo2QyxDc=
+		</data>
+		<key>Resources/Folding Collapsed.pdf</key>
+		<data>
+		7IXtCg+vKBzTVEe/CPTjtuE8Pvo=
+		</data>
+		<key>Resources/Folding Top Hover.pdf</key>
+		<data>
+		rvEEg5dCTOQP+azrBWW4S7sXeC4=
+		</data>
+		<key>Resources/Folding Top.pdf</key>
+		<data>
+		NlKKR7JBb679wKeryb0me4OML+I=
+		</data>
+		<key>Resources/FoldingDots.pdf</key>
+		<data>
+		hzpac6F5uE+2apSHn0xw6qFYax4=
+		</data>
+		<key>Resources/IBeam white.tiff</key>
+		<data>
+		DTxOGupA9SzrtfF2Fmh34EX+H4E=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		1C8/ofEG0j7PIbkwgrWxYNpY5x0=
+		</data>
+		<key>Resources/Recording Pressed.png</key>
+		<data>
+		BS9UvS1Mm6OF/e4Mashun+3ClwY=
+		</data>
+		<key>Resources/Recording Pressed@2x.png</key>
+		<data>
+		Im7wNhK08i0m4WeoskLoUY6XATg=
+		</data>
+		<key>Resources/Recording.png</key>
+		<data>
+		Yoc6gVTflPJFFMK4nTPfIKMM7tQ=
+		</data>
+		<key>Resources/Recording@2x.png</key>
+		<data>
+		+a9bEEzxnfE2QPwSq+/iMxP1xYM=
+		</data>
+		<key>Resources/Search Mark.pdf</key>
+		<data>
+		KKm9prBJj9x6AdPGCG7TJcFar7w=
+		</data>
+		<key>Resources/SpellingDot.png</key>
+		<data>
+		2yb6+1OLgVmZRRw5yhDbZ2cm9ns=
+		</data>
+		<key>Resources/SpellingDot@2x.png</key>
+		<data>
+		6uBlXuczhXH0rQLMpccTiWkNf+s=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>Resources/Bookmark Hover Add.pdf</key>
+		<data>
+		Ko6To5WxojpmkQdnP3VOwZSKcv8=
+		</data>
+		<key>Resources/Bookmark Hover Remove.pdf</key>
+		<data>
+		aSynI6p/SuhLDVAWCFEzGiOYHqA=
+		</data>
+		<key>Resources/Bookmark.pdf</key>
+		<data>
+		mxxU10Jo3GiD/GlOlFJYDlW/58U=
+		</data>
+		<key>Resources/English.lproj/TabSizeSetting.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QQ7/sXOZtv6UO7upIqkh33hIb9M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/Folding Bottom Hover.pdf</key>
+		<data>
+		dk2vYMvmdNLyLIJ2QWn0KK2Yd6o=
+		</data>
+		<key>Resources/Folding Bottom.pdf</key>
+		<data>
+		s1l8VFhjYWJNAfO+r5aOUGSjYrU=
+		</data>
+		<key>Resources/Folding Collapsed Hover.pdf</key>
+		<data>
+		Z1klAkWu9dEp0Gekpvzpo2QyxDc=
+		</data>
+		<key>Resources/Folding Collapsed.pdf</key>
+		<data>
+		7IXtCg+vKBzTVEe/CPTjtuE8Pvo=
+		</data>
+		<key>Resources/Folding Top Hover.pdf</key>
+		<data>
+		rvEEg5dCTOQP+azrBWW4S7sXeC4=
+		</data>
+		<key>Resources/Folding Top.pdf</key>
+		<data>
+		NlKKR7JBb679wKeryb0me4OML+I=
+		</data>
+		<key>Resources/FoldingDots.pdf</key>
+		<data>
+		hzpac6F5uE+2apSHn0xw6qFYax4=
+		</data>
+		<key>Resources/IBeam white.tiff</key>
+		<data>
+		DTxOGupA9SzrtfF2Fmh34EX+H4E=
+		</data>
+		<key>Resources/Info.plist</key>
+		<data>
+		1C8/ofEG0j7PIbkwgrWxYNpY5x0=
+		</data>
+		<key>Resources/Recording Pressed.png</key>
+		<data>
+		BS9UvS1Mm6OF/e4Mashun+3ClwY=
+		</data>
+		<key>Resources/Recording Pressed@2x.png</key>
+		<data>
+		Im7wNhK08i0m4WeoskLoUY6XATg=
+		</data>
+		<key>Resources/Recording.png</key>
+		<data>
+		Yoc6gVTflPJFFMK4nTPfIKMM7tQ=
+		</data>
+		<key>Resources/Recording@2x.png</key>
+		<data>
+		+a9bEEzxnfE2QPwSq+/iMxP1xYM=
+		</data>
+		<key>Resources/Search Mark.pdf</key>
+		<data>
+		KKm9prBJj9x6AdPGCG7TJcFar7w=
+		</data>
+		<key>Resources/SpellingDot.png</key>
+		<data>
+		2yb6+1OLgVmZRRw5yhDbZ2cm9ns=
+		</data>
+		<key>Resources/SpellingDot@2x.png</key>
+		<data>
+		6uBlXuczhXH0rQLMpccTiWkNf+s=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

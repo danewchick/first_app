@@ -1,0 +1,172 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Key Bindings</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="preferences_items.html">Preferences Items</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="templates.html">Templates</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="key_bindings">16</a> Key Bindings</h1>
+
+<p>There are basically three types of actions in TextMate and each has its own system when it comes to key bindings (yes, this is not ideal).</p>
+
+<h2><a name="bundle_items">16.1</a> Bundle Items</h2>
+
+<p>Bundle items are commands, snippets, macros, language grammars, templates etc. and can all be found in the bundle editor (Window &#x2192; Show Bundle Editor). Each of these actions has a <a href="bundles#key_equivalents.html">key equivalent</a> and an associated <a href="scope_selectors.html">scope selector</a> which can be edited from the bundle editor.</p>
+
+<h2><a name="menu_items">16.2</a> Menu Items</h2>
+
+<p>Menu items can be edited via System Preferences &#x2192; Keyboard &amp; Mouse. From here it is possible to change key bindings for either all applications or particular applications based on the menu items title.</p>
+
+<p>This is done by pressing the plus button on the left side below the list on the Keyboard Shortcuts page, which displays the sheet shown below.</p>
+
+<p><img src='images/change_menu_key_binding.png' width="261" height="139" alt="Change Menu Key Binding" title=""></p>
+
+<p>Some caveats:</p>
+
+<ol>
+<li><p>Only key bindings which include the command modifier (&#x2318;) will work.</p></li>
+<li><p>Dynamic menu items i.e. those which change title depending on the programs state (like Fold Current Block / Selection) should be specified with their initial title. The initial title can be found by opening the MainMenu.nib file in Interface Builder (use Show Package Contents on TextMate and navigate to Contents &#x2192; Resources &#x2192; English.lproj).</p></li>
+<li><p>You need to restart an application before key binding changes take effect.</p></li>
+</ol>
+
+<p>An alternative to the system preferences is <a href="http://www.unsanity.com/haxies/menumaster">Menu Master</a> from <a href="http://www.unsanity.com/">Unsanity</a>. This allows you to change the key binding inside the application simply by hovering your mouse on the item and pressing the new key (and does not require a restart).</p>
+
+<h2><a name="text_move_edit_actions">16.3</a> Text Move / Edit Actions</h2>
+
+<p>The last is probably the most essential, it is the keys which “just work” in the actual text editing area.</p>
+
+<p>Here TextMate uses the Cocoa key bindings system where the master set of keys are defined in <code>/System/‍Library/‍Frameworks/‍AppKit.framework/‍Resources/‍StandardKeyBinding.dict</code> and used by all Cocoa text fields and to some degree other controls also.</p>
+
+<p>The master set of keys can be augmented by <code>~/Library/‍KeyBindings/‍DefaultKeyBinding.dict</code>. The most common request with respect to key bindings is to have page up/down move the caret and have home/end go to the beginning and end of the line. <a href="http://macromates.com/blog/archives/2005/07/05/key-bindings-for-switchers/">This article</a> shows how this can be done.</p>
+
+<p>In addition TextMate has a <code>/path/‍to/‍TextMate.app/‍Contents/‍Resources/‍KeyBindings.dict</code> file with some extra key bindings which are specific to TextMate (and thus not appropriate to put in the per user global key bindings file). You can copy this file to <code>~/Library/‍Application Support/‍TextMate</code> and edit it, this will then take precedence over the bundled file.</p>
+
+<p>The format is explained in the blog post linked to above.</p>
+
+<h3><a name="list_of_standard_key_bindings">16.3.1</a> List of Standard Key Bindings</h3>
+
+<p>For a list of which keys are available by default (in OS X) please see <a href="http://hcs.harvard.edu/~jrus/Site/System Bindings.html">this list of key bindings</a> created by Jacob Rus.</p>
+
+<p>Apple also has a page about <a href="http://developer.apple.com/documentation/UserExperience/Conceptual/OSXHIGuidelines/XHIGKeyboardShortcuts/chapter_20_section_1.html">standard key bindings</a> as part of their human Interface Guidelines. TextMate conforms to these and implement majority of the keys shown on that page.</p>
+
+<p>In addition TextMate has the following key bindings, which are not visible in the menus and cannot be found in the standard key binding files:</p>
+
+<table class="graybox" border="0" cellspacing="0" cellpadding="5">
+    <tr>
+        <th>Key</th>
+        <th>Action</th>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2325;F2</p></td>
+        <td><p>Show context menu — This is equivalent to clicking the mouse at the current caret location while holding down control (&#x2303;). If the current word is misspelled the context menu will contain spelling suggestions.</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2303;&#x238B;</p></td>
+        <td><p>Show bundle items menu — this opens the gear menu which is located in the status bar.</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2303;S</p></td>
+        <td><p>Forward incremental search.</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2303;&#x21E7;S</p></td>
+        <td><p>Backward incremental search.</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2318;`<br>&#x2318;~</p></td>
+        <td><p>Switch to the next/previous window. This keyboard shortcut is based on the physical location of the key so on many European keymaps it is instead &#x2318;&lt; and &#x2318;&gt; (it is the key to the left of the Z).</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2325;&#x2318;`<br>&#x2325;&#x2318;~</p></td>
+        <td><p>Switch between main window and drawer. Like the previous key this one is also based on physical location. The function is not available on Panther.</p></td>
+    </tr>
+    <tr>
+        <td align="center"><p>&#x2303;&#x21E5;</p></td>
+        <td><p>Go backwards through the chain of keyboard accessible controls. Normally this would be the same as &#x21E4; (&#x21E7;&#x21E5;) but that one doesn’t work when the text editing control has focus. The previous keyboard accessible control in that situation is the project outline in the drawer, so this key could be considered a “bring focus to the project drawer” key.</p></td>
+    </tr>
+</table>
+
+<h2><a name="conventions">16.4</a> Conventions</h2>
+
+<table class="graybox" border="0" cellspacing="0" cellpadding="5">
+    <tr>
+        <th>Modifiers</th>
+        <th>Purpose</th>
+    </tr>
+    <tr>
+        <td align="center">&#x2318;</td> <!-- command -->
+        <td>This is for primary actions mostly defined by Apple or already a de-facto standard e.g. New, Open, Save, Print, Hide, Quit, Cut, Copy, Paste, etc.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x21E7;&#x2318;</td> <!-- shift command -->
+        <td>Adding the shift modifier often indicates a twist on the plain key equivalent. For example<ul>
+            <li>&#x2318;W is Close Tab — &#x21E7;&#x2318;W is Close Project (in a project)</li>
+            <li>&#x2318;T is Go to File… — &#x21E7;&#x2318;T is Go to Symbol…</li>
+            <li>&#x2318;V is Paste — &#x21E7;&#x2318;V is Paste Previous</li>
+            <li>&#x2318;Z is Undo — &#x21E7;&#x2318;Z is Redo</li>
+        </ul>etc.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2325;&#x2318;</td> <!-- option command -->
+        <td>Often (but definitely not always) this modifier sequence is used to toggle an option, e.g. Soft Wrap (&#x2325;&#x2318;W), Show Invisibles (&#x2325;&#x2318;I), Bookmarks (&#x2325;&#x2318;B), Line Numbers (&#x2325;&#x2318;L), Foldings at a given level (&#x2325;&#x2318;0-9) etc.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2303;&#x2325;&#x2318;</td> <!-- control option command -->
+        <td>This modifier sequence is generally used for actions which open a window. For example Show Bundle Editor (&#x2303;&#x2325;&#x2318;B), Show Clipboard History (&#x2303;&#x2325;&#x2318;V), Show/Hide Project Drawer (&#x2303;&#x2325;&#x2318;D), Show Web Preview (&#x2303;&#x2325;&#x2318;P) etc.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2303;&#x21E7;</td> <!-- control shift -->
+        <td>Less important bundle actions (commands and sometimes snippets) should generally use this modifier sequence.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2303;&#x21E7;&#x2318;</td> <!-- control shift command -->
+        <td>This is the secondary modifier sequence for use with less important bundle actions (i.e. when the primary one is taken).</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2303;&#x2325;&#x21E7;</td> <!-- control option shift -->
+        <td>This is used to switch language grammar, the key is (generally) the first letter of the language grammar name.</td>
+    </tr>
+    <tr>
+        <td align="center">&#x2303;&#x2318;</td> <!-- control command -->
+        <td>Actions related to projects are in this space, e.g. New Project, Save Project, Reveal in Project, etc.</td>
+    </tr>
+</table>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="preferences_items.html">Preferences Items</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="templates.html">Templates</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

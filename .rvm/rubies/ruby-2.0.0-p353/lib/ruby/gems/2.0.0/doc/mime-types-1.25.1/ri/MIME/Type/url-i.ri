@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"url:ETI"MIME::Type#url;FI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"BThe encoded URL list for this MIME::Type. See #urls for more ;TI"information.;T:
+@fileI"lib/mime/types.rb;T:0@omit_headings_from_table_of_contents_below0F@I"MIME::Type;FcRDoc::NormalClass0

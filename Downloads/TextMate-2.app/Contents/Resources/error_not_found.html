@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Error: Not Found</title>
+</head>
+<body>
+
+<h1>Not Found</h1>
+
+<p>The requested page was not found.</p>
+
+<p>Page: <code><script>
+  var url = /[&?]url=([^&]+)/.exec(window.location.search)[1];
+  url = unescape(unescape(url));
+  url = url.replace(/&/, "&amp;").replace(/</, "&lt;");
+  document.write(url);
+</script></code></p>
+
+</body>
+</html>

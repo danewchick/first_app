@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Calling TextMate from Other Applications</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="regular_expressions.html">Regular Expressions</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="expert_preferences.html">Expert Preferences</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="calling_textmate_from_other_applications">21</a> Calling TextMate from Other Applications</h1>
+
+<h2><a name="shell_terminal">21.1</a> Shell / Terminal</h2>
+
+<p>Mac OS X comes with an <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man1/open.1.html"><code>open</code></a> shell command which can be used to simulate a double click from within Terminal. It can also perform an <em>Open With…</em> operation by use of the <code>-a</code> argument, e.g.: <code>open -a TextMate .</code> will open the current folder in TextMate (as a scratch project).</p>
+
+<p>This standard command has a few shortcomings: it can only open one file at a time, it cannot open a document at a specific line and it cannot “stall” the shell until the file has been closed, which is useful e.g. when using an editor to write something like a subversion commit message.</p>
+
+<p>For this reason TextMate comes with its own <code>mate</code> shell command, which supersedes the <code>open</code> command. For usage instructions you can run <code>mate -h</code> (from Terminal).</p>
+
+<p>The <code>mate</code> command is located inside the TextMate application bundle and it is recommended that you create a symbolic link which points to the command (rather than “install” it), so that if the command is updated in the future, you will not need to reinstall the updated command.</p>
+
+<p>Creating a symbolic link can either be done by selecting Help &#x2192; Terminal Usage… from the menu, or from the shell by running something like the following:</p>
+
+<pre><code>ln -s /Applications/TextMate.app/Contents/Resources/mate ~/bin/mate
+</code></pre>
+
+<p>This assumes that you have <code>~/bin</code> created and in your path and that TextMate is installed in <code>/Applications</code>.</p>
+
+<p>After having created this link, you may want to setup a few shell variables to make other applications use TextMate as an external editor.</p>
+
+<h3><a name="the_general_editor_variable">21.1.1</a> The General EDITOR Variable</h3>
+
+<p>The <code>EDITOR</code> variable is used by many shell commands, like <code>svn</code> (subversion) and <code>CVS</code>. To use TextMate as the editor for the <code>EDITOR</code> variable, set it like this (for bash and zsh users e.g. in <code>~/.bash_profile</code> or <code>~/.zshrc</code>):</p>
+
+<pre><code>export EDITOR='mate -w'
+</code></pre>
+
+<p>We add the <code>-w</code> argument to make the command wait for TextMate to close the file, before continuing.</p>
+
+<p>There is one command which does not support giving arguments in the <code>EDITOR</code> variable, it is <code>crontab</code> (which is sort of obsoleted by <a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man8/launchd.8.html">launchd</a>). If you need to use it, you can create a symbolic link to <code>mate</code> with a <code>_wait</code> suffix which implies <code>-w</code>. For example:</p>
+
+<pre><code>ln -s mate ~/bin/mate_wait   # run this once to create the link
+export EDITOR='mate_wait'    # use in your ~/.bash_profile
+</code></pre>
+
+<h3><a name="git_editor">21.1.2</a> Git Editor</h3>
+
+<p>When you commit to a <a href="http://git.or.cz/" title="Git - Fast Version Control System">Git</a> repository you may find that your caret is not at the first line.</p>
+
+<p>This is because Git reuses the temporary file used for the commit message and TextMate stores per-file caret position (via extended attributes).</p>
+
+<p>To avoid this problem you can set the Git editor to <code>mate -wl1</code>. This instructs TextMate to open with the caret at line 1 rather than where it last was.</p>
+
+<p>To set it like this for Git, you can set the <code>GIT_EDITOR</code> variable or Git’s <code>core.editor</code> configuration variable.</p>
+
+<h3><a name="tex_editor">21.1.3</a> TeX Editor</h3>
+
+<p>When TeX gives an error message relating to a file, you can enter <code>e</code> to edit the file (and correct the error).</p>
+
+<p>To setup TextMate to be used in this case, setup the <code>TEXEDIT</code> variable like this:</p>
+
+<pre><code>export TEXEDIT='mate -w -l %d "%s"'
+</code></pre>
+
+<h3><a name="edit_from_less">21.1.4</a> Edit from <code>less</code></h3>
+
+<p>The <code>less</code> pager supports editing the file being viewed by pressing <code>v</code>. To setup TextMate to be used with less, you need to setup the <code>LESSEDIT</code> variable:</p>
+
+<pre><code>export LESSEDIT='mate -l %lm %f'
+</code></pre>
+
+<h2><a name="url_scheme_html">21.2</a> URL Scheme (HTML)</h2>
+
+<p>The <code>txmt</code> URL scheme allows you to open files in TextMate via hyperlinks found for example in HTML documents (anchors). These can refer to local files which can be useful when:</p>
+
+<ol>
+<li><p>Using <a href="commands.html">commands</a> with <a href="commands#html_output.html">HTML output</a> that indicate errors/warnings with the current document, or refer to other documents in your project.</p></li>
+<li><p>If you are generating a set of web-pages from simpler (text) files you can have these link to the original text files, so that when you are inspecting the generated result (in a browser) you can quickly edit the source of each page by following the <code>txmt:</code>-link.</p></li>
+</ol>
+
+<p>The URL scheme is <code>txmt:</code> and currently has one command named <code>open</code>. This command takes up to three arguments:</p>
+
+<ul>
+<li><code>url</code> — the (file) URL to open (e.g. <code>url=file://~/.bash_profile</code>), if this is left out, the current document is targeted.</li>
+<li><code>line</code> — the line on which the caret should be placed after opening the file (e.g. <code>line=11</code>).</li>
+<li><code>column</code> — the column on which the caret should be placed after opening the file (e.g. <code>column=3</code>).</li>
+</ul>
+
+<p>So a full example of a <code>txmt:</code> URL could be (<a href="txmt://open/?url=file://~/.bash_profile&amp;line=11&amp;column=2">click here to test</a>):</p>
+
+<pre><code>txmt://open/?url=file://~/.bash_profile&amp;line=11&amp;column=2
+</code></pre>
+
+<h2><a name="odb_editor_suite">21.3</a> ODB Editor Suite</h2>
+
+<p>TextMate implements the server side of the ODB Editor Suite. This allows it to be used as external editor for programs which implement the client side of the protocol.</p>
+
+<p>Many programs do however use a hardcoded list of which text editors implement the protocol, so if you cannot find TextMate in the list of external editors for an application which does support the ODB Editor Suite, you may need to write to the author of that application and request that TextMate gets added to its list of supported editors.</p>
+
+<p>There is a wiki page which tracks the <a href="http://macromates.com/wiki/Main/TextMateAwarePrograms">status of applications that can be configured to use an external text editor</a>.</p>
+
+<h2><a name="cocoa_text_fields">21.4</a> Cocoa Text Fields</h2>
+
+<p>Included with TextMate is an “Edit in TextMate” input manager which you can install to get the ability to call upon TextMate from the standard Cocoa text editor control (including the one used in Mail). This is useful for programs which do not implement the ODB Editor Suite (e.g. Safari's form elements).</p>
+
+<p>For more info select the <em>Install “Edit in TextMate”…</em> action located in the TextMate bundle (using the gear menu in the status bar). This provides you with full documentation about the input manager before actually installing it.</p>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="regular_expressions.html">Regular Expressions</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="expert_preferences.html">Expert Preferences</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

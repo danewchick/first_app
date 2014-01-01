@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+	<title>TextMate Manual » Preferences Items</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span class="left">
+				◀ <a href="themes.html">Themes</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="key_bindings.html">Key Bindings</a> ▶
+			</span>
+		</div>
+
+		<hr>
+
+		<div id="chapter">
+<h1><a name="preferences_items">15</a> Preferences Items</h1>
+
+<p>For settings where differing values are useful to have based on a file type or the context of the caret position in a document, the bundle editor allows you to set and specify a scope selector which selects which scope the particular settings should apply.</p>
+
+<p>Currently the preferences are specified in the <a href="appendix#property_list_format.html">old-style property list</a> format.</p>
+
+<p><img src='images/preferences_editor.png' width="294" height="240" alt="Preferences Editor" title=""></p>
+
+<h2><a name="completions">15.1</a> Completions</h2>
+
+<ul>
+<li><code>completions</code> — an array of additional candidates when cycling through completion candidates from the current document.</li>
+<li><code>completionCommand</code> — a shell command (string) which should return a list of candidates to complete the current word (obtained via the <code>TM_CURRENT_WORD</code> variable).</li>
+<li><code>disableDefaultCompletion</code> — set to <code>1</code> if you want to exclude matches from the current document when asking for completion candidates (useful when you provide your own completion command).</li>
+</ul>
+
+<p>For more info see section on <a href="working_with_text#completion.html">completions</a>.</p>
+
+<h2><a name="indentation">15.2</a> Indentation</h2>
+
+<ul>
+<li><code>decreaseIndentPattern</code> — regular expression.</li>
+<li><code>increaseIndentPattern</code> — regular expression.</li>
+<li><code>indentNextLinePattern</code> — regular expression.</li>
+<li><code>unIndentedLinePattern</code> — regular expression.</li>
+</ul>
+
+<p>For more information see <a href="appendix#indentation_rules.html">indentation rules</a>.</p>
+
+<h2><a name="symbol_list">15.3</a> Symbol List</h2>
+
+<ul>
+<li><code>showInSymbolList</code> — set to <code>1</code> to include in the symbol list.</li>
+<li><code>symbolTransformation</code> — a “program” consisting of one or more <code>s/«regexp»/«format»/«options»;</code> transformations which will be applied to the extracted “symbol”.</li>
+</ul>
+
+<p>For more information see <a href="navigation_overview#customizing_the_list.html">customizing the symbol list</a>.</p>
+
+<h2><a name="paired_characters">15.4</a> Paired Characters</h2>
+
+<ul>
+<li><code>highlightPairs</code> — an array of arrays, each containing a pair of characters where, when the caret moves over the second, the first one will be highlighted for a short moment, if found.</li>
+<li><p><code>smartTypingPairs</code> — an array of arrays, each containing a pair of characters where when the first is typed, the second will be inserted. An example is shown below. For more information see <a href="working_with_text#auto-paired_characters_quotes_etc.html">auto-paired characters</a>.</p>
+
+<pre><code>smartTypingPairs = (
+    ( '"', '"' ),
+    ( '(', ')' ),
+    ( '{', '}' ),
+    ( '[', ']' ),
+    ( '“', '”' ),
+    ( "'", "'" ),
+    ( '`', '`' ),
+);
+</code></pre></li>
+</ul>
+
+<h2><a name="other">15.5</a> Other</h2>
+
+<ul>
+<li><code>shellVariables</code> — an array of key/value pairs. See <a href="environment_variables#context_dependent_variables.html">context dependent variables</a>.</li>
+<li><code>spellChecking</code> — set to <code>0</code>/<code>1</code> to disable/enable spell checking.</li>
+</ul>
+		</div>
+
+		<hr>
+
+		<div id="footer">
+			<span class="left">
+				◀ <a href="themes.html">Themes</a>
+			</span>
+
+			<span class="center"><a href="index.html">Table of Contents</a></span>
+
+			<span class="right">
+				<a href="key_bindings.html">Key Bindings</a> ▶
+			</span>
+		</div>
+
+	</div>
+</body>
+</html>

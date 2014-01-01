@@ -1,0 +1,224 @@
+[2013-12-22 20:49:03] /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/ruby
+current path: /Users/owner/.rvm/src/rubygems-2.1.11
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/owner/.rvm/bin
+command(6): env GEM_PATH=:@global GEM_HOME= /Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/ruby -d /Users/owner/.rvm/src/rubygems-2.1.11/setup.rb
+Exception `LoadError' at /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/rubygems.rb:1087 - cannot load such file -- rubygems/defaults/operating_system
+Exception `LoadError' at /Users/owner/.rvm/rubies/ruby-2.0.0-p353/lib/ruby/2.0.0/rubygems.rb:1096 - cannot load such file -- rubygems/defaults/ruby
+RubyGems 2.1.11 installed
+
+=== 2.1.10 / 2013-10-24
+
+Bug fixes:
+
+* Use class check instead of :version method check when creating Gem::Version
+  objects.  Fixes #674 by jkanywhere.
+* Fail during `gem update` when an error occurs checking for newer versions.
+  This means RubyGems no longer reports "nothing to update" when it cannot
+  communicate with the server.  Issue #688 by Jimmy Dee.
+* Allow installation of gems when the home directory does not exist.  Issue
+  #689 by Laurence Rowe
+* Fix updating gems which have multiple platforms.  Issue #693 by Ookami
+  Kenrou.
+* The gem server now uses user-provided directories.  Issue #696 by Marcelo
+  Alvim.
+* Improved resolution of gems when specific versions have conflicting
+  dependencies.
+* RubyGems installs local gems regardless of platform again.  Issue #695
+* The --ignore-dependencies option for gem installation works again.  Issue
+  #695
+
+=== 2.1.9 / 2013-10-14
+
+Bug fixes:
+
+* Reduce sorting when fetching specifications.  This speeds up the update and
+  outdated commands, and others.  Issue #657 by windwiny.
+* Proxy usernames and passwords are now escaped properly.  Ruby Bug #8979 by
+  Masahiro Tomita, Issue #668 by Kouhei Sutou.
+
+=== 2.1.8 / 2013-10-10
+
+Bug fixes:
+
+* Fixed local installation of platform gem files.  Issue #664 by Ryan Melton.
+* Files starting with "." in the root directory are installed again.  Issue
+  #680 by Ivo Wever, Pull Request #681 by Jeremy Evans.
+* The index generator no longer indexes default gems.  Issue #661 by
+  Jeremy Hinegardner.
+
+=== 2.1.7 / 2013-10-09
+
+Bug fixes:
+
+* `gem sources --list` now displays a list of sources.  Pull request #672 by
+  Nathan Marley.
+* RubyGems no longer alters Gem::Specification.dirs when installing.  Pull
+  Request #670 by Vít Ondruch
+* Use RFC 2616-compatible time in HTTP headers.  Pull request #655 by Larry
+  Marburger.
+* RubyGems now gives a more descriptive message for missing licenses on
+  validation.  Issue #656 by Markus Heiler.
+* Expand unpack destination directory.  This fixes problems when File.realpath
+  is missing and $GEM_HOME contains "..".  Issue #679 by Charles Nutter.
+
+=== 2.1.6 / 2013-10-08
+
+Bug fixes:
+
+* Added certificates to follow the s3.amazonaws.com certificate change.  Fixes
+  #665 by emeyekayee.  Fixes #671 by jonforums.
+* Remove redundant built-in certificates not needed for https://rubygems.org
+  Fixes #654 by Vít Ondruch.
+* Added test for missing certificates for https://s3.amazonaws.com or
+  https://rubygems.org.  Pull request #673 by Hannes Georg.
+* RubyGems now allows a Pathname for Kernel#require like the built-in
+  Kernel#require.  Pull request #663 by Aaron Patterson.
+* Required rbconfig in Gem::ConfigFile for Ruby 1.9.1 compatibility.  (Ruby
+  1.9.1 is no longer receiving security fixes, so please update to a newer
+  version.)  Issue #676 by Michal Papis.  Issue wayneeseguin/rvm#2262 by
+  Thomas Sänger.
+
+=== 2.1.5 / 2013-09-24
+
+Security fixes:
+
+* RubyGems 2.1.4 and earlier are vulnerable to excessive CPU usage due to a
+  backtracking in Gem::Version validation.  See CVE-2013-4363 for full details
+  including vulnerable APIs.  Fixed versions include 2.1.5, 2.0.10, 1.8.27 and
+  1.8.23.2 (for Ruby 1.9.3).
+
+=== 2.1.4 / 2013-09-17
+
+Bug fixes:
+
+* `gem uninstall foo --all` now force-uninstalls all versions of foo.  Issue
+  #650 by Kyle (remkade).
+* Fixed uninstalling gems installed in the home directory (as in
+  `--user-install`).  Issue #653 by Lin Jen-Shin.
+
+=== 2.1.3 / 2013-09-12
+
+Bug fixes:
+
+* Gems with files entries starting with "./" no longer install 0 files.  Issue
+  #644 by Darragh Curran, #645 by Brandon Turner, #646 by Alex Tambellini
+
+=== 2.1.2 / 2013-09-11
+
+Bug fixes:
+
+* Restore concurrent requires following the fix for ruby bug #8374.  Pull
+  request #637 and issue #640 by Charles Nutter.
+* Gems with extensions are now installed correctly when the --install-dir
+  option is used.  Issue #642 by Lin Jen-Shin.
+* Gem fetch now fetches the newest (not oldest) gem when --version is given.
+  Issue #643 by Brian Shirai.
+
+=== 2.1.1 / 2013-09-10
+
+Bug fixes:
+
+* Only matching gems matching your local platform are considered for
+  installation.  Issue #638 by José M. Prieto, issue #639 by sawanoboly.
+
+=== 2.1.0 / 2013-09-09
+
+Security fixes:
+
+* RubyGems 2.0.7 and earlier are vulnerable to excessive CPU usage due to a
+  backtracking in Gem::Version validation.  See CVE-2013-4287 for full details
+  including vulnerable APIs.  Fixed versions include 2.0.8, 1.8.26 and
+  1.8.23.1 (for Ruby 1.9.3).  Issue #626 by Damir Sharipov.
+
+Major enhancements:
+
+* RubyGems uses a new dependency resolver for gem installation which works
+  similar to the bundler resolver.  The new resolver can resolve conflicts the
+  previous resolver could not and offers improved diagnostics when conflicts
+  are discovered.
+
+Minor enhancements:
+
+* RubyGems now has improved platform matching for the ARM architecture.  Gems
+  built with a CPU of "arm" will match any specific ARM CPU.  See `gem help
+  platform` for further details.  Fixes #532 by Kim Burgestrand.
+* The --version option now accepts compound requirements the same as in a gem
+  dependency.  The following invocation will install rails between 4.0.0.beta
+  and 4.2:
+
+    gem install rails -v '>= 4.0.0.beta, < 4.2'
+
+  Fixes #531 by Gary S. Weaver
+* `gem clean` now allows `-n` as an alias for `--dryrun`.  Pull Request #517
+  by Gastón Ramos
+* Added `gem update --system` to `gem help`.  Pull Request #514 by Vince
+  Wadhwani
+* Added PATH to `gem env` output.  Pull Request #490 by Michal Papis
+* Added --host option to `gem owner` to match other commands using the
+  gemcutter API.  Pull Request #462 and issue #461 by Hugo Lopes Tavares
+* Added --abort-on-dependent to `gem uninstall`.  This will abort instead of
+  asking to uninstall a gem that is depended upon by another gem.  Pull
+  request #549 by Philip Arndt.
+* RubyGems no longer alters Gem::Specification.dirs when installing.  Based on
+  Pull Request #452 by Vít Ondruch
+* RubyGems uses ENV['MAKE'] or ENV['make'] over rbconfig.rb's make if present.
+  Pull Request #443 by Erik Hollensbe
+* RubyGems can now save remote source cache files in an alternate directory
+  controlled by `ENV["GEM_SPEC_CACHE"]`.  Pull Request #489 by Michal Papis
+* Generated private keys are now encrypted.  Pull Request #453 by pietro
+* Separated Gem::Request from Gem::RemoteFetcher.  Pull Request #283 by Steve
+  Klabnik.
+* RubyGems indicates when a .gem's content is corrupt while verifying.  Bug
+  #519 by William T Nelson.
+* Refactored common installer setup.  Pull request #520 by Gastón Ramos
+* Moved activation tests to Gem::Specification.  Pull request #521 by Gastón
+  Ramos
+* When a --version option with a prerelease version is given RubyGems
+  automatically enables prerelease versions but only the last version is
+  used.  If the first version is a prerelease version this is no longer sticky
+  unless an explicit --[no-]prerelease was also given.  Fixes part of #531.
+* RubyGems now supports an SSL client certificate.  Pull request #550 by
+  Robert Kenny.
+* RubyGems now suggests how to fix permission errors.  Pull request #553 by
+  Odin Dutton.
+* Added support for installing a gem as default gems for alternate ruby
+  implementations.  Pull request #566 by Charles Nutter.
+* Improved performance of Gem::Specification#load by caching the loaded
+  gemspec.  Pull request #569 by Charlie Somerville.
+* RubyGems now warns when an unsigned gem is verified if -P was given during
+  installation even if the security policy allows unsigned gems and warns when
+  an untrusted certificate is seen even if the security policy allows
+  untrusted certificates.  Issue #474 by Grant Olson
+* RubyGems can now rewrite executables with or without a shebang of
+  /usr/bin/env via <code>gem pristine --all --only-executables
+  --env-[no-]shebang</code>.  Issue #579 by Paul Annesley.
+* RubyGems can now run its tests without OpenSSL.  Ruby Bug #8557 by nobu.
+* Improved performance by caching Gem::Version objects and avoiding
+  method_missing in Gem::Specification.  Pull request #447 by Jon Leighton.
+* Files in a .gem now preserve their modification times.  Pull request #582 by
+  Jesse Bowes
+* Improved speed of looking up dependencies in SpecFetcher through
+  Array#bsearch (when present).  Pull request #595 by Andras Suller
+* Added `--all` option to `gem uninstall` which removes all gems in GEM_HOME.
+  Pull request #584 by Shannon Skipper.
+* Added Gem.find_latest_files which is equivalent to Gem.find_files but only
+  returns matching files from the latest version of each gem.  Issue #186 by
+  Ryan Davis.
+* Improved performance of `gem outdated` by reducing duplicate work (it is
+  still slow, but I see a near 50% improvement for 250 gems on a fast
+  connection).  See also Gem::Specification::outdated_and_latest_version
+
+Bug fixes:
+
+* rubygems_plugin.rb files are now only loaded from the latest installed gem.
+* Fixed Gem.clear_paths when Security is defined at top-level.  Pull request
+  #625 by elarkin
+* Fixed credential creation for `gem push` when `--host` is not given.  Pull
+  request #622 by Arthur Nogueira Neves
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+	/Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin/gem
+

@@ -1,0 +1,39 @@
+For Apple Internal Use Only; Not for Disclosure/Distribution Outside of Apple.
+
+[info]       5b06829edfd [14/01/01 03:02:45.829]  2037.default-queue mmcs_engine_create:464 Created mmcs engine (0x7fb0ea725120) 'com.apple.Ubiquity/1.0' com.apple.Dataclass.Ubiquity DebugLevel:0
+[info]       5b06839c2fd [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:466 mmcs_engine verifySentChunks: true
+[info]       5b0683a1882 [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:467 mmcs_engine maxConsecutiveNetworkErrors: 3
+[info]       5b0683a4e45 [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:468 mmcs_engine enableGetResume: true
+[info]       5b0683a9ae5 [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:469 mmcs_engine enableLocallySatisfiedGets: true
+[info]       5b0683ac84a [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:470 mmcs_engine enableGetChunks: true
+[info]       5b0683af577 [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:471 mmcs_engine enableAttemptedPersistedConnections: true
+[info]       5b0683b238f [14/01/01 03:02:45.830]  2037.default-queue mmcs_engine_create:472 mmcs_engine enableCollapsedContainerGets: true
+[info]       5b2b614f2f1 [14/01/01 03:02:55.727]  2037.default-queue mmcs_engine_close:706 Closing mmcs (0x7fb0ea725120)
+[info]       5b2b6170932 [14/01/01 03:02:55.727]  2037.default-queue mmcs_engine_close:720 Waiting for mmcs job queue
+[info]       5b2b6177daf [14/01/01 03:02:55.727]  2037.default-queue mmcs_engine_close:724 mmcs job queue halted
+[info]       5b2b6350ea7 [14/01/01 03:02:55.729]  2037.default-queue mmcs_read_stream_pool_finalize:288 === Read Stream Pool icloud_pool_ stats
+	total connections: 0
+	   total requests: 0
+	     still in use: 0
+
+[info]       5b2b636012f [14/01/01 03:02:55.729]  2037.default-queue mmcs_read_stream_pool_finalize:288 === Read Stream Pool vendor_pool_ stats
+	total connections: 0
+	   total requests: 0
+	     still in use: 0
+
+[info]       5b2b636a4a4 [14/01/01 03:02:55.729]  2037.default-queue mmcs_request_queue_log_stats:242 
+upload statistics
+Queue Depth Distribution
+  Depth Count
+In-flight Request Count Distribution
+  Depth Count
+
+
+download statistics
+Queue Depth Distribution
+  Depth Count
+In-flight Request Count Distribution
+  Depth Count
+
+
+

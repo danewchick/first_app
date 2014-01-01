@@ -1,0 +1,53 @@
+{
+    AppleEventCode = TxMt; 
+    Classes = {
+        NSApplication = {
+            AppleEventCode = capp; 
+            Superclass = "NSCoreSuite.NSApplication"; 
+        }; 
+    }; 
+    Commands = {
+        GetURL = {
+            AppleEventClassCode = GURL; 
+            AppleEventCode = GURL; 
+            CommandClass = OakGetURLScriptCommand; 
+            Type = ""; 
+            UnnamedArgument = {
+                Type = NSString;
+                Optional = NO;
+            }; 
+        }; 
+        ReloadBundles = {
+            AppleEventClassCode = RBDS; 
+            AppleEventCode = RBDS; 
+            CommandClass = OakReloadBundlesScriptCommand; 
+            Type = ""; 
+            Arguments = {
+                caching = {
+                    AppleEventCode = ICHE; 
+					Optional = YES;
+					Type = "NSNumber<Bool>";
+                }; 
+            }; 
+        }; 
+        InsertString = {
+            AppleEventClassCode = ISTR; 
+            AppleEventCode = ISTR; 
+            CommandClass = OakInsertTextScriptCommand; 
+            Type = ""; 
+            Arguments = {
+                asSnippet = {
+                    AppleEventCode = SNIP; 
+					Optional = YES;
+					Type = "NSNumber<Bool>";
+                }; 
+            }; 
+            UnnamedArgument = {
+                Type = NSString;
+                Optional = NO;
+            }; 
+        }; 
+    }; 
+    Name = TextMate; 
+    UsedFeatures = (UnnamedArguments); 
+}

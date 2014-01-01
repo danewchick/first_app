@@ -1,0 +1,65 @@
+
+    <link id="css-2283220192" class="www-video_masthead" rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-video_masthead-vfl33AtmB.css" data-loaded="true">
+
+<div class="video-masthead">  <script id="js-2387815404" class="www-videomasthead" src="//s.ytimg.com/yts/jsbin/www-videomasthead-vfll9Orm6.js" data-loaded="true"></script>
+<script>    yt.setAjaxToken('subscription_ajax', "LrqVJ4ke8jrKpXrl-e-cXFv8Fvt8MTM4ODY1NzgwN0AxMzg4NTcxNDA3");
+  yt.setConfig({
+      'XSRF_TOKEN': 'BM50GwJxJux5uLR4xUutr_Jyt3B8MTM4ODY1NzgwN0AxMzg4NTcxNDA3',
+      'XSRF_FIELD_NAME': 'session_token',
+
+      'XSRF_REDIRECT_TOKEN': 'rREyTwAgxIfs-gMEt7ju3ETGq7h8MTM4ODY1NzgwN0AxMzg4NTcxNDA3'
+  });
+yt.setConfig('LOGGED_IN', true);</script><div class="video-masthead-channel-sidebar"><a href="/user/CanadianTireCorp" target="_top"><img class="video-masthead-channel-icon" src="https://lh5.googleusercontent.com/-1DJx3N1ELzU/AAAAAAAAAAI/AAAAAAAAAAA/EyPs00TfZe4/s47-c-k-no/photo.jpg"></a><h1 class="video-masthead-channel-title"><a href="/user/CanadianTireCorp" target="_top">Canadian Tire</a></h1><div class="video-masthead-subscribe-button"><span class=" yt-uix-button-subscription-container" ><button onclick=";return false;" aria-role="button" aria-busy="false" aria-live="polite" type="button" class="yt-uix-subscription-button yt-uix-button yt-uix-button-subscribe-unbranded yt-uix-button-size-default yt-uix-button-has-icon" data-style-type="unbranded" data-channel-external-id="UC3cMTH9PH4t4Ya3U-xsWRrA" data-sessionlink="ved=CAAQmys&amp;ei=D-vDUtCPLqmvsAe7hoHACA&amp;feature=video-masthead" role="button"><span class="yt-uix-button-icon-wrapper"><img class="yt-uix-button-icon yt-uix-button-icon-subscribe" src="http://s.ytimg.com/yts/img/pixel-vfl3z5WfW.gif" alt="" title=""></span><span class="yt-uix-button-content"><span class="subscribe-label" aria-label="Subscribe">Subscribe</span><span class="subscribed-label" aria-label="Unsubscribe">Subscribed</span><span class="unsubscribe-label" aria-label="Unsubscribe">Unsubscribe</span> </span></button><span class="yt-subscription-button-subscriber-count-unbranded-horizontal" >2K</span>  <span class="yt-subscription-button-disabled-mask" title=""></span>
+</span></div><p class="video-masthead-description video-masthead-description-line1">Canadian Tire Ice Truck - Melt</p><p class="video-masthead-description video-masthead-description-line2">One of a kind truck built from 11,000lbs of ice that drives!</p><div class="video-masthead-advertisement-attribution">Ad</div></div>  <div class="video-masthead-video-player" id="video-masthead-video-player">
+    <div id="fallback" style="display:none;">
+      <div class="video-masthead-thumb yt-thumb-default-360 "><a href="/watch?v=HKooAaVZMbY" target="_top" class="video-masthead-thumb-overlay-anchor yt-uix-sessionlink" data-sessionlink="adformat=1_8&amp;ei=D-vDUtCPLqmvsAe7hoHACA"><div class="video-masthead-thumb-overlay-title">Melt Video of the Canadian Tire Ice Truck</div><div class="video-masthead-thumb-overlay"></div>    <span class="video-thumb  yt-thumb yt-thumb-360"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img alt="Thumbnail" src="//i1.ytimg.com/vi/HKooAaVZMbY/hqdefault.jpg" width="360" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">0:31</span></a></div>
+    </div>
+  </div>
+    <script id="js-2387815404" class="www-videomasthead" src="//s.ytimg.com/yts/jsbin/www-videomasthead-vfll9Orm6.js" data-loaded="true"></script>
+
+
+  <script>
+    yt.www.ads.VideoMasthead.setAutoplayEndChangeSize(true);
+    if (yt.flash.getSwfVersion().shouldUpgrade()) {
+      yt.www.ads.VideoMasthead.handleNonFlashFallback();
+    } else {
+      yt.player.embed('video-masthead-video-player', {"params": {"allowfullscreen": "false", "bgcolor": "#000000", "allowscriptaccess": "always"}, "attrs": {"width": 591, "height": 191, "id": "video-masthead-player-embed"}, "min_version": "8.0.0", "url_v9as2": "", "html5": false, "url_v8": "", "args": {"jsapicallback": "yt.www.ads.VideoMasthead.init"}, "url": "\/\/www.youtube.com\/yva_video?fs=1\u0026adformat=1_8\u0026yva_ctp=0\u0026autohide=1\u0026yva_autoplay_start_time=0\u0026showinfo=0\u0026video_id=HKooAaVZMbY\u0026yva_expandable=0\u0026ad_type=video_masthead\u0026yva_autocrop=1\u0026yva_autoplay_duration=30000"});
+    }
+  </script>
+<div class="video-masthead-sidebar-wall"><div class="video-masthead-thumb yt-thumb-default-229 video-masthead-top-large-thumb"><a href="/watch?v=3i_bsfwPE1s" target="_top" class="video-masthead-thumb-overlay-anchor yt-uix-sessionlink" data-sessionlink="adformat=1_8&amp;ei=D-vDUtCPLqmvsAe7hoHACA"><div class="video-masthead-thumb-overlay-title">Hockey Practice - The Canadian Tire Ice Truck Commercial (Extended Cut)</div><div class="video-masthead-thumb-overlay"></div>    <span class="video-thumb  yt-thumb yt-thumb-229"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img alt="Thumbnail" src="//i1.ytimg.com/vi/3i_bsfwPE1s/hqdefault.jpg" width="229" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">1:03</span></a></div><div><div class="video-masthead-thumb yt-thumb-default-114 video-masthead-bottom-left-small-thumb"><a href="/watch?v=rrFRaviVyQU" target="_top" class="video-masthead-thumb-overlay-anchor yt-uix-sessionlink" data-sessionlink="adformat=1_8&amp;ei=D-vDUtCPLqmvsAe7hoHACA"><div class="video-masthead-thumb-overlay-title">Behind the Scenes Documentary of the...</div><div class="video-masthead-thumb-overlay"></div>    <span class="video-thumb  yt-thumb yt-thumb-114"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img alt="Thumbnail" src="//i1.ytimg.com/vi/rrFRaviVyQU/hqdefault.jpg" width="114" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">2:55</span></a></div><div class="video-masthead-thumb yt-thumb-default-114 "><a href="/watch?v=gRo3yd-y8zU" target="_top" class="video-masthead-thumb-overlay-anchor yt-uix-sessionlink" data-sessionlink="adformat=1_8&amp;ei=D-vDUtCPLqmvsAe7hoHACA"><div class="video-masthead-thumb-overlay-title">First Test Drive of the Partially Bu...</div><div class="video-masthead-thumb-overlay"></div>    <span class="video-thumb  yt-thumb yt-thumb-114"
+      >
+      <span class="yt-thumb-default">
+        <span class="yt-thumb-clip">
+          <img alt="Thumbnail" src="//i1.ytimg.com/vi/gRo3yd-y8zU/hqdefault.jpg" width="114" >
+          <span class="vertical-align"></span>
+        </span>
+      </span>
+    </span>
+<span class="video-time">0:31</span></a></div></div></div></div>

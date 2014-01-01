@@ -1,0 +1,24 @@
+[2013-12-22 20:49:03] rubygems_remove
+rubygems_remove () 
+{ 
+    typeset rubygems_path ruby entry;
+    rvm_log "Removing old Rubygems files...";
+    case "$rvm_ruby_string" in 
+        rbx-*)
+            ruby="['prefix']"
+        ;;
+        *)
+            ruby=".values_at('sitelibdir','vendorlibdir').detect{ |path| File.directory?(File.join(path.to_s, 'rubygems')) }.to_s"
+        ;;
+    esac;
+    rubygems_path="$(ruby -rrbconfig -e "puts ::Kernel.const_get('RbConfig')::CONFIG$ruby")";
+    entries=("${rubygems_path}/ubygems.rb" "${rubygems_path}/gauntlet_rubygems.rb" "${rubygems_path}/rbconfig/");
+    for entry in "${entries[@]}" "${rubygems_path}/rubygems"*;
+    do
+        __rvm_rm_rf "$entry";
+    done
+}
+current path: /Users/owner/.rvm/src/ruby-2.0.0-p353
+PATH=/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/owner/.rvm/bin
+command(1): rubygems_remove
+Removing old Rubygems files...

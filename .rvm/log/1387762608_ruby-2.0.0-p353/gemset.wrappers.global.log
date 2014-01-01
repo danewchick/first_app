@@ -1,0 +1,10 @@
+[2013-12-22 20:49:39] run_gem_wrappers_regenerate
+run_gem_wrappers_regenerate () 
+{ 
+    gem search gem-wrappers | grep gem-wrappers > /dev/null || gem install gem-wrappers && gem wrappers regenerate || return $?
+}
+current path: /Users/owner/.rvm/src/ruby-2.0.0-p353
+GEM_HOME=/Users/owner/.rvm/gems/ruby-2.0.0-p353@global
+PATH=/Users/owner/.rvm/gems/ruby-2.0.0-p353@global/bin:/Users/owner/.rvm/rubies/ruby-2.0.0-p353/bin:/Users/owner/.rvm/bin:/usr/local/opt/pkg-config/bin:/usr/local/opt/libtool/bin:/usr/local/opt/automake/bin:/usr/local/opt/autoconf/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+GEM_PATH=/Users/owner/.rvm/gems/ruby-2.0.0-p353@global
+command(1): run_gem_wrappers_regenerate
